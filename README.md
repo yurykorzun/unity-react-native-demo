@@ -5,6 +5,11 @@ This repo is supposed to show an example of a Unity project with React Native ap
 Unfortunately, XCode project that is exported with Unity >2017 breaks React Native rendering.
 It works as expected with an Android project and an XCode project generated for to run on a Simulator.
 
+How to test this project:
+1. Navigate to folder ReactNative
+2. Run yarn install
+3. Open XCode project iosUnity and run on a device
+
 This is a simple React Native view that I am trying to render:
 ```js
   <View style={{flex: 1}}>
