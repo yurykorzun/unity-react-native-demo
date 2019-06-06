@@ -77,8 +77,8 @@ Il2CppSequencePoint g_sequencePointsAssemblyU2DCSharp[1] = { { 0, 0, 0, 0, 0, 0,
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[] = {
 { "", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} }, //0 
-{ "/Users/yurykorzun/test/UnityRNTest/Assets/iOSReactNativePlugin.cs", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} }, //1 
-{ "/Users/yurykorzun/test/UnityRNTest/Assets/Main.cs", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} }, //2 
+{ "/Users/yurykorzun/test/UnityRNTest/Unity/Assets/iOSReactNativePlugin.cs", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} }, //1 
+{ "/Users/yurykorzun/test/UnityRNTest/Unity/Assets/Main.cs", { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} }, //2 
 };
 #else
 static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };

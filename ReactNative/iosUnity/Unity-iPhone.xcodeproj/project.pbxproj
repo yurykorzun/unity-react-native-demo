@@ -79,8 +79,6 @@
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 56DBF99C15E3CDC9007A4A8D /* iPhone_Sensors.mm */; };
 		56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FD43950ED4745200FE3770 /* CFNetwork.framework */; };
-		5784A62522A884D700959913 /* ReactNativePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5784A62222A884D700959913 /* ReactNativePlugin.mm */; };
-		5784A62622A884D700959913 /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5784A62422A884D700959913 /* ReactNativeViewController.m */; };
 		57EFCC2422A853F400B3BB92 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EFCC2322A853F300B3BB92 /* JavaScriptCore.framework */; };
 		57EFCDC522A8591B00B3BB92 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EFCD0522A857A500B3BB92 /* libReact.a */; };
 		57EFCDC622A8592400B3BB92 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EFCD8F22A8589900B3BB92 /* libRCTWebSocket.a */; };
@@ -94,6 +92,8 @@
 		57EFCDCE22A8596000B3BB92 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EFCD7222A8587600B3BB92 /* libRCTLinking.a */; };
 		57EFCDCF22A8596600B3BB92 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EFCD8422A8588900B3BB92 /* libRCTNetwork.a */; };
 		57EFCE2222A8630D00B3BB92 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 57EFCB8922A8481F00B3BB92 /* main.jsbundle */; };
+		57FBB4E022A98A1F00CB93E7 /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB4DF22A98A1F00CB93E7 /* ReactNativeViewController.m */; };
+		57FBB4E422A98C0600CB93E7 /* ReactNativePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB4E322A98C0600CB93E7 /* ReactNativePlugin.mm */; };
 		5B554D44A913E8F67A569CC2 /* Il2CppCodeRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEED44D880C83065783CB13C /* Il2CppCodeRegistration.cpp */; };
 		5BAD78611F2B5A59006103DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAD78601F2B5A59006103DE /* Security.framework */; };
 		5EDA42259A79CF4B34E2EAD7 /* GenericMethods3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3DB47838DC3E77A1E71EC38 /* GenericMethods3.cpp */; };
@@ -597,7 +597,7 @@
 		1A0F4FE38C9D1E91908143D6 /* mscorlib16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib16.cpp; path = Classes/Native/mscorlib16.cpp; sourceTree = SOURCE_ROOT; };
 		1AB94F23B115E714FF8FBE9A /* UnityEngine.Physics2DModule_Debugger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.Physics2DModule_Debugger.c; path = Classes/Native/UnityEngine.Physics2DModule_Debugger.c; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* UnityRNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnityRNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* UnityRNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UnityRNTest.app; path = unitytest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7C4611BA81EB792DEBF107 /* LaunchScreen-iPhonePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPhonePortrait.png"; sourceTree = SOURCE_ROOT; };
 		1E624DFAA8D46519FBB662C4 /* Mono.Security_Debugger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Mono.Security_Debugger.c; path = Classes/Native/Mono.Security_Debugger.c; sourceTree = SOURCE_ROOT; };
 		212B40E0A350EC2A44647ED1 /* Mono.Security_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Mono.Security_CodeGen.c; path = Classes/Native/Mono.Security_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -638,7 +638,7 @@
 		522342F0AA36076A0FA0679A /* UnityEngine.UI5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UI5.cpp; path = Classes/Native/UnityEngine.UI5.cpp; sourceTree = SOURCE_ROOT; };
 		52604713818B82242F94C562 /* Il2CppGenericComDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions.cpp; path = Classes/Native/Il2CppGenericComDefinitions.cpp; sourceTree = SOURCE_ROOT; };
 		53544BA2841CE1AC71EA427B /* UnityEngine.Physics2DModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.Physics2DModule.cpp; path = Classes/Native/UnityEngine.Physics2DModule.cpp; sourceTree = SOURCE_ROOT; };
-		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unity-iPhone Tests.xctest"; path = ProductName.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unity-iPhone Tests.xctest"; path = unitytest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_iPhone_Tests.m; sourceTree = "<group>"; };
@@ -651,9 +651,6 @@
 		56DBF99C15E3CDC9007A4A8D /* iPhone_Sensors.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iPhone_Sensors.mm; sourceTree = "<group>"; };
 		56DBF99E15E3CE85007A4A8D /* iPhone_Sensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_Sensors.h; sourceTree = "<group>"; };
 		56FD43950ED4745200FE3770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		5784A62222A884D700959913 /* ReactNativePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ReactNativePlugin.mm; path = ../../../../../Unity/Assets/Plugins/iOS/ReactNativePlugin.mm; sourceTree = "<group>"; };
-		5784A62322A884D700959913 /* ReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactNativeViewController.h; path = ../../../../../Unity/Assets/Plugins/iOS/ReactNativeViewController.h; sourceTree = "<group>"; };
-		5784A62422A884D700959913 /* ReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactNativeViewController.m; path = ../../../../../Unity/Assets/Plugins/iOS/ReactNativeViewController.m; sourceTree = "<group>"; };
 		57EFCB8922A8481F00B3BB92 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		57EFCC2322A853F300B3BB92 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		57EFCCF122A857A400B3BB92 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
@@ -672,6 +669,9 @@
 		57EFCDA522A858B200B3BB92 /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		57EFCDAE22A858BB00B3BB92 /* RCTPushNotification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTPushNotification.xcodeproj; path = "../../node_modules/react-native/Libraries/PushNotificationIOS/RCTPushNotification.xcodeproj"; sourceTree = "<group>"; };
 		57F4442CA1FFFB72D9FF06EB /* System.Diagnostics.StackTrace_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = System.Diagnostics.StackTrace_CodeGen.c; path = Classes/Native/System.Diagnostics.StackTrace_CodeGen.c; sourceTree = SOURCE_ROOT; };
+		57FBB4DF22A98A1F00CB93E7 /* ReactNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewController.m; sourceTree = SOURCE_ROOT; };
+		57FBB4E222A98A6F00CB93E7 /* ReactNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewController.h; sourceTree = SOURCE_ROOT; };
+		57FBB4E322A98C0600CB93E7 /* ReactNativePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReactNativePlugin.mm; sourceTree = SOURCE_ROOT; };
 		59C844CFA8E6B5E932E3FF06 /* UnityEngine.AudioModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AudioModule.cpp; path = Classes/Native/UnityEngine.AudioModule.cpp; sourceTree = SOURCE_ROOT; };
 		5BAD78601F2B5A59006103DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5C394C1B8B2BD439D2288709 /* mscorlib_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mscorlib_CodeGen.c; path = Classes/Native/mscorlib_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -1267,9 +1267,9 @@
 		B8D742E0A2FA5134DEB980D0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5784A62222A884D700959913 /* ReactNativePlugin.mm */,
-				5784A62322A884D700959913 /* ReactNativeViewController.h */,
-				5784A62422A884D700959913 /* ReactNativeViewController.m */,
+				57FBB4E322A98C0600CB93E7 /* ReactNativePlugin.mm */,
+				57FBB4DF22A98A1F00CB93E7 /* ReactNativeViewController.m */,
+				57FBB4E222A98A6F00CB93E7 /* ReactNativeViewController.h */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -2055,8 +2055,8 @@
 				32EF4BC5A164E9BA3F14CEF3 /* Il2CppGenericComDefinitions.cpp in Sources */,
 				1D42416AB1C5C86C4F6D43C1 /* Il2CppGenericInstDefinitions.c in Sources */,
 				F2A54377B507F13E48C4BAC2 /* Il2CppGenericMethodDefinitions.c in Sources */,
+				57FBB4E022A98A1F00CB93E7 /* ReactNativeViewController.m in Sources */,
 				4E9E4CE0BA5CAF2268AD5276 /* Il2CppGenericMethodPointerTable.cpp in Sources */,
-				5784A62622A884D700959913 /* ReactNativeViewController.m in Sources */,
 				DF6448A8B15B00610AB1A8A1 /* Il2CppGenericMethodTable.c in Sources */,
 				7C734C0CB6FE5C7C38502914 /* Il2CppInteropDataTable.cpp in Sources */,
 				AF32404CADB2AFE1B7C54C43 /* Il2CppInvokerTable.cpp in Sources */,
@@ -2170,9 +2170,9 @@
 				10D041F48B707D8A06C450DA /* mscorlib4.cpp in Sources */,
 				1B66475BBA3E9CDBE6B62750 /* mscorlib5.cpp in Sources */,
 				2D324231A65F536EE25626B8 /* mscorlib6.cpp in Sources */,
+				57FBB4E422A98C0600CB93E7 /* ReactNativePlugin.mm in Sources */,
 				DE0D431DB5CD0093C0EBF04B /* mscorlib7.cpp in Sources */,
 				279E424A8B5FCEBFCF385A2B /* mscorlib8.cpp in Sources */,
-				5784A62522A884D700959913 /* ReactNativePlugin.mm in Sources */,
 				2CF340AD9E4D3B22CBAFA894 /* mscorlib9.cpp in Sources */,
 				DC0C49119B20EC917CD25660 /* mscorlib_CodeGen.c in Sources */,
 				97F14051B12C17441372E15D /* mscorlib_Debugger.c in Sources */,
@@ -2279,7 +2279,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyclops.unitytest;
-				PRODUCT_NAME = UnityRNTest;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2348,7 +2348,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyclops.unitytest;
-				PRODUCT_NAME = UnityRNTest;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2395,7 +2395,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = ProductName;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2452,7 +2452,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = ProductName;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2543,7 +2543,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyclops.unitytest;
-				PRODUCT_NAME = UnityRNTest;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2590,7 +2590,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = ProductName;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2681,7 +2681,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyclops.unitytest;
-				PRODUCT_NAME = UnityRNTest;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -2728,7 +2728,7 @@
 				INFOPLIST_FILE = "Unity-iPhone Tests/Unity-iPhone Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_GENERATE_MAP_FILE = YES;
-				PRODUCT_NAME = ProductName;
+				PRODUCT_NAME = unitytest;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
