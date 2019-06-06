@@ -23,7 +23,7 @@ This is a simple React Native view that I am trying to render:
   </View>)
 ```
 This is how it is rendered in a standalone React Native app:
-![Normal rendering](https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_simulator.png?raw=true)
+![Normal rendering](https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_simulator.png?raw=true | width=200)
 
 This is how it is rendered in a Unity project:
-![Normal rendering](https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_device.png?raw=true)
+![Normal rendering](https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_device.png?raw=true | width=200)
