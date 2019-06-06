@@ -23,9 +23,9 @@ This is a simple React Native view that I am trying to render:
   </View>)
 ```
 This is how it is rendered in a standalone React Native app:
-<img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_simulator.png?raw=true" width="350"/>
+<div><img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_simulator.png?raw=true" width="350"/></div>
 
 
 This is how it is rendered in a Unity project:
-<img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_device.png?raw=true" width="350"/>
+<div><img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_device.png?raw=true" width="350"/></div>
 
