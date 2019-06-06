@@ -35,6 +35,7 @@ This is how it is rendered in a Unity project:
 <div><img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_device.png?raw=true" width="350"/></div>
 
 Environment:
+```
 Unity 2019.1.4f1
 React Native Environment Info:
     System:
@@ -62,3 +63,4 @@ React Native Environment Info:
       react-native: 0.59.9 => 0.59.9 
     npmGlobalPackages:
       react-native-cli: 2.0.1
+```
