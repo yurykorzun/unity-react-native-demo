@@ -3,7 +3,7 @@ Demo of a Unity project with React Native integration
  
 This repo is supposed to show an example of a Unity project with React Native app integrated into it. 
 Unfortunately, XCode project that is exported with Unity >2017 breaks React Native rendering.
-It works as expected with an Android project and an XCode project generated for to run on a Simulator.
+It works as expected in an Android project and in an XCode project for a Simulator.
 
 How to test this project:
 1. Navigate to folder ReactNative
