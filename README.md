@@ -27,7 +27,7 @@ This is a simple React Native view that I am trying to render:
     </View>
   </View>)
 ```
-This is how it is rendered in a standalone React Native app:
+This is how it is rendered in a standalone React Native app and on with Unity on a Simulator:
 <div><img src="https://github.com/yurykorzun/unity-react-native-demo/blob/master/Screenshots/Screenshot_unity_ios_rn_simulator.png?raw=true" width="350"/></div>
 
 
