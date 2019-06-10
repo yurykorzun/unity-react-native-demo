@@ -1,0 +1,2668 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.String SR::GetString(System.String,System.Object[])
+extern void SR_GetString_m9548BD6DD52DFDB46372F211078AE57FA2401E39 ();
+// 0x00000002 System.String SR::GetString(System.Globalization.CultureInfo,System.String,System.Object[])
+extern void SR_GetString_m9D671CBA422B18D15B8FF59B22DCCEB32E3D16E2 ();
+// 0x00000003 System.String SR::GetString(System.String)
+extern void SR_GetString_m3FC710B15474A9B651DA02B303241B6D8B87E2A7 ();
+// 0x00000004 System.Void Mono.Unity.CertHelper::AddCertificatesToNativeChain(Mono.Unity.UnityTls_unitytls_x509list*,System.Security.Cryptography.X509Certificates.X509CertificateCollection,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void CertHelper_AddCertificatesToNativeChain_m1D22A9A50CA05E1F931B8B309E047092DDE01CFF ();
+// 0x00000005 System.Void Mono.Unity.CertHelper::AddCertificateToNativeChain(Mono.Unity.UnityTls_unitytls_x509list*,System.Security.Cryptography.X509Certificates.X509Certificate,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void CertHelper_AddCertificateToNativeChain_m223E545813937EC29B6EF428DAE3F45551728166 ();
+// 0x00000006 System.IntPtr Mono.Unity.UnityTls::GetUnityTlsInterface()
+extern void UnityTls_GetUnityTlsInterface_mB672D3C985554FC0EDFAB68EB4A77BCB74FEE719 ();
+// 0x00000007 Mono.Unity.UnityTls_unitytls_interface_struct Mono.Unity.UnityTls::get_NativeInterface()
+extern void UnityTls_get_NativeInterface_mB7B44E93A89C271D6C65B44DE2EE9C4A5786E88E ();
+// 0x00000008 System.Void Mono.Unity.UnityTls_unitytls_x509verify_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509verify_callback__ctor_m9D04862B333145C9F179B31F08C390E0DEA4D1B0 ();
+// 0x00000009 Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_x509verify_callback::Invoke(System.Void*,Mono.Unity.UnityTls_unitytls_x509_ref,Mono.Unity.UnityTls_unitytls_x509verify_result,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509verify_callback_Invoke_m4DDE358F87398FA2F51CDD551E6F1D4CB5B48159 ();
+// 0x0000000A System.IAsyncResult Mono.Unity.UnityTls_unitytls_x509verify_callback::BeginInvoke(System.Void*,Mono.Unity.UnityTls_unitytls_x509_ref,Mono.Unity.UnityTls_unitytls_x509verify_result,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509verify_callback_BeginInvoke_m34DFF04B0DD733860B3BAE73885A90C6A936E26F ();
+// 0x0000000B Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_x509verify_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509verify_callback_EndInvoke_m17AC8D1886D2624D4E3E041E6931DC942C117FAB ();
+// 0x0000000C System.Void Mono.Unity.UnityTls_unitytls_tlsctx_write_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_write_callback__ctor_mC7F821EB4597E74CFC9DE7A1EA50F86CFAC2F411 ();
+// 0x0000000D System.IntPtr Mono.Unity.UnityTls_unitytls_tlsctx_write_callback::Invoke(System.Void*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_write_callback_Invoke_m9E758A0D65A39C61209306CDAB781357D956F36E ();
+// 0x0000000E System.IAsyncResult Mono.Unity.UnityTls_unitytls_tlsctx_write_callback::BeginInvoke(System.Void*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_write_callback_BeginInvoke_m9FA442F88C3483A74C56938DD30BF36505666EDD ();
+// 0x0000000F System.IntPtr Mono.Unity.UnityTls_unitytls_tlsctx_write_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_write_callback_EndInvoke_m4615F5985BBDB75F9DBDE0398A854CE2315DF925 ();
+// 0x00000010 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_read_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_read_callback__ctor_m52F2060B467B61401384C7E3693C6C8CDC3E46B7 ();
+// 0x00000011 System.IntPtr Mono.Unity.UnityTls_unitytls_tlsctx_read_callback::Invoke(System.Void*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_read_callback_Invoke_m9C045DAC27E3496B2FA429755CFF48E11A751D29 ();
+// 0x00000012 System.IAsyncResult Mono.Unity.UnityTls_unitytls_tlsctx_read_callback::BeginInvoke(System.Void*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_read_callback_BeginInvoke_mFDE9382397C181E07D075AA3FDE12B10ABC2C602 ();
+// 0x00000013 System.IntPtr Mono.Unity.UnityTls_unitytls_tlsctx_read_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_read_callback_EndInvoke_m2D814DC4681EFC9E4B0D495E8E5BBB0DCD3B62D1 ();
+// 0x00000014 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_trace_callback__ctor_m4C0C53E1C112C8A363A1C1AC15B5F6B7E4CD2443 ();
+// 0x00000015 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback::Invoke(System.Void*,Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr)
+extern void unitytls_tlsctx_trace_callback_Invoke_mC657E7F4F1C6F530662F48BE16D2621029846344 ();
+// 0x00000016 System.IAsyncResult Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback::BeginInvoke(System.Void*,Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_trace_callback_BeginInvoke_mE23C8513E935C278BCC120731072893E86729CAA ();
+// 0x00000017 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_trace_callback_EndInvoke_m33865B83D223342F078061A59F8DF41311D20C94 ();
+// 0x00000018 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_certificate_callback__ctor_m14C613364636EF10ECCD413A6F49E975A4F4A6A2 ();
+// 0x00000019 System.Void Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback::Invoke(System.Void*,Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509name*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509list_ref*,Mono.Unity.UnityTls_unitytls_key_ref*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_certificate_callback_Invoke_mA90DE4AD701A89C12AECBE415FBAB506DCF66C12 ();
+// 0x0000001A System.IAsyncResult Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback::BeginInvoke(System.Void*,Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509name*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509list_ref*,Mono.Unity.UnityTls_unitytls_key_ref*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_certificate_callback_BeginInvoke_m1D0AF1A60BC715B76CD3866BF3D555E5A6BFDD3E ();
+// 0x0000001B System.Void Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_certificate_callback_EndInvoke_m0485EC4825ED1374DA2C0925A2F48D7F7567E21B ();
+// 0x0000001C System.Void Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_x509verify_callback__ctor_m50C4160D42681A80BEAD13F18294437BD96C3D0B ();
+// 0x0000001D Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback::Invoke(System.Void*,Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_x509verify_callback_Invoke_m63FDAF56E6D0F50E1E21DB4E3515967596071CE6 ();
+// 0x0000001E System.IAsyncResult Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback::BeginInvoke(System.Void*,Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_x509verify_callback_BeginInvoke_m84DAB124121532AF9AECBA6E706A0914C4EA22F4 ();
+// 0x0000001F Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_x509verify_callback_EndInvoke_mD0321EDEC2FCF98ACB6497F796021DC65DA0DEEC ();
+// 0x00000020 System.Void Mono.Unity.UnityTls_unitytls_interface_struct::.ctor()
+extern void unitytls_interface_struct__ctor_m91CA935D822B8FA1057010680A22A0AC9D70E381 ();
+// 0x00000021 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_errorstate_create_t__ctor_mDB5F7A125825A4EADEFE51E41161ECF671659474 ();
+// 0x00000022 Mono.Unity.UnityTls_unitytls_errorstate Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t::Invoke()
+extern void unitytls_errorstate_create_t_Invoke_m2A913757D4713362254BE457E8792AD299677D42 ();
+// 0x00000023 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t::BeginInvoke(System.AsyncCallback,System.Object)
+extern void unitytls_errorstate_create_t_BeginInvoke_m21B464EA6F62C9C4916A69F411D0261B058E3E06 ();
+// 0x00000024 Mono.Unity.UnityTls_unitytls_errorstate Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_errorstate_create_t_EndInvoke_m8DC3659FB8AACD5CD163A95D55D72E4337AC8F37 ();
+// 0x00000025 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_errorstate_raise_error_t__ctor_m5F148689FFD962A73C93824087B04547B3AEE99B ();
+// 0x00000026 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t::Invoke(Mono.Unity.UnityTls_unitytls_errorstate*,Mono.Unity.UnityTls_unitytls_error_code)
+extern void unitytls_errorstate_raise_error_t_Invoke_m319B51663970217C195467C18E5928B5C2B68441 ();
+// 0x00000027 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_errorstate*,Mono.Unity.UnityTls_unitytls_error_code,System.AsyncCallback,System.Object)
+extern void unitytls_errorstate_raise_error_t_BeginInvoke_m430EC23CE6C0A221B234161D965EF48FDE1FE3D8 ();
+// 0x00000028 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_errorstate_raise_error_t_EndInvoke_m713725CCC70FA48D9A9BFE1770EB0406853DF1E7 ();
+// 0x00000029 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_get_ref_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_key_get_ref_t__ctor_m8B6688D0222A54335156F76C42D335A999C620ED ();
+// 0x0000002A Mono.Unity.UnityTls_unitytls_key_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_get_ref_t::Invoke(Mono.Unity.UnityTls_unitytls_key*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_key_get_ref_t_Invoke_mA8C5F2D239F4B74885F37C9671012F1136BF0BE2 ();
+// 0x0000002B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_get_ref_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_key*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_key_get_ref_t_BeginInvoke_m93BE7A42624E9987FC901D883E06683C90046D89 ();
+// 0x0000002C Mono.Unity.UnityTls_unitytls_key_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_get_ref_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_key_get_ref_t_EndInvoke_m3158742DC98834DFC0519765F4E88A8C581B54F2 ();
+// 0x0000002D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_der_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_key_parse_der_t__ctor_m702A41D29AFA524EFDF148673041B507C9538C4F ();
+// 0x0000002E Mono.Unity.UnityTls_unitytls_key* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_der_t::Invoke(System.Byte*,System.IntPtr,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_key_parse_der_t_Invoke_m8CF4A1CFD7B385B3091215030E7EC2CB5B6823ED ();
+// 0x0000002F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_der_t::BeginInvoke(System.Byte*,System.IntPtr,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_key_parse_der_t_BeginInvoke_mDD3872296FB3905F2F22D5859F4521DF44C9F19B ();
+// 0x00000030 Mono.Unity.UnityTls_unitytls_key* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_der_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_key_parse_der_t_EndInvoke_m6ED100AAACFF6462B42B0D9804BBA5E34487808A ();
+// 0x00000031 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_pem_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_key_parse_pem_t__ctor_mE18922EC14AD6EDA780D819DB1469A99242F5C82 ();
+// 0x00000032 Mono.Unity.UnityTls_unitytls_key* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_pem_t::Invoke(System.Byte*,System.IntPtr,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_key_parse_pem_t_Invoke_m38F6D75BFC2A80778454B43E5C76B4704EFF75F1 ();
+// 0x00000033 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_pem_t::BeginInvoke(System.Byte*,System.IntPtr,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_key_parse_pem_t_BeginInvoke_mE7922F635446EF1A040AEE37DD9CEA8694A7F771 ();
+// 0x00000034 Mono.Unity.UnityTls_unitytls_key* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_parse_pem_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_key_parse_pem_t_EndInvoke_mA547C0BB7666F5F1953F14BC46AAE90537850C77 ();
+// 0x00000035 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_free_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_key_free_t__ctor_m6FB9CB25BA5BE0723AE199CE1F502A955DD356E3 ();
+// 0x00000036 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_free_t::Invoke(Mono.Unity.UnityTls_unitytls_key*)
+extern void unitytls_key_free_t_Invoke_m80E23E79440054744237B5BAA88AAAAB0D4E2F4B ();
+// 0x00000037 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_free_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_key*,System.AsyncCallback,System.Object)
+extern void unitytls_key_free_t_BeginInvoke_m9187223C9B5085D282144EC1175FA24D76AEBEE3 ();
+// 0x00000038 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_key_free_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_key_free_t_EndInvoke_m152FC113C7C311F262DC6B29F0E44ED27D4A4FBB ();
+// 0x00000039 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509_export_der_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509_export_der_t__ctor_m2FA861176B1706988B234296EC1E5C2C2385C5A5 ();
+// 0x0000003A System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509_export_der_t::Invoke(Mono.Unity.UnityTls_unitytls_x509_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509_export_der_t_Invoke_m90FDB333B2076F06444B096E1E1D1A42C8EEF8A0 ();
+// 0x0000003B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509_export_der_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509_export_der_t_BeginInvoke_m33E6F88E2448002C8B74EC67E172034CCD11E4D5 ();
+// 0x0000003C System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509_export_der_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509_export_der_t_EndInvoke_m18AAF57D64EC364FF2312620E964F4D615E594CD ();
+// 0x0000003D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_ref_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_get_ref_t__ctor_m2E1FC1BBC79EB53428998A9DC5299F1DCDF6BBE8 ();
+// 0x0000003E Mono.Unity.UnityTls_unitytls_x509list_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_ref_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509list_get_ref_t_Invoke_mDCA9357333DA8B614E6C0F68922B3E5306A6534C ();
+// 0x0000003F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_ref_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_get_ref_t_BeginInvoke_mCF97569A8246EA8445ADA1DE245B36DFAFB91446 ();
+// 0x00000040 Mono.Unity.UnityTls_unitytls_x509list_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_ref_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_get_ref_t_EndInvoke_m3E4E37BCCAE29768A633C69FA2CE74EC67945A98 ();
+// 0x00000041 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_x509_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_get_x509_t__ctor_m8AF5F946C60F4AD11DCF53EB103FAB5556828421 ();
+// 0x00000042 Mono.Unity.UnityTls_unitytls_x509_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_x509_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list_ref,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509list_get_x509_t_Invoke_m25FDF33A713C330AF882B49E05C79B77B5CF7A22 ();
+// 0x00000043 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_x509_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list_ref,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_get_x509_t_BeginInvoke_m5F1D80B8C015B87B91AE11A27A01ED586E9BFFEF ();
+// 0x00000044 Mono.Unity.UnityTls_unitytls_x509_ref Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_get_x509_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_get_x509_t_EndInvoke_m32FF88756C519F7C7F53E36198C352B2DE96FECF ();
+// 0x00000045 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_create_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_create_t__ctor_m35027CAFF58C468A07D199EA8E760FA83ECC1497 ();
+// 0x00000046 Mono.Unity.UnityTls_unitytls_x509list* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_create_t::Invoke(Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509list_create_t_Invoke_m45B75F9286D2C1DC14AECFA258F419C3A1989A79 ();
+// 0x00000047 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_create_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_create_t_BeginInvoke_mE85F1C402447D1CC543B2609C2BFD081F2954DC5 ();
+// 0x00000048 Mono.Unity.UnityTls_unitytls_x509list* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_create_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_create_t_EndInvoke_m2D64E81EA9962E8269292F49D86CBA9A45D8021F ();
+// 0x00000049 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_append_t__ctor_m5389B48F2C2EFE1E6FDAE6FEE1FF176F28F0D02C ();
+// 0x0000004A System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list*,Mono.Unity.UnityTls_unitytls_x509_ref,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509list_append_t_Invoke_m172237A64036BDE6C197DA0AE6A5A08010D4F361 ();
+// 0x0000004B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list*,Mono.Unity.UnityTls_unitytls_x509_ref,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_append_t_BeginInvoke_mD3FEDD5F023253232CC8C48EF5CF2120ABD7147B ();
+// 0x0000004C System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_append_t_EndInvoke_m2DE3744B3B3919E5ABED5661FC2FA2445B933EF3 ();
+// 0x0000004D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_append_der_t__ctor_m841BFC2DC8D5C6BA893192D3318C89CB1CBA5093 ();
+// 0x0000004E System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509list_append_der_t_Invoke_m1606FADA7E902086F7AEE6D8F304867C7E0A434F ();
+// 0x0000004F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_append_der_t_BeginInvoke_m68B8C0940627CA1AA436E080A70BE1F622A820E7 ();
+// 0x00000050 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_append_der_t_EndInvoke_m96AFB602A6FB94D99E6AB65CE1D3C8B0B636CC6C ();
+// 0x00000051 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_free_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509list_free_t__ctor_mE08ED3D0B7810758779C72A6882354D36E51F126 ();
+// 0x00000052 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_free_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list*)
+extern void unitytls_x509list_free_t_Invoke_m733759A5A94705388D233DB23FDFECAE2ADACDF0 ();
+// 0x00000053 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_free_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list*,System.AsyncCallback,System.Object)
+extern void unitytls_x509list_free_t_BeginInvoke_m1A31DC10E7A495BCB31B46F413FCB7431E408CD7 ();
+// 0x00000054 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509list_free_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509list_free_t_EndInvoke_m4BD735662CB6AC985D4AC833288191948ABD9182 ();
+// 0x00000055 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509verify_default_ca_t__ctor_m9030DF501A2B0AE32F059AF6838EAF2A5897C8E0 ();
+// 0x00000056 Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509verify_default_ca_t_Invoke_mE5D523AFD08CCE9A427389F17611D56C6D905B98 ();
+// 0x00000057 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509verify_default_ca_t_BeginInvoke_m732CB4DFD706DEA2D1AFDD66A25C7A0A4F59641C ();
+// 0x00000058 Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509verify_default_ca_t_EndInvoke_m65702493A38FA3F2598DD0D5F41A2849C4EE532D ();
+// 0x00000059 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_x509verify_explicit_ca_t__ctor_m4008497F04CFD72DB70FC203A50B023CD8F17864 ();
+// 0x0000005A Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t::Invoke(Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_x509list_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_x509verify_explicit_ca_t_Invoke_mCC06B1AF3BCD90C24E3CA05A785528588C7CCEB5 ();
+// 0x0000005B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_x509list_ref,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_x509verify_explicit_ca_t_BeginInvoke_m5A0BBE08CCACF01F690B9919087359A9FF7CF468 ();
+// 0x0000005C Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_x509verify_explicit_ca_t_EndInvoke_m8EE4AE05BF8B13E7CD9A5818E3BA682F951584A4 ();
+// 0x0000005D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_server_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_create_server_t__ctor_m5CDD5F7909C922C45FDFFD8E94DDFFB1279C7368 ();
+// 0x0000005E Mono.Unity.UnityTls_unitytls_tlsctx* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_server_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx_protocolrange,Mono.Unity.UnityTls_unitytls_tlsctx_callbacks,System.UInt64,System.UInt64,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_create_server_t_Invoke_m6C7288544450304884E239BA3ACED930AAC040DF ();
+// 0x0000005F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_server_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx_protocolrange,Mono.Unity.UnityTls_unitytls_tlsctx_callbacks,System.UInt64,System.UInt64,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_create_server_t_BeginInvoke_m7E60A8576D5C6BE7D9A61EBB5800D7FD402BF60D ();
+// 0x00000060 Mono.Unity.UnityTls_unitytls_tlsctx* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_server_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_create_server_t_EndInvoke_mFC81040ECF1EF8D630C93F04FC8086A0F0288F6F ();
+// 0x00000061 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_client_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_create_client_t__ctor_m1E56411D4E929CCB07D6050690CA2284FCB8647D ();
+// 0x00000062 Mono.Unity.UnityTls_unitytls_tlsctx* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_client_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx_protocolrange,Mono.Unity.UnityTls_unitytls_tlsctx_callbacks,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_create_client_t_Invoke_m1DF5F05CEC35949278BEA867FA923CA399855D20 ();
+// 0x00000063 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_client_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx_protocolrange,Mono.Unity.UnityTls_unitytls_tlsctx_callbacks,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_create_client_t_BeginInvoke_m7D9286CDD8953A99DC3DAF42531E08EC2921DF9D ();
+// 0x00000064 Mono.Unity.UnityTls_unitytls_tlsctx* Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_client_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_create_client_t_EndInvoke_mD4C6A3C3AEB5444A52D5096080347CC4119CE729 ();
+// 0x00000065 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_server_require_client_authentication_t__ctor_m9AFB7DDE9F07B0C20E932B26CF5F7CC5A34EF2EE ();
+// 0x00000066 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_server_require_client_authentication_t_Invoke_mAD3C2DC8E2407F47BCCDB9CCD03FAEF5C3C61FB4 ();
+// 0x00000067 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_x509list_ref,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_server_require_client_authentication_t_BeginInvoke_m34DF29BAAD16625619D9BACCAE0916CCB1EE3814 ();
+// 0x00000068 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_server_require_client_authentication_t_EndInvoke_mD90E6FDE627752E1398D872EF076990B46A0D0C4 ();
+// 0x00000069 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_certificate_callback_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_set_certificate_callback_t__ctor_mEE1D60229825001CFA228CAB36712F5911CA94F1 ();
+// 0x0000006A System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_certificate_callback_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_set_certificate_callback_t_Invoke_mD72A24F7BEB100ECBFE6A02447D07EB392F8416B ();
+// 0x0000006B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_certificate_callback_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_certificate_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_set_certificate_callback_t_BeginInvoke_mC558DC3F79919F6336501ED0EE6E258D40ABF0E6 ();
+// 0x0000006C System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_certificate_callback_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_set_certificate_callback_t_EndInvoke_m4A733262D24FD2ADD4A0807F5B70ACC4833E71DF ();
+// 0x0000006D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_trace_callback_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_set_trace_callback_t__ctor_m698EE0E5FA09113DDBBE2BFD5EB4FE1A4E0F97A1 ();
+// 0x0000006E System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_trace_callback_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_set_trace_callback_t_Invoke_m3563168D645C5A9128E07DBDFC7B5512764B2E11 ();
+// 0x0000006F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_trace_callback_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_trace_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_set_trace_callback_t_BeginInvoke_m32846D6C60BEC0829F3478DB7AAB125D13B7F547 ();
+// 0x00000070 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_trace_callback_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_set_trace_callback_t_EndInvoke_mEAF3A5C422616242581287326BDAD6C5515F5DC1 ();
+// 0x00000071 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_set_x509verify_callback_t__ctor_m1900B77A4679CBF3A7F107114F9444A193F9B3B2 ();
+// 0x00000072 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_set_x509verify_callback_t_Invoke_mB4B699E9A75AD84590634AA66243AE8BE8DE9F09 ();
+// 0x00000073 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_tlsctx_x509verify_callback,System.Void*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_set_x509verify_callback_t_BeginInvoke_mF1D785074322CB5DD7BB67E54C6C2140C5BCE73C ();
+// 0x00000074 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_set_x509verify_callback_t_EndInvoke_mA320598F201D2E1ECAA3595355C93B3BDD13B031 ();
+// 0x00000075 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_set_supported_ciphersuites_t__ctor_mF8B2A46DCE03527B87EE1EB40F18EEB186591A58 ();
+// 0x00000076 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_ciphersuite*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_set_supported_ciphersuites_t_Invoke_m9091B6D204D7611E2741CC2B3166616F8C19E594 ();
+// 0x00000077 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_ciphersuite*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_set_supported_ciphersuites_t_BeginInvoke_mAD583F841F317705AA1F100D5188AEBC4B997C1D ();
+// 0x00000078 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_set_supported_ciphersuites_t_EndInvoke_mFFC257704501E21B54877E6A937BEDAB526184E8 ();
+// 0x00000079 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_get_ciphersuite_t__ctor_mD59D1727FCCD2F1485FC87677C593BAA0D19FD69 ();
+// 0x0000007A Mono.Unity.UnityTls_unitytls_ciphersuite Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_get_ciphersuite_t_Invoke_m28D027E6306B1F2188E64245FBA01268CC329442 ();
+// 0x0000007B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_get_ciphersuite_t_BeginInvoke_m8BA17B437B22A3109CD7AA513F11B99A6010B215 ();
+// 0x0000007C Mono.Unity.UnityTls_unitytls_ciphersuite Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_get_ciphersuite_t_EndInvoke_m37132AD00EA6C15F18185B76F883D690BC9330EF ();
+// 0x0000007D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_get_protocol_t__ctor_m57AA61C6CC144AC851EF8A1BCDE1FE8A6A7CE4E3 ();
+// 0x0000007E Mono.Unity.UnityTls_unitytls_protocol Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_get_protocol_t_Invoke_m533A624ECEB2AC0E43052CE6A234D04E4E9C70AB ();
+// 0x0000007F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_get_protocol_t_BeginInvoke_m633A813CF097D32A46D0AF9B4BA62675D446E476 ();
+// 0x00000080 Mono.Unity.UnityTls_unitytls_protocol Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_get_protocol_t_EndInvoke_m31A4CD4E5918466D87B8EFED896BF0DF487FF061 ();
+// 0x00000081 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_process_handshake_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_process_handshake_t__ctor_m3C5790369EFE12F841C4EDA676DABCC833BF23DE ();
+// 0x00000082 Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_process_handshake_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_process_handshake_t_Invoke_mE17E62D2159809BC847BEB1D6B40C23C017ED3E8 ();
+// 0x00000083 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_process_handshake_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_process_handshake_t_BeginInvoke_mDE4541085A795D1286E90FE82D1802A4A2C861BF ();
+// 0x00000084 Mono.Unity.UnityTls_unitytls_x509verify_result Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_process_handshake_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_process_handshake_t_EndInvoke_mDE68FC780902D4DDC02B55D01C3F5B1F2D5165CD ();
+// 0x00000085 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_read_t__ctor_m3A54D3DC95D93F41585AAC5E0CBB09E7E21C6A88 ();
+// 0x00000086 System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_read_t_Invoke_mAFFB3FA39F79B2BE4FFA182239DE94ED5570D803 ();
+// 0x00000087 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_read_t_BeginInvoke_mC8AA0588732E45F9402F7EC9319099ECFC5AFF8C ();
+// 0x00000088 System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_read_t_EndInvoke_m94A70CCFA5F55842BBB3DEC7B89D19BCBA37937A ();
+// 0x00000089 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_write_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_write_t__ctor_m99DA58D77CC21DEAA77D8332FB1F4226BCBC3317 ();
+// 0x0000008A System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_write_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_write_t_Invoke_mF9413F9C6DD887B3B0DA87CE25824CED940EEFC1 ();
+// 0x0000008B System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_write_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_write_t_BeginInvoke_mC17344DDFE83AF7AA95CE8EC00A0FD27ADBF1A9F ();
+// 0x0000008C System.IntPtr Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_write_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_write_t_EndInvoke_m6D59052A9AACE1E87DEBB2B6800B47FDAE09A524 ();
+// 0x0000008D System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_notify_close_t__ctor_mD372DA8B81430D8E41B7372722D5D327CF438951 ();
+// 0x0000008E System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_tlsctx_notify_close_t_Invoke_mC3B57340B3CA22EA7EB0EBFA5C941C487DE6B015 ();
+// 0x0000008F System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_notify_close_t_BeginInvoke_mDB587D9039A414DC2127613B9E477379FF119E14 ();
+// 0x00000090 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_notify_close_t_EndInvoke_m5D323428785A814E43CA41E4244ECAF0F96EE668 ();
+// 0x00000091 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_free_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_tlsctx_free_t__ctor_m0445C80DC50302FB1F416ED7AA8B1E2DD66529EA ();
+// 0x00000092 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_free_t::Invoke(Mono.Unity.UnityTls_unitytls_tlsctx*)
+extern void unitytls_tlsctx_free_t_Invoke_m34DFBB044037052F67FEA5A579A5AC004E01AEC8 ();
+// 0x00000093 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_free_t::BeginInvoke(Mono.Unity.UnityTls_unitytls_tlsctx*,System.AsyncCallback,System.Object)
+extern void unitytls_tlsctx_free_t_BeginInvoke_m7887C3F9C1F87DCD3807A2797D7525F108CBA926 ();
+// 0x00000094 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_tlsctx_free_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_tlsctx_free_t_EndInvoke_mED032427E108FD9D858A2B752544CC76CCCF647D ();
+// 0x00000095 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t::.ctor(System.Object,System.IntPtr)
+extern void unitytls_random_generate_bytes_t__ctor_m651B0D872AA98DCBDF99B8CBB48616F9877D28C5 ();
+// 0x00000096 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t::Invoke(System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*)
+extern void unitytls_random_generate_bytes_t_Invoke_mDF4C16458D2779B58E4C66ACB9A197DD3C61085F ();
+// 0x00000097 System.IAsyncResult Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t::BeginInvoke(System.Byte*,System.IntPtr,Mono.Unity.UnityTls_unitytls_errorstate*,System.AsyncCallback,System.Object)
+extern void unitytls_random_generate_bytes_t_BeginInvoke_m15487ED3C5CACFB6E0D760F7307847F531F1C3A4 ();
+// 0x00000098 System.Void Mono.Unity.UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t::EndInvoke(System.IAsyncResult)
+extern void unitytls_random_generate_bytes_t_EndInvoke_m3C6F54483F3AF797648AC5E311AB1976FFAFF61B ();
+// 0x00000099 Mono.Security.Interface.MonoSslPolicyErrors Mono.Unity.UnityTlsConversions::VerifyResultToPolicyErrror(Mono.Unity.UnityTls_unitytls_x509verify_result)
+extern void UnityTlsConversions_VerifyResultToPolicyErrror_m0F695E9B6732F71E1719D642E28A569B39A56BB7 ();
+// 0x0000009A System.String Mono.Unity.UnityTlsProvider::get_Name()
+extern void UnityTlsProvider_get_Name_mD97B0783E337EF392796C2B54B2893132AE3CE6E ();
+// 0x0000009B System.Guid Mono.Unity.UnityTlsProvider::get_ID()
+extern void UnityTlsProvider_get_ID_m69F15693799E92CF740F1632C811ABBDD9501CE3 ();
+// 0x0000009C System.Boolean Mono.Unity.UnityTlsProvider::get_SupportsSslStream()
+extern void UnityTlsProvider_get_SupportsSslStream_m75C37BCDD5970564FF33FC734CE1E53066C310F5 ();
+// 0x0000009D System.Boolean Mono.Unity.UnityTlsProvider::get_SupportsMonoExtensions()
+extern void UnityTlsProvider_get_SupportsMonoExtensions_m937D906F958817CF7AF4BF3C0F6CB7FCFB271C34 ();
+// 0x0000009E System.Boolean Mono.Unity.UnityTlsProvider::get_SupportsConnectionInfo()
+extern void UnityTlsProvider_get_SupportsConnectionInfo_m2F1C9B6C649675ACE3F96A80EBAC9FF44655D004 ();
+// 0x0000009F System.Boolean Mono.Unity.UnityTlsProvider::get_SupportsCleanShutdown()
+extern void UnityTlsProvider_get_SupportsCleanShutdown_m0C0EDA9937BDF53475680A2892B937316D450B5C ();
+// 0x000000A0 System.Security.Authentication.SslProtocols Mono.Unity.UnityTlsProvider::get_SupportedProtocols()
+extern void UnityTlsProvider_get_SupportedProtocols_mB92C5F264ADEADACCE52A31D1DA9937777C5BC04 ();
+// 0x000000A1 Mono.Security.Interface.IMonoSslStream Mono.Unity.UnityTlsProvider::CreateSslStream(System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings)
+extern void UnityTlsProvider_CreateSslStream_m7395FB4BBD905D89772F5157FDD254E5CF1F83DC ();
+// 0x000000A2 Mono.Security.Interface.IMonoSslStream Mono.Unity.UnityTlsProvider::CreateSslStreamInternal(System.Net.Security.SslStream,System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings)
+extern void UnityTlsProvider_CreateSslStreamInternal_mA8AD037F184BD564ACD9945D6EA3961971030F7E ();
+// 0x000000A3 System.Boolean Mono.Unity.UnityTlsProvider::ValidateCertificate(Mono.Security.Interface.ICertificateValidator2,System.String,System.Boolean,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.Security.Cryptography.X509Certificates.X509Chain&,Mono.Security.Interface.MonoSslPolicyErrors&,System.Int32&)
+extern void UnityTlsProvider_ValidateCertificate_mB131CB7451246C50BC4F3612C768E09C1DF59AAF ();
+// 0x000000A4 System.Void Mono.Unity.UnityTlsProvider::.ctor()
+extern void UnityTlsProvider__ctor_m84BDC7485DA3C2B3A2153CA4B0AC695FD65AF493 ();
+// 0x000000A5 System.Void Mono.Unity.UnityTlsStream::.ctor(System.IO.Stream,System.Boolean,System.Net.Security.SslStream,Mono.Security.Interface.MonoTlsSettings,Mono.Security.Interface.MonoTlsProvider)
+extern void UnityTlsStream__ctor_mCFCFF6B6CCEB2BEBB904E26AB3BF22E888C75C3F ();
+// 0x000000A6 System.Int32 Mono.Net.Security.BufferOffsetSize::get_EndOffset()
+extern void BufferOffsetSize_get_EndOffset_m3D0A21592979F5088101892843183FCFB8C9BF2A ();
+// 0x000000A7 System.Int32 Mono.Net.Security.BufferOffsetSize::get_Remaining()
+extern void BufferOffsetSize_get_Remaining_mBD3EA6B0F643284A54FDCA2860FE0F65C5CAF054 ();
+// 0x000000A8 System.Void Mono.Net.Security.BufferOffsetSize::.ctor(System.Byte[],System.Int32,System.Int32)
+extern void BufferOffsetSize__ctor_m3DE692137428B2E6AB46008825FC5C1B63FDAF4F ();
+// 0x000000A9 System.String Mono.Net.Security.BufferOffsetSize::ToString()
+extern void BufferOffsetSize_ToString_mEEB6528B305FE796622A87E8692C7132423D4655 ();
+// 0x000000AA System.Void Mono.Net.Security.BufferOffsetSize2::.ctor(System.Int32)
+extern void BufferOffsetSize2__ctor_m68156625CD993C66D5EA9C5194263DD9A4F59F3F ();
+// 0x000000AB System.Void Mono.Net.Security.BufferOffsetSize2::Reset()
+extern void BufferOffsetSize2_Reset_m4426212B4ECDC2D1487AE5B825918B747D947AB7 ();
+// 0x000000AC System.Int32 Mono.Net.Security.AsyncProtocolResult::get_UserResult()
+extern void AsyncProtocolResult_get_UserResult_mCCD14DC517D32C83AA61320D6D1D2E7F1430A3C8 ();
+// 0x000000AD System.Runtime.ExceptionServices.ExceptionDispatchInfo Mono.Net.Security.AsyncProtocolResult::get_Error()
+extern void AsyncProtocolResult_get_Error_m90252805C3FCD7277CD1CB01CB765183889E6E29 ();
+// 0x000000AE System.Void Mono.Net.Security.AsyncProtocolResult::.ctor(System.Int32)
+extern void AsyncProtocolResult__ctor_m9F01278D600A337B6A0CF5F6C9EFF7760BD758D8 ();
+// 0x000000AF System.Void Mono.Net.Security.AsyncProtocolResult::.ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo)
+extern void AsyncProtocolResult__ctor_mD63EC8610596D4B15DB1325C58FF32A41DAD48CF ();
+// 0x000000B0 Mono.Net.Security.MobileAuthenticatedStream Mono.Net.Security.AsyncProtocolRequest::get_Parent()
+extern void AsyncProtocolRequest_get_Parent_m1F7659D1FAFC679076165336ED380C4BD123B452 ();
+// 0x000000B1 System.Boolean Mono.Net.Security.AsyncProtocolRequest::get_RunSynchronously()
+extern void AsyncProtocolRequest_get_RunSynchronously_m66A26ED05543D9AF1ED86287DCE8389BC1CB319A ();
+// 0x000000B2 System.String Mono.Net.Security.AsyncProtocolRequest::get_Name()
+extern void AsyncProtocolRequest_get_Name_m1999BAB96B06DCB4DC11BF5F3B0BF4C6E2A26FF6 ();
+// 0x000000B3 System.Int32 Mono.Net.Security.AsyncProtocolRequest::get_UserResult()
+extern void AsyncProtocolRequest_get_UserResult_m53CEBBACE5031D4CE92308ABBAEA38AEF74DDBD3 ();
+// 0x000000B4 System.Void Mono.Net.Security.AsyncProtocolRequest::set_UserResult(System.Int32)
+extern void AsyncProtocolRequest_set_UserResult_mBF62363240DC9BE894231E56047F594EF452CD19 ();
+// 0x000000B5 System.Void Mono.Net.Security.AsyncProtocolRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream,System.Boolean)
+extern void AsyncProtocolRequest__ctor_mFE18CBE3FAA084FF6DF2AD8BECC2CA6DF4C6E769 ();
+// 0x000000B6 System.Threading.Tasks.Task`1<Mono.Net.Security.AsyncProtocolResult> Mono.Net.Security.AsyncProtocolRequest::StartOperation(System.Threading.CancellationToken)
+extern void AsyncProtocolRequest_StartOperation_mA13EA6B8ED143BC043F506815D05EB3F49F22682 ();
+// 0x000000B7 System.Threading.Tasks.Task Mono.Net.Security.AsyncProtocolRequest::ProcessOperation(System.Threading.CancellationToken)
+extern void AsyncProtocolRequest_ProcessOperation_m6DD0D7800F73C41BE9A5313737357801B22ED71D ();
+// 0x000000B8 System.Threading.Tasks.Task`1<System.Nullable`1<System.Int32>> Mono.Net.Security.AsyncProtocolRequest::InnerRead(System.Threading.CancellationToken)
+extern void AsyncProtocolRequest_InnerRead_m902FA39460933B383900CB60BDF8CCFC96BF3499 ();
+// 0x000000B9 Mono.Net.Security.AsyncOperationStatus Mono.Net.Security.AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus)
+// 0x000000BA System.String Mono.Net.Security.AsyncProtocolRequest::ToString()
+extern void AsyncProtocolRequest_ToString_m2D8062B5811D7B7A071CC451D2FD03E5BF61B529 ();
+// 0x000000BB System.Void Mono.Net.Security.AsyncProtocolRequest_<StartOperation>d__23::MoveNext()
+extern void U3CStartOperationU3Ed__23_MoveNext_m8BB4BB3D517CE898003C10FE5B80D375FA4D30A2_AdjustorThunk ();
+// 0x000000BC System.Void Mono.Net.Security.AsyncProtocolRequest_<StartOperation>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartOperationU3Ed__23_SetStateMachine_m0D9AFFD785F28428CCC846BD6A8FCFD38F9B0F9A_AdjustorThunk ();
+// 0x000000BD System.Void Mono.Net.Security.AsyncProtocolRequest_<ProcessOperation>d__24::MoveNext()
+extern void U3CProcessOperationU3Ed__24_MoveNext_m8B20266FC4831A26E691F83D54C6903CF264999D_AdjustorThunk ();
+// 0x000000BE System.Void Mono.Net.Security.AsyncProtocolRequest_<ProcessOperation>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CProcessOperationU3Ed__24_SetStateMachine_m9710FA92383D6497F1A16F90563A9056800A59F3_AdjustorThunk ();
+// 0x000000BF System.Void Mono.Net.Security.AsyncProtocolRequest_<InnerRead>d__25::MoveNext()
+extern void U3CInnerReadU3Ed__25_MoveNext_m4AD149EC4A2E6FDA803D63FB72A354300DBD3D0D_AdjustorThunk ();
+// 0x000000C0 System.Void Mono.Net.Security.AsyncProtocolRequest_<InnerRead>d__25::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInnerReadU3Ed__25_SetStateMachine_mEBFC49E17D2A224B493E390CDDD4D211EC701EC3_AdjustorThunk ();
+// 0x000000C1 Mono.Net.Security.BufferOffsetSize Mono.Net.Security.AsyncReadOrWriteRequest::get_UserBuffer()
+extern void AsyncReadOrWriteRequest_get_UserBuffer_m628B7BB1EB536BA73CFE467242E0E749A7B0AE6A ();
+// 0x000000C2 System.Int32 Mono.Net.Security.AsyncReadOrWriteRequest::get_CurrentSize()
+extern void AsyncReadOrWriteRequest_get_CurrentSize_m5AE6CC50F25E8504438DF2C9C2E2A44000621142 ();
+// 0x000000C3 System.Void Mono.Net.Security.AsyncReadOrWriteRequest::set_CurrentSize(System.Int32)
+extern void AsyncReadOrWriteRequest_set_CurrentSize_mAB6067CAD6F9DB5B3D274FC09E70BFA8DCBA288B ();
+// 0x000000C4 System.Void Mono.Net.Security.AsyncReadOrWriteRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream,System.Boolean,System.Byte[],System.Int32,System.Int32)
+extern void AsyncReadOrWriteRequest__ctor_m880E292B39EF76B9EDF3A5AB0A9A333A38A5575F ();
+// 0x000000C5 System.String Mono.Net.Security.AsyncReadOrWriteRequest::ToString()
+extern void AsyncReadOrWriteRequest_ToString_mDF6B2FA7AFA4E8B6571656E60CEF9BCFDCF05EDD ();
+// 0x000000C6 System.Void Mono.Net.Security.AsyncReadRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream,System.Boolean,System.Byte[],System.Int32,System.Int32)
+extern void AsyncReadRequest__ctor_mAF75247AFFC230BA5433424D27D13ACF53B3A239 ();
+// 0x000000C7 Mono.Net.Security.AsyncOperationStatus Mono.Net.Security.AsyncReadRequest::Run(Mono.Net.Security.AsyncOperationStatus)
+extern void AsyncReadRequest_Run_mC9FDEBDFB3C4519C11A47FF358D4B7AB62514E11 ();
+// 0x000000C8 System.Void Mono.Net.Security.AsyncWriteRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream,System.Boolean,System.Byte[],System.Int32,System.Int32)
+extern void AsyncWriteRequest__ctor_mF3534E810074917ABDE7E4CE7EE61715694F9EB8 ();
+// 0x000000C9 Mono.Net.Security.AsyncOperationStatus Mono.Net.Security.AsyncWriteRequest::Run(Mono.Net.Security.AsyncOperationStatus)
+extern void AsyncWriteRequest_Run_mA3FF2D74BD568114BF3EA7FF6B0BE568D25D81BC ();
+// 0x000000CA System.Void Mono.Net.Security.MobileAuthenticatedStream::.ctor(System.IO.Stream,System.Boolean,System.Net.Security.SslStream,Mono.Security.Interface.MonoTlsSettings,Mono.Security.Interface.MonoTlsProvider)
+extern void MobileAuthenticatedStream__ctor_mF6BF50D6BFDEF283FF8036F5170281D29FDD7628 ();
+// 0x000000CB System.Void Mono.Net.Security.MobileAuthenticatedStream::CheckThrow(System.Boolean,System.Boolean)
+extern void MobileAuthenticatedStream_CheckThrow_m2AAEC9435176D4AA10890A896C5909330B23683E ();
+// 0x000000CC System.Exception Mono.Net.Security.MobileAuthenticatedStream::GetSSPIException(System.Exception)
+extern void MobileAuthenticatedStream_GetSSPIException_m574F0E57FDDC71287516A9908D7E57FC61A8ED27 ();
+// 0x000000CD System.Exception Mono.Net.Security.MobileAuthenticatedStream::GetIOException(System.Exception,System.String)
+extern void MobileAuthenticatedStream_GetIOException_mE435E11E49448A2035BCABF04AA5F72F44DC26D4 ();
+// 0x000000CE System.Runtime.ExceptionServices.ExceptionDispatchInfo Mono.Net.Security.MobileAuthenticatedStream::SetException(System.Exception)
+extern void MobileAuthenticatedStream_SetException_mAFD628C4C8A54C4FE24BFB30C0F5863FDDFC8A7F ();
+// 0x000000CF System.IAsyncResult Mono.Net.Security.MobileAuthenticatedStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+extern void MobileAuthenticatedStream_BeginRead_m678B1BECC958CD3B67D66134E56AD3CAEB07019C ();
+// 0x000000D0 System.Int32 Mono.Net.Security.MobileAuthenticatedStream::EndRead(System.IAsyncResult)
+extern void MobileAuthenticatedStream_EndRead_m347ACCE77CCCE6738781A2B182949CBA72CF9143 ();
+// 0x000000D1 System.IAsyncResult Mono.Net.Security.MobileAuthenticatedStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+extern void MobileAuthenticatedStream_BeginWrite_m01F98CCE1A968C5654028F266F3C648CF858864B ();
+// 0x000000D2 System.Void Mono.Net.Security.MobileAuthenticatedStream::EndWrite(System.IAsyncResult)
+extern void MobileAuthenticatedStream_EndWrite_m0CA1FD8354542D4F2BCA50BB4B0B852472D775C1 ();
+// 0x000000D3 System.Int32 Mono.Net.Security.MobileAuthenticatedStream::Read(System.Byte[],System.Int32,System.Int32)
+extern void MobileAuthenticatedStream_Read_mB273DD14EDCED08E88F57CB340B97A206BA7DDE1 ();
+// 0x000000D4 System.Void Mono.Net.Security.MobileAuthenticatedStream::Write(System.Byte[],System.Int32,System.Int32)
+extern void MobileAuthenticatedStream_Write_m0264ACE9D90AFB72A1A27B6130DD1B2876334DDF ();
+// 0x000000D5 System.Threading.Tasks.Task`1<System.Int32> Mono.Net.Security.MobileAuthenticatedStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+extern void MobileAuthenticatedStream_ReadAsync_mA54D1973D54A2F0DB84CE3FB41EAE1974988BB32 ();
+// 0x000000D6 System.Threading.Tasks.Task Mono.Net.Security.MobileAuthenticatedStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+extern void MobileAuthenticatedStream_WriteAsync_m2521D8A56CEC0EA00B99F2DD570FCCEDEBFF1807 ();
+// 0x000000D7 System.Threading.Tasks.Task`1<System.Int32> Mono.Net.Security.MobileAuthenticatedStream::StartOperation(Mono.Net.Security.MobileAuthenticatedStream_OperationType,Mono.Net.Security.AsyncProtocolRequest,System.Threading.CancellationToken)
+extern void MobileAuthenticatedStream_StartOperation_mB3763CD0086F3FB7D75AF3E10A9E1532FAD5BDB7 ();
+// 0x000000D8 System.Threading.Tasks.Task`1<System.Int32> Mono.Net.Security.MobileAuthenticatedStream::InnerRead(System.Boolean,System.Int32,System.Threading.CancellationToken)
+extern void MobileAuthenticatedStream_InnerRead_m0EDB58159985F661C68EBA26247546ED06999D0F ();
+// 0x000000D9 System.Threading.Tasks.Task Mono.Net.Security.MobileAuthenticatedStream::InnerWrite(System.Boolean,System.Threading.CancellationToken)
+extern void MobileAuthenticatedStream_InnerWrite_m36FEDC8E842C497B62D566D6392287270FD698AC ();
+// 0x000000DA System.ValueTuple`2<System.Int32,System.Boolean> Mono.Net.Security.MobileAuthenticatedStream::ProcessRead(Mono.Net.Security.BufferOffsetSize)
+extern void MobileAuthenticatedStream_ProcessRead_mB005268451AB3F73B29AD1F787B576D5F3279371 ();
+// 0x000000DB System.ValueTuple`2<System.Int32,System.Boolean> Mono.Net.Security.MobileAuthenticatedStream::ProcessWrite(Mono.Net.Security.BufferOffsetSize)
+extern void MobileAuthenticatedStream_ProcessWrite_m30427A9308C97FAD0964F81A6A9F436FB2507F0F ();
+// 0x000000DC System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_IsAuthenticated()
+extern void MobileAuthenticatedStream_get_IsAuthenticated_m8D978D4684246BB2629CB1E2D207D2D76C132E3A ();
+// 0x000000DD System.Void Mono.Net.Security.MobileAuthenticatedStream::Dispose(System.Boolean)
+extern void MobileAuthenticatedStream_Dispose_mB7DAA195CE82F2FA15AB576C961A7CE5D58C3106 ();
+// 0x000000DE System.Void Mono.Net.Security.MobileAuthenticatedStream::Flush()
+extern void MobileAuthenticatedStream_Flush_m20FAE0A0A6C311E1925367C03ECA23BBFB74BE8D ();
+// 0x000000DF System.Int64 Mono.Net.Security.MobileAuthenticatedStream::Seek(System.Int64,System.IO.SeekOrigin)
+extern void MobileAuthenticatedStream_Seek_m2D799812EC327A4E25AA165B9966514B2B1475A6 ();
+// 0x000000E0 System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_CanRead()
+extern void MobileAuthenticatedStream_get_CanRead_mE230E0D6A7CA3324925CD6311465B7BD41A144CE ();
+// 0x000000E1 System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_CanWrite()
+extern void MobileAuthenticatedStream_get_CanWrite_mAF3696EAD7809A7D9EB50A091BDAE02586E0DF54 ();
+// 0x000000E2 System.Boolean Mono.Net.Security.MobileAuthenticatedStream::get_CanSeek()
+extern void MobileAuthenticatedStream_get_CanSeek_mFD9C9EF3A622E65965F14997361F9F611B2314A2 ();
+// 0x000000E3 System.Int64 Mono.Net.Security.MobileAuthenticatedStream::get_Length()
+extern void MobileAuthenticatedStream_get_Length_mD76215A3195543708BCB40C787678535541CE71E ();
+// 0x000000E4 System.Int64 Mono.Net.Security.MobileAuthenticatedStream::get_Position()
+extern void MobileAuthenticatedStream_get_Position_mD05763AB69A4C7F98E6276F32645AEDFD8888731 ();
+// 0x000000E5 System.Void Mono.Net.Security.MobileAuthenticatedStream::set_Position(System.Int64)
+extern void MobileAuthenticatedStream_set_Position_m5A309FE43C490AA7C1D9AE181D269CCA12B26260 ();
+// 0x000000E6 System.Void Mono.Net.Security.MobileAuthenticatedStream::.cctor()
+extern void MobileAuthenticatedStream__cctor_mCC74CDBC64394AA7D5FE8CA0EE03EC0F11D7FEB6 ();
+// 0x000000E7 System.Void Mono.Net.Security.MobileAuthenticatedStream::<InnerWrite>b__67_0()
+extern void MobileAuthenticatedStream_U3CInnerWriteU3Eb__67_0_mA67CDCE05B68516E41F5A6A8BF836B0AAE18D3B9 ();
+// 0x000000E8 System.Void Mono.Net.Security.MobileAuthenticatedStream_<StartOperation>d__58::MoveNext()
+extern void U3CStartOperationU3Ed__58_MoveNext_m8484CAD90FCBB0E2C0D16FFA928EF43362834466_AdjustorThunk ();
+// 0x000000E9 System.Void Mono.Net.Security.MobileAuthenticatedStream_<StartOperation>d__58::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartOperationU3Ed__58_SetStateMachine_m2DAE3399BC870A25A88A99F04B5C36A1FECC47BC_AdjustorThunk ();
+// 0x000000EA System.Void Mono.Net.Security.MobileAuthenticatedStream_<>c__DisplayClass66_0::.ctor()
+extern void U3CU3Ec__DisplayClass66_0__ctor_m4ADA8611B27CC1C1BE9AFD1D22978A6621F720BE ();
+// 0x000000EB System.Int32 Mono.Net.Security.MobileAuthenticatedStream_<>c__DisplayClass66_0::<InnerRead>b__0()
+extern void U3CU3Ec__DisplayClass66_0_U3CInnerReadU3Eb__0_mF1C5674011A7F38D3AE4A911BE1E8E36E5CE0348 ();
+// 0x000000EC System.Void Mono.Net.Security.MobileAuthenticatedStream_<InnerRead>d__66::MoveNext()
+extern void U3CInnerReadU3Ed__66_MoveNext_mDF4D1A1689C7CC5B3E42580E12BA513E31959F96_AdjustorThunk ();
+// 0x000000ED System.Void Mono.Net.Security.MobileAuthenticatedStream_<InnerRead>d__66::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInnerReadU3Ed__66_SetStateMachine_m27E2C20E7DC4AC988ADDF81E73A957C100424381_AdjustorThunk ();
+// 0x000000EE System.Void Mono.Net.Security.MobileAuthenticatedStream_<InnerWrite>d__67::MoveNext()
+extern void U3CInnerWriteU3Ed__67_MoveNext_mD7A964B6974275AD771AB15475A775E3393EE542_AdjustorThunk ();
+// 0x000000EF System.Void Mono.Net.Security.MobileAuthenticatedStream_<InnerWrite>d__67::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CInnerWriteU3Ed__67_SetStateMachine_mDEA51EA28DEE2587F5E63C6D535E4EDA8943C11A_AdjustorThunk ();
+// 0x000000F0 System.Boolean Mono.Net.Security.MobileTlsContext::get_IsAuthenticated()
+// 0x000000F1 System.ValueTuple`2<System.Int32,System.Boolean> Mono.Net.Security.MobileTlsContext::Read(System.Byte[],System.Int32,System.Int32)
+// 0x000000F2 System.ValueTuple`2<System.Int32,System.Boolean> Mono.Net.Security.MobileTlsContext::Write(System.Byte[],System.Int32,System.Int32)
+// 0x000000F3 System.Void Mono.Net.Security.MobileTlsContext::Dispose()
+extern void MobileTlsContext_Dispose_m28EF01B1A0096B9A7820BAA0A77DB59C96A619DD ();
+// 0x000000F4 System.Void Mono.Net.Security.MobileTlsContext::Dispose(System.Boolean)
+extern void MobileTlsContext_Dispose_mA5A0EBCF3B159E9C83F76C00BA50FC67C360A7D1 ();
+// 0x000000F5 System.Void Mono.Net.Security.MonoTlsProviderFactory::.cctor()
+extern void MonoTlsProviderFactory__cctor_mF95517B2A6920440ACFBE55DEA0EE9C1211BF26A ();
+// 0x000000F6 System.Void Mono.Net.Security.SystemCertificateValidator::.cctor()
+extern void SystemCertificateValidator__cctor_mBF04D8E389B7377FC07044B9CF044A966C572193 ();
+// 0x000000F7 System.Security.Cryptography.X509Certificates.X509Chain Mono.Net.Security.SystemCertificateValidator::CreateX509Chain(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
+extern void SystemCertificateValidator_CreateX509Chain_mB9965896005703ADC050BC1E6415D30FBDC42091 ();
+// 0x000000F8 System.Boolean System.IriHelper::CheckIriUnicodeRange(System.Char,System.Boolean)
+extern void IriHelper_CheckIriUnicodeRange_mA9BAAD6D244ADEE8986FDC0DFB3DFDA90C093A6C ();
+// 0x000000F9 System.Boolean System.IriHelper::CheckIriUnicodeRange(System.Char,System.Char,System.Boolean&,System.Boolean)
+extern void IriHelper_CheckIriUnicodeRange_m5ED29083C22062AEAB8B5787C9A27CFEEC397AD9 ();
+// 0x000000FA System.Boolean System.IriHelper::CheckIsReserved(System.Char,System.UriComponents)
+extern void IriHelper_CheckIsReserved_m5C0A35BF0890852A3FC564618DB0836BBB6C0F1C ();
+// 0x000000FB System.String System.IriHelper::EscapeUnescapeIri(System.Char*,System.Int32,System.Int32,System.UriComponents)
+extern void IriHelper_EscapeUnescapeIri_m6DE347247CE35DB4CE3129BEC2179F0095D69239 ();
+// 0x000000FC System.Boolean System.Uri::get_IsImplicitFile()
+extern void Uri_get_IsImplicitFile_m048350CB1E9AB92599F1557680A5D3B5FDE7C35D ();
+// 0x000000FD System.Boolean System.Uri::get_IsUncOrDosPath()
+extern void Uri_get_IsUncOrDosPath_mE372CA996BE5B29DD531D7C6DD1809E17441005E ();
+// 0x000000FE System.Boolean System.Uri::get_IsDosPath()
+extern void Uri_get_IsDosPath_m89CA4E32381C529502E91872BC89BD18F5419D08 ();
+// 0x000000FF System.Uri_Flags System.Uri::get_HostType()
+extern void Uri_get_HostType_mBB4EE8652EA19E2FB8C696302D5EBE82F358EC90 ();
+// 0x00000100 System.UriParser System.Uri::get_Syntax()
+extern void Uri_get_Syntax_m3DB6A5D9E6FC3E0D0A63EA8A4527AF4106F9BD78 ();
+// 0x00000101 System.Boolean System.Uri::get_IsNotAbsoluteUri()
+extern void Uri_get_IsNotAbsoluteUri_mF9706123EB027C6E9AB263B98CE58CF319A22919 ();
+// 0x00000102 System.Boolean System.Uri::IriParsingStatic(System.UriParser)
+extern void Uri_IriParsingStatic_m39FC9677B4B9EFBADF814F2EEA58280F35A1D3E5 ();
+// 0x00000103 System.Boolean System.Uri::get_AllowIdn()
+extern void Uri_get_AllowIdn_mF1833CB700E04D746D75428948BEBC70536E1941 ();
+// 0x00000104 System.Boolean System.Uri::AllowIdnStatic(System.UriParser,System.Uri_Flags)
+extern void Uri_AllowIdnStatic_mFABD19611F334DF87EC3FF2B9A1FA061CAE3A5C5 ();
+// 0x00000105 System.Boolean System.Uri::IsIntranet(System.String)
+extern void Uri_IsIntranet_mE98CA41B60FE0D4970737C8B7C81E5C63BFC07E1 ();
+// 0x00000106 System.Boolean System.Uri::get_UserDrivenParsing()
+extern void Uri_get_UserDrivenParsing_mFF27964894B5C0432C37E425F319D6C915BCDC39 ();
+// 0x00000107 System.Void System.Uri::SetUserDrivenParsing()
+extern void Uri_SetUserDrivenParsing_m0368CB47B9E9C35CB49B3F02DBE8DFED8756226B ();
+// 0x00000108 System.UInt16 System.Uri::get_SecuredPathIndex()
+extern void Uri_get_SecuredPathIndex_mC59A2366D6F3667017F677351C4350C9541905AA ();
+// 0x00000109 System.Boolean System.Uri::NotAny(System.Uri_Flags)
+extern void Uri_NotAny_mC5DC04B72B13D2997B055B9E41FCFEEC1CE5263D ();
+// 0x0000010A System.Boolean System.Uri::InFact(System.Uri_Flags)
+extern void Uri_InFact_m4CE890C86FA34154A044516D2F3C9463389220D7 ();
+// 0x0000010B System.Boolean System.Uri::StaticNotAny(System.Uri_Flags,System.Uri_Flags)
+extern void Uri_StaticNotAny_mC07A1201FBE032238FCFA96E9FB5D60AEDACCC5A ();
+// 0x0000010C System.Boolean System.Uri::StaticInFact(System.Uri_Flags,System.Uri_Flags)
+extern void Uri_StaticInFact_m77BB2AE094534AFD7B9F68683C2A4356A75E39B8 ();
+// 0x0000010D System.Uri_UriInfo System.Uri::EnsureUriInfo()
+extern void Uri_EnsureUriInfo_m4B46DF8611FA6D20D497D12D00544CFB466DCFA7 ();
+// 0x0000010E System.Void System.Uri::EnsureParseRemaining()
+extern void Uri_EnsureParseRemaining_m33815B5767FAFADB762F7E39364E6432340F210B ();
+// 0x0000010F System.Void System.Uri::EnsureHostString(System.Boolean)
+extern void Uri_EnsureHostString_m4BD63AA5A88CA09572A8A7CF3B2EDDE17EF9C720 ();
+// 0x00000110 System.Void System.Uri::.ctor(System.String)
+extern void Uri__ctor_mBA69907A1D799CD12ED44B611985B25FE4C626A2 ();
+// 0x00000111 System.UriFormatException System.Uri::GetException(System.ParsingError)
+extern void Uri_GetException_m2E833A8358C84BCF0397341160FADB1164290164 ();
+// 0x00000112 System.Void System.Uri::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void Uri__ctor_m020E8051B3C0C9E60D8A868CBA0774B3FFB7C3FF ();
+// 0x00000113 System.Void System.Uri::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void Uri_System_Runtime_Serialization_ISerializable_GetObjectData_mD4773E59427820077E86F2B298DA1386028DAC9C ();
+// 0x00000114 System.Void System.Uri::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void Uri_GetObjectData_mC8CCD55C21CB624E369258E27A89F363F8271E68 ();
+// 0x00000115 System.Boolean System.Uri::StaticIsFile(System.UriParser)
+extern void Uri_StaticIsFile_mD270A5F6C8B59AAF6256B4565ABE5917ABA545E3 ();
+// 0x00000116 System.Object System.Uri::get_InitializeLock()
+extern void Uri_get_InitializeLock_m45D6A11D14958E716715351E52207DCA808F00EE ();
+// 0x00000117 System.Void System.Uri::InitializeUriConfig()
+extern void Uri_InitializeUriConfig_m1B2F98DF0BB1A48FEB328E9D8BF3C23B32196FE2 ();
+// 0x00000118 System.Int32 System.Uri::get_Port()
+extern void Uri_get_Port_m4E64AB9B50CCC50E7B1F139D7AF1403FAF97147C ();
+// 0x00000119 System.Boolean System.Uri::get_OriginalStringSwitched()
+extern void Uri_get_OriginalStringSwitched_m79E1C9F1C4E0ACCC85BB68841C167DDEA15CC72D ();
+// 0x0000011A System.String System.Uri::get_OriginalString()
+extern void Uri_get_OriginalString_m56099E46276F0A52524347F1F46A2F88E948504F ();
+// 0x0000011B System.Boolean System.Uri::get_IsAbsoluteUri()
+extern void Uri_get_IsAbsoluteUri_m8C189085F1C675DBC3148AA70C38074EC075D722 ();
+// 0x0000011C System.Boolean System.Uri::IsGenDelim(System.Char)
+extern void Uri_IsGenDelim_m376CCA5D00D019A69FD746C57D236A54EB9D3CF3 ();
+// 0x0000011D System.Boolean System.Uri::IsHexDigit(System.Char)
+extern void Uri_IsHexDigit_m3B2881FA99F0B2197F8017E70C3AE6EBF9849836 ();
+// 0x0000011E System.Int32 System.Uri::FromHex(System.Char)
+extern void Uri_FromHex_m9EAC76A5DBFED86532FF7E1BBD809176337A227B ();
+// 0x0000011F System.Int32 System.Uri::GetHashCode()
+extern void Uri_GetHashCode_m06066B9059649A690C5B4DE58D32DF227933F515 ();
+// 0x00000120 System.String System.Uri::ToString()
+extern void Uri_ToString_mB76863E11134B9635149E8E5F59AB75A74A760E2 ();
+// 0x00000121 System.Boolean System.Uri::op_Inequality(System.Uri,System.Uri)
+extern void Uri_op_Inequality_m07015206F59460E87CDE2A8D303D5712E30A7F6B ();
+// 0x00000122 System.Boolean System.Uri::Equals(System.Object)
+extern void Uri_Equals_m432A30F5E72A0F2B729AC051892BF9E1F4D26629 ();
+// 0x00000123 System.ParsingError System.Uri::ParseScheme(System.String,System.Uri_Flags&,System.UriParser&)
+extern void Uri_ParseScheme_m61CAE16F1EC76725E5E0B23B09577F91BB223884 ();
+// 0x00000124 System.UriFormatException System.Uri::ParseMinimal()
+extern void Uri_ParseMinimal_m35FCFE52F12315DA60733B807E7C0AB408C0A9CF ();
+// 0x00000125 System.ParsingError System.Uri::PrivateParseMinimal()
+extern void Uri_PrivateParseMinimal_mE1DA461DDA053787906BBEC2BC2B3046B1B329F0 ();
+// 0x00000126 System.Void System.Uri::PrivateParseMinimalIri(System.String,System.UInt16)
+extern void Uri_PrivateParseMinimalIri_m29F0CA367080586448C648332F59BED0096AB2D0 ();
+// 0x00000127 System.Void System.Uri::CreateUriInfo(System.Uri_Flags)
+extern void Uri_CreateUriInfo_mC112D6E7002CA014AB6BEA878A66ECC46340FAAF ();
+// 0x00000128 System.Void System.Uri::CreateHostString()
+extern void Uri_CreateHostString_m6FEC48641D3786D73B50D5DC792804C9A4D70C54 ();
+// 0x00000129 System.String System.Uri::CreateHostStringHelper(System.String,System.UInt16,System.UInt16,System.Uri_Flags&,System.String&)
+extern void Uri_CreateHostStringHelper_m6C5EEA8BD2CDBCDD8A63FB74D3B801329EDE7BDD ();
+// 0x0000012A System.Void System.Uri::GetHostViaCustomSyntax()
+extern void Uri_GetHostViaCustomSyntax_mD591A4A615803E70A03D7C75E7C114E4E460AED3 ();
+// 0x0000012B System.String System.Uri::GetParts(System.UriComponents,System.UriFormat)
+extern void Uri_GetParts_mF5840DC010E6D420EB5A0722320EDAAEA2D0269F ();
+// 0x0000012C System.String System.Uri::GetEscapedParts(System.UriComponents)
+extern void Uri_GetEscapedParts_m745615124808CB89A18D499988F4425F678938C4 ();
+// 0x0000012D System.String System.Uri::GetUnescapedParts(System.UriComponents,System.UriFormat)
+extern void Uri_GetUnescapedParts_m051A75B5D2DDAE55F107457CA468EE9A2563FED3 ();
+// 0x0000012E System.String System.Uri::ReCreateParts(System.UriComponents,System.UInt16,System.UriFormat)
+extern void Uri_ReCreateParts_mF50263ABC7D750E939B57BF61FA48A8762144FD7 ();
+// 0x0000012F System.String System.Uri::GetUriPartsFromUserString(System.UriComponents)
+extern void Uri_GetUriPartsFromUserString_m95A7794F28625B6AFD514C08765C27CAAE4BD1B6 ();
+// 0x00000130 System.Void System.Uri::ParseRemaining()
+extern void Uri_ParseRemaining_mBAE0F9850CD84965B3793B17444C677D77D58774 ();
+// 0x00000131 System.UInt16 System.Uri::ParseSchemeCheckImplicitFile(System.Char*,System.UInt16,System.ParsingError&,System.Uri_Flags&,System.UriParser&)
+extern void Uri_ParseSchemeCheckImplicitFile_m92A658AE6C04E038058AD8E9581A41B06B6D6243 ();
+// 0x00000132 System.Boolean System.Uri::CheckKnownSchemes(System.Int64*,System.UInt16,System.UriParser&)
+extern void Uri_CheckKnownSchemes_mCA95AE251E7C9208570543B446385BCF2C727E8D ();
+// 0x00000133 System.ParsingError System.Uri::CheckSchemeSyntax(System.Char*,System.UInt16,System.UriParser&)
+extern void Uri_CheckSchemeSyntax_m1181D9BEA35D9D22852FD2FE815CABB267BA5A8F ();
+// 0x00000134 System.UInt16 System.Uri::CheckAuthorityHelper(System.Char*,System.UInt16,System.UInt16,System.ParsingError&,System.Uri_Flags&,System.UriParser,System.String&)
+extern void Uri_CheckAuthorityHelper_m5046CE781115A54CAE3ACD2C03987F526A761387 ();
+// 0x00000135 System.Void System.Uri::CheckAuthorityHelperHandleDnsIri(System.Char*,System.UInt16,System.Int32,System.Int32,System.Boolean,System.Boolean,System.UriParser,System.String,System.Uri_Flags&,System.Boolean&,System.String&,System.ParsingError&)
+extern void Uri_CheckAuthorityHelperHandleDnsIri_m366E36029D4C9A00C0F216055B15F5E4805AED28 ();
+// 0x00000136 System.Void System.Uri::CheckAuthorityHelperHandleAnyHostIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Boolean,System.UriParser,System.Uri_Flags&,System.String&,System.ParsingError&)
+extern void Uri_CheckAuthorityHelperHandleAnyHostIri_m76FEA31E3FEDF3D1614987C6484ECF15022AE9D8 ();
+// 0x00000137 System.Void System.Uri::FindEndOfComponent(System.String,System.UInt16&,System.UInt16,System.Char)
+extern void Uri_FindEndOfComponent_mF276ABD008291C1FDC4B433A2F274058D06D8A6B ();
+// 0x00000138 System.Void System.Uri::FindEndOfComponent(System.Char*,System.UInt16&,System.UInt16,System.Char)
+extern void Uri_FindEndOfComponent_mDCDF860C405E9F31F7CFE9AFFE7C096812697AEF ();
+// 0x00000139 System.Uri_Check System.Uri::CheckCanonical(System.Char*,System.UInt16&,System.UInt16,System.Char)
+extern void Uri_CheckCanonical_mED3910E55213D1DFEAA5B33079E3A89D369B10B6 ();
+// 0x0000013A System.Char[] System.Uri::GetCanonicalPath(System.Char[],System.Int32&,System.UriFormat)
+extern void Uri_GetCanonicalPath_mDE02BFA56EDD09479DDB2A5A50F6DF5210CA73F2 ();
+// 0x0000013B System.Void System.Uri::UnescapeOnly(System.Char*,System.Int32,System.Int32&,System.Char,System.Char,System.Char)
+extern void Uri_UnescapeOnly_mB8F87981CDD4CFBFCD97EE668FF281CE26453F21 ();
+// 0x0000013C System.Char[] System.Uri::Compress(System.Char[],System.UInt16,System.Int32&,System.UriParser)
+extern void Uri_Compress_m02224082A9665F07D35AB6EB6E3198642F9E7BCF ();
+// 0x0000013D System.Int32 System.Uri::CalculateCaseInsensitiveHashCode(System.String)
+extern void Uri_CalculateCaseInsensitiveHashCode_m634FFDF8FCD81DECCB87161B153D1093C0A6FCE4 ();
+// 0x0000013E System.Boolean System.Uri::IsLWS(System.Char)
+extern void Uri_IsLWS_m7A9F3B969CCEE56B9F98E40F1903C737DA7DF0D6 ();
+// 0x0000013F System.Boolean System.Uri::IsAsciiLetter(System.Char)
+extern void Uri_IsAsciiLetter_m93435A20DF4DEE153B87B26D07B9963F1BF4F373 ();
+// 0x00000140 System.Boolean System.Uri::IsAsciiLetterOrDigit(System.Char)
+extern void Uri_IsAsciiLetterOrDigit_mEBA81E735141504B5804F0B3C94EC39B24AF8661 ();
+// 0x00000141 System.Boolean System.Uri::IsBidiControlCharacter(System.Char)
+extern void Uri_IsBidiControlCharacter_mB14EA5816A434B7CE382EB9ACBD1432916EC341D ();
+// 0x00000142 System.String System.Uri::StripBidiControlCharacter(System.Char*,System.Int32,System.Int32)
+extern void Uri_StripBidiControlCharacter_m49D782826401F99D943C1AD76A75125879FF332F ();
+// 0x00000143 System.Void System.Uri::CreateThis(System.String,System.Boolean,System.UriKind)
+extern void Uri_CreateThis_mCB3DC849A426498E9CCD249850CBC69C9D67D864 ();
+// 0x00000144 System.Void System.Uri::InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException&)
+extern void Uri_InitializeUri_m5D99BD8533F3FAAD479B1193505B5B19B8C2F2DE ();
+// 0x00000145 System.Boolean System.Uri::CheckForConfigLoad(System.String)
+extern void Uri_CheckForConfigLoad_m13002EFBBFD437183ED0A7FCBE5681C510996B0F ();
+// 0x00000146 System.Boolean System.Uri::CheckForUnicode(System.String)
+extern void Uri_CheckForUnicode_m78E4938E82EE352BD5D8493AE0314224BC2543CD ();
+// 0x00000147 System.Boolean System.Uri::CheckForEscapedUnreserved(System.String)
+extern void Uri_CheckForEscapedUnreserved_mFE708A44EC74C7E773B96B82CD9A5DF25EF97D4A ();
+// 0x00000148 System.Boolean System.Uri::TryCreate(System.String,System.UriKind,System.Uri&)
+extern void Uri_TryCreate_mEEB6736FEDAF52AAE36ACC1EA1EC8CEBB7C52DAB ();
+// 0x00000149 System.String System.Uri::GetComponents(System.UriComponents,System.UriFormat)
+extern void Uri_GetComponents_m0346CA8037531DE1FC630775E0BD1F5D1E7920B6 ();
+// 0x0000014A System.String System.Uri::UnescapeDataString(System.String)
+extern void Uri_UnescapeDataString_mE1F40FC5CA3FF03DEE9EB01E3D8BD502D36A284D ();
+// 0x0000014B System.String System.Uri::EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents)
+extern void Uri_EscapeUnescapeIri_mDE5E4BAE74E2C2373AD186732FEE7AD6E0EA7180 ();
+// 0x0000014C System.Void System.Uri::.ctor(System.Uri_Flags,System.UriParser,System.String)
+extern void Uri__ctor_m4605489523A7A973459720C1BBE4039FD10557CD ();
+// 0x0000014D System.Uri System.Uri::CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException&)
+extern void Uri_CreateHelper_m024137C47351CA9959E4AC66F9443AEEE87D89C0 ();
+// 0x0000014E System.String System.Uri::GetRelativeSerializationString(System.UriFormat)
+extern void Uri_GetRelativeSerializationString_m5D0CD02E255BB96532F056BB382CF7D74D62BE58 ();
+// 0x0000014F System.String System.Uri::GetComponentsHelper(System.UriComponents,System.UriFormat)
+extern void Uri_GetComponentsHelper_m28B0D80FD94A40685C0F70652AB26755C457B2D3 ();
+// 0x00000150 System.Void System.Uri::.cctor()
+extern void Uri__cctor_m2B8179039C09C64936CF8262E3EF4A7E7C2F90F2 ();
+// 0x00000151 System.Void System.Uri_UriInfo::.ctor()
+extern void UriInfo__ctor_m24EFE7B4E03C9FFB8B797770D626680947C87D98 ();
+// 0x00000152 System.Void System.Uri_MoreInfo::.ctor()
+extern void MoreInfo__ctor_mFE29F028646C12EDCAF7F0F78F9A85D52C10B83C ();
+// 0x00000153 System.Void System.UriFormatException::.ctor()
+extern void UriFormatException__ctor_mBA5F8C423C09F600B1AF895521C892EA356CA424 ();
+// 0x00000154 System.Void System.UriFormatException::.ctor(System.String)
+extern void UriFormatException__ctor_mE1D46962CC168EB07B59D1265F5734A8F587567D ();
+// 0x00000155 System.Void System.UriFormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void UriFormatException__ctor_mE7F5B073E9F9DB5F22536C54959BEB0D1E7DA1D5 ();
+// 0x00000156 System.Void System.UriFormatException::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_mED4C06AC35B7F94955ECC0D8F00383888C1127DC ();
+// 0x00000157 System.Char[] System.UriHelper::EscapeString(System.String,System.Int32,System.Int32,System.Char[],System.Int32&,System.Boolean,System.Char,System.Char,System.Char)
+extern void UriHelper_EscapeString_mF0077A016F05127923308DF7E7E99BD7B9837E8B ();
+// 0x00000158 System.Char[] System.UriHelper::EnsureDestinationSize(System.Char*,System.Char[],System.Int32,System.Int16,System.Int16,System.Int32&,System.Int32)
+extern void UriHelper_EnsureDestinationSize_m64F4907D0411AAAD1C05E0AD0D2EB120DCBA9217 ();
+// 0x00000159 System.Char[] System.UriHelper::UnescapeString(System.String,System.Int32,System.Int32,System.Char[],System.Int32&,System.Char,System.Char,System.Char,System.UnescapeMode,System.UriParser,System.Boolean)
+extern void UriHelper_UnescapeString_mC172F713349E3D22985A92BC4F5B51D0BCEE61AF ();
+// 0x0000015A System.Char[] System.UriHelper::UnescapeString(System.Char*,System.Int32,System.Int32,System.Char[],System.Int32&,System.Char,System.Char,System.Char,System.UnescapeMode,System.UriParser,System.Boolean)
+extern void UriHelper_UnescapeString_mD4815AEAF34E25D31AA4BB4A76B88055F0A49E89 ();
+// 0x0000015B System.Void System.UriHelper::MatchUTF8Sequence(System.Char*,System.Char[],System.Int32&,System.Char[],System.Int32,System.Byte[],System.Int32,System.Boolean,System.Boolean)
+extern void UriHelper_MatchUTF8Sequence_m4835D9BB77C2701643B14D6FFD3D7057F8C9007F ();
+// 0x0000015C System.Void System.UriHelper::EscapeAsciiChar(System.Char,System.Char[],System.Int32&)
+extern void UriHelper_EscapeAsciiChar_mFD7DE796BD53CBD2B1E73080FE0346D37F358902 ();
+// 0x0000015D System.Char System.UriHelper::EscapedAscii(System.Char,System.Char)
+extern void UriHelper_EscapedAscii_m06D556717795E649EBBB30E4CBCF3D221C1FEB78 ();
+// 0x0000015E System.Boolean System.UriHelper::IsNotSafeForUnescape(System.Char)
+extern void UriHelper_IsNotSafeForUnescape_m1D0461E7C5A3CFBD7A2A7F7322B66BC68CCE741D ();
+// 0x0000015F System.Boolean System.UriHelper::IsReservedUnreservedOrHash(System.Char)
+extern void UriHelper_IsReservedUnreservedOrHash_m3D7256DABA7F540F8D379FC1D1C54F1C63E46059 ();
+// 0x00000160 System.Boolean System.UriHelper::IsUnreserved(System.Char)
+extern void UriHelper_IsUnreserved_mAADC7DCEEA864AFB49311696ABBDD76811FAAE48 ();
+// 0x00000161 System.Boolean System.UriHelper::Is3986Unreserved(System.Char)
+extern void UriHelper_Is3986Unreserved_m3799F2ADA8C63DDB4995F82B974C8EC1DEEBA76A ();
+// 0x00000162 System.Void System.UriHelper::.cctor()
+extern void UriHelper__cctor_m9537B8AAAA1D6EF77D29A179EC79F5511C662F27 ();
+// 0x00000163 System.String System.UriParser::get_SchemeName()
+extern void UriParser_get_SchemeName_mFC9EFD71512A64E640866792CCB7DAC5187DE9F1 ();
+// 0x00000164 System.Int32 System.UriParser::get_DefaultPort()
+extern void UriParser_get_DefaultPort_m050510870CCD4DD08DF7E98E2AF3D616446AD99D ();
+// 0x00000165 System.UriParser System.UriParser::OnNewUri()
+extern void UriParser_OnNewUri_m7D55337A7A9B6B67FB0AD7CA96F472751EF5A897 ();
+// 0x00000166 System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&)
+extern void UriParser_InitializeAndValidate_m3E31D86FEE445E313BB7141F760626301767A0E0 ();
+// 0x00000167 System.String System.UriParser::GetComponents(System.Uri,System.UriComponents,System.UriFormat)
+extern void UriParser_GetComponents_m8A226F43638FA7CD135A651CDE3D4E475E8FC181 ();
+// 0x00000168 System.Boolean System.UriParser::get_ShouldUseLegacyV2Quirks()
+extern void UriParser_get_ShouldUseLegacyV2Quirks_mD4C8DF67677ACCCC3B5E026099ECC0BDA24D96DD ();
+// 0x00000169 System.Void System.UriParser::.cctor()
+extern void UriParser__cctor_m00C2855D5C8C07790C5627BBB90AC84A7E8B6BC2 ();
+// 0x0000016A System.UriSyntaxFlags System.UriParser::get_Flags()
+extern void UriParser_get_Flags_mBCF4C3E94892F00B6E8856BFED1B650FB6A0C039 ();
+// 0x0000016B System.Boolean System.UriParser::NotAny(System.UriSyntaxFlags)
+extern void UriParser_NotAny_mC998A35DC290F35FFAFFB6A8B66C7B881F2559D3 ();
+// 0x0000016C System.Boolean System.UriParser::InFact(System.UriSyntaxFlags)
+extern void UriParser_InFact_mDD42FA932B6830D99AA04C2AE7875BA5067C86F3 ();
+// 0x0000016D System.Boolean System.UriParser::IsAllSet(System.UriSyntaxFlags)
+extern void UriParser_IsAllSet_m74BEC412DC8AF3B1A33E11964EBB3164D9D8C77E ();
+// 0x0000016E System.Boolean System.UriParser::IsFullMatch(System.UriSyntaxFlags,System.UriSyntaxFlags)
+extern void UriParser_IsFullMatch_m7B5F47A62FA721E550C5439FAA4C6AFAC34EB23E ();
+// 0x0000016F System.Void System.UriParser::.ctor(System.UriSyntaxFlags)
+extern void UriParser__ctor_mAF168F2B88BC5301B722C1BAAD45E381FBA22E3D ();
+// 0x00000170 System.UriParser System.UriParser::FindOrFetchAsUnknownV1Syntax(System.String)
+extern void UriParser_FindOrFetchAsUnknownV1Syntax_m3A57CA15FE27DC7982F186E8321B810B56EBD9AD ();
+// 0x00000171 System.Boolean System.UriParser::get_IsSimple()
+extern void UriParser_get_IsSimple_mDDB03A5F6EEE6E92926A386655E5BBD553719B9C ();
+// 0x00000172 System.UriParser System.UriParser::InternalOnNewUri()
+extern void UriParser_InternalOnNewUri_m7D55F5CD59A3B9BF57BC68F715A27CC1A44566CA ();
+// 0x00000173 System.Void System.UriParser::InternalValidate(System.Uri,System.UriFormatException&)
+extern void UriParser_InternalValidate_mF2FEB0E76E48B621EB2058FBE7DCC6A42A1681E2 ();
+// 0x00000174 System.String System.UriParser::InternalGetComponents(System.Uri,System.UriComponents,System.UriFormat)
+extern void UriParser_InternalGetComponents_mFD4B211C71E0506AE4E4E99D92ECAF1780CE4674 ();
+// 0x00000175 System.Void System.UriParser_BuiltInUriParser::.ctor(System.String,System.Int32,System.UriSyntaxFlags)
+extern void BuiltInUriParser__ctor_m66250DC53CE01410149D46279D0B413FC1C5CA1C ();
+// 0x00000176 System.String System.DomainNameHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
+extern void DomainNameHelper_ParseCanonicalName_mFE738FD1237E2D9D9A1B27BA73F58B1689D451E4 ();
+// 0x00000177 System.Boolean System.DomainNameHelper::IsValid(System.Char*,System.UInt16,System.Int32&,System.Boolean&,System.Boolean)
+extern void DomainNameHelper_IsValid_mE9672A824F71E32116358C5FA029789855A4B461 ();
+// 0x00000178 System.Boolean System.DomainNameHelper::IsValidByIri(System.Char*,System.UInt16,System.Int32&,System.Boolean&,System.Boolean)
+extern void DomainNameHelper_IsValidByIri_m13E2A6D9EBD42326C096F2423DBB0014763D47BF ();
+// 0x00000179 System.String System.DomainNameHelper::IdnEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.Boolean&)
+extern void DomainNameHelper_IdnEquivalent_m439593BAF7C6C801F577E7C27B0C4FBB1772E49F ();
+// 0x0000017A System.String System.DomainNameHelper::IdnEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.String&)
+extern void DomainNameHelper_IdnEquivalent_m459BFF3040F8E6BFE1CE1C6432A1343A2ECF2F57 ();
+// 0x0000017B System.Boolean System.DomainNameHelper::IsIdnAce(System.String,System.Int32)
+extern void DomainNameHelper_IsIdnAce_m2231C778C4CCE141ACDC412737642CC365307445 ();
+// 0x0000017C System.Boolean System.DomainNameHelper::IsIdnAce(System.Char*,System.Int32)
+extern void DomainNameHelper_IsIdnAce_m9193B7D824FC6965820FCE980FEE3E0B40EA94B8 ();
+// 0x0000017D System.String System.DomainNameHelper::UnicodeEquivalent(System.String,System.Char*,System.Int32,System.Int32)
+extern void DomainNameHelper_UnicodeEquivalent_mA80E5FF3AD6AFBB9FC257ED1C4F0D31C8F0EFEC3 ();
+// 0x0000017E System.String System.DomainNameHelper::UnicodeEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.Boolean&)
+extern void DomainNameHelper_UnicodeEquivalent_mD5A7A659B82F1FBF7ABF30009117CFBF8BC4D55F ();
+// 0x0000017F System.Boolean System.DomainNameHelper::IsASCIILetterOrDigit(System.Char,System.Boolean&)
+extern void DomainNameHelper_IsASCIILetterOrDigit_mD3B0B9BD4573FADEF6AC7330A5EC58C220455F01 ();
+// 0x00000180 System.Boolean System.DomainNameHelper::IsValidDomainLabelCharacter(System.Char,System.Boolean&)
+extern void DomainNameHelper_IsValidDomainLabelCharacter_mF6DEB20D9D03A8728B1C58006C40D6603B7D61D1 ();
+// 0x00000181 System.String System.IPv4AddressHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
+extern void IPv4AddressHelper_ParseCanonicalName_m2A8C35045CE02D6FC2C4251F239D1C0074E0E813 ();
+// 0x00000182 System.Int32 System.IPv4AddressHelper::ParseHostNumber(System.String,System.Int32,System.Int32)
+extern void IPv4AddressHelper_ParseHostNumber_m798FB6828971F70775D1125565A1D1025C897F14 ();
+// 0x00000183 System.Boolean System.IPv4AddressHelper::IsValid(System.Char*,System.Int32,System.Int32&,System.Boolean,System.Boolean,System.Boolean)
+extern void IPv4AddressHelper_IsValid_mD96D91E0F3830414F4601A4521E71DE832A45843 ();
+// 0x00000184 System.Boolean System.IPv4AddressHelper::IsValidCanonical(System.Char*,System.Int32,System.Int32&,System.Boolean,System.Boolean)
+extern void IPv4AddressHelper_IsValidCanonical_mC27E31F1F043D68BC52719892D34EDDC7851B120 ();
+// 0x00000185 System.Int64 System.IPv4AddressHelper::ParseNonCanonical(System.Char*,System.Int32,System.Int32&,System.Boolean)
+extern void IPv4AddressHelper_ParseNonCanonical_mDCD1CD7FB85C4FFBF3070B1435A0D632C1A7B97E ();
+// 0x00000186 System.Boolean System.IPv4AddressHelper::Parse(System.String,System.Byte*,System.Int32,System.Int32)
+extern void IPv4AddressHelper_Parse_m08110623FAC14806376148D7C16AB95A428EA6CF ();
+// 0x00000187 System.Boolean System.IPv4AddressHelper::ParseCanonical(System.String,System.Byte*,System.Int32,System.Int32)
+extern void IPv4AddressHelper_ParseCanonical_m9D4552558C934E373D188DDA0BC1D1DEF5A62C33 ();
+// 0x00000188 System.String System.IPv6AddressHelper::ParseCanonicalName(System.String,System.Int32,System.Boolean&,System.String&)
+extern void IPv6AddressHelper_ParseCanonicalName_m3944530A7B686031653F97824EF712424E0BEE14 ();
+// 0x00000189 System.String System.IPv6AddressHelper::CreateCanonicalName(System.UInt16*)
+extern void IPv6AddressHelper_CreateCanonicalName_m0B1C201DFADBEB58869E0BE8BFA967EEE64B096A ();
+// 0x0000018A System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> System.IPv6AddressHelper::FindCompressionRange(System.UInt16*)
+extern void IPv6AddressHelper_FindCompressionRange_mE70B131DDA05D3059325246A5AB7F6029B6EF6BD ();
+// 0x0000018B System.Boolean System.IPv6AddressHelper::ShouldHaveIpv4Embedded(System.UInt16*)
+extern void IPv6AddressHelper_ShouldHaveIpv4Embedded_m262634E9099141536C00213C1CFC123665A641DE ();
+// 0x0000018C System.Boolean System.IPv6AddressHelper::InternalIsValid(System.Char*,System.Int32,System.Int32&,System.Boolean)
+extern void IPv6AddressHelper_InternalIsValid_m3BD7E7524455146D4464037DA3B65530E547AB7A ();
+// 0x0000018D System.Boolean System.IPv6AddressHelper::IsValid(System.Char*,System.Int32,System.Int32&)
+extern void IPv6AddressHelper_IsValid_m2383F1A867665B04A4F2B8D82FF2B62BE51C2289 ();
+// 0x0000018E System.Boolean System.IPv6AddressHelper::Parse(System.String,System.UInt16*,System.Int32,System.String&)
+extern void IPv6AddressHelper_Parse_m36CE2F56465C4F9F7791E80E954C7C0ECBD16DFB ();
+// 0x0000018F System.String System.UncNameHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
+extern void UncNameHelper_ParseCanonicalName_mCBE64015FD1B6B4829CEAA89625C1D44E280E37E ();
+// 0x00000190 System.Boolean System.UncNameHelper::IsValid(System.Char*,System.UInt16,System.Int32&,System.Boolean)
+extern void UncNameHelper_IsValid_m4055361D79684EE7B098C055B2E9068EE06F1EF6 ();
+// 0x00000191 System.Void System.IOAsyncCallback::.ctor(System.Object,System.IntPtr)
+extern void IOAsyncCallback__ctor_m1010BF5234B0ECC2FEB54105BA15B313633C1985 ();
+// 0x00000192 System.Void System.IOAsyncCallback::Invoke(System.IOAsyncResult)
+extern void IOAsyncCallback_Invoke_mB95F7E7F0E8326CE5364A30F42FC1073B0AB2D8B ();
+// 0x00000193 System.IAsyncResult System.IOAsyncCallback::BeginInvoke(System.IOAsyncResult,System.AsyncCallback,System.Object)
+extern void IOAsyncCallback_BeginInvoke_mB8CACF8990B91DF4A695E597CEBE4BA09354C32C ();
+// 0x00000194 System.Void System.IOAsyncCallback::EndInvoke(System.IAsyncResult)
+extern void IOAsyncCallback_EndInvoke_m397237D5497A9029CC3FACE692D11BDC1558A727 ();
+// 0x00000195 System.Void System.UriTypeConverter::.ctor()
+extern void UriTypeConverter__ctor_m1CAEEF1C615B28212B83C76D892938E0A77D3A64 ();
+// 0x00000196 System.Void System.ComponentModel.ArrayConverter::.ctor()
+extern void ArrayConverter__ctor_m831D145364A55A155BC896935367961A476D53B7 ();
+// 0x00000197 System.Void System.ComponentModel.BooleanConverter::.ctor()
+extern void BooleanConverter__ctor_m8293C29BCB7B90516FFE978C6295C0378C1BFEE4 ();
+// 0x00000198 System.Void System.ComponentModel.CollectionConverter::.ctor()
+extern void CollectionConverter__ctor_m86DBE477F4462418329C5CFB45C86A9420F852E7 ();
+// 0x00000199 System.Void System.ComponentModel.DecimalConverter::.ctor()
+extern void DecimalConverter__ctor_mB015B3871CF834D0C5D8290C9FD15509249921E7 ();
+// 0x0000019A System.Void System.ComponentModel.DoubleConverter::.ctor()
+extern void DoubleConverter__ctor_m419F1E782FFBC765D22792D76E56D54FC94E6AEB ();
+// 0x0000019B System.Void System.ComponentModel.EditorBrowsableAttribute::.ctor(System.ComponentModel.EditorBrowsableState)
+extern void EditorBrowsableAttribute__ctor_mACDE45DF0DCAA6E923120D6AEC45422AEF958C2E ();
+// 0x0000019C System.Boolean System.ComponentModel.EditorBrowsableAttribute::Equals(System.Object)
+extern void EditorBrowsableAttribute_Equals_m6F5EF9CC298CBDC862CBCA5187379A79635726FA ();
+// 0x0000019D System.Int32 System.ComponentModel.EditorBrowsableAttribute::GetHashCode()
+extern void EditorBrowsableAttribute_GetHashCode_m74229847CE44E771F282E2E73FFC4DE55771A1B6 ();
+// 0x0000019E System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
+extern void EnumConverter__ctor_mBA8B2E210D061A3CF86950F6D797E911A2E3C774 ();
+// 0x0000019F System.Void System.ComponentModel.Int16Converter::.ctor()
+extern void Int16Converter__ctor_mD4D022096E6FB9FFDB84D879E31177A892DD072D ();
+// 0x000001A0 System.Void System.ComponentModel.Int32Converter::.ctor()
+extern void Int32Converter__ctor_m1CD79AE5880FDE2EC91F1D67E567AAA3618D19B9 ();
+// 0x000001A1 System.Void System.ComponentModel.Int64Converter::.ctor()
+extern void Int64Converter__ctor_mE4DC71A97EF110B854F22A48AB0F0D3792B53A74 ();
+// 0x000001A2 System.Void System.ComponentModel.SingleConverter::.ctor()
+extern void SingleConverter__ctor_m8EA7D412C3EE9A9522E7592774DD46EBC6118AA8 ();
+// 0x000001A3 System.Void System.ComponentModel.StringConverter::.ctor()
+extern void StringConverter__ctor_m2718AC00691AF4A3AF8A8D64896BE3B5D58658B2 ();
+// 0x000001A4 System.Void System.ComponentModel.TimeSpanConverter::.ctor()
+extern void TimeSpanConverter__ctor_m28E7294174F979EF86FEF9511474B0AB9431217B ();
+// 0x000001A5 System.Void System.ComponentModel.TypeConverter::.ctor()
+extern void TypeConverter__ctor_m7F8A006E775CCB83A8ACB042B296E48B0AE501CD ();
+// 0x000001A6 System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
+extern void TypeConverterAttribute__ctor_mD0795A29B6FD59978CAAC6DAF3AC7EC564C519A5 ();
+// 0x000001A7 System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
+extern void TypeConverterAttribute__ctor_m52D4E66A914F1A04F2F10A7131A701670225D41C ();
+// 0x000001A8 System.String System.ComponentModel.TypeConverterAttribute::get_ConverterTypeName()
+extern void TypeConverterAttribute_get_ConverterTypeName_m883941C77E14FC5B4A3E32DD8F59F11739D5D6D8 ();
+// 0x000001A9 System.Boolean System.ComponentModel.TypeConverterAttribute::Equals(System.Object)
+extern void TypeConverterAttribute_Equals_mDA74DFC28CC7ABC315407EDD1AAC14531C5F6AC4 ();
+// 0x000001AA System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
+extern void TypeConverterAttribute_GetHashCode_m35874D49724DA3F72C6C2575FD595A711A659DAA ();
+// 0x000001AB System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
+extern void TypeConverterAttribute__cctor_mB1A775F56A5933A17CF349BD466B0CCE66B1078A ();
+// 0x000001AC System.Void System.ComponentModel.Win32Exception::.ctor()
+extern void Win32Exception__ctor_mC03E215A1695ED64DDC50F4BE9F59966974DF759 ();
+// 0x000001AD System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
+extern void Win32Exception__ctor_m2BEA755F6AA536ADDDF07D83BD8297F02584F714 ();
+// 0x000001AE System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32,System.String)
+extern void Win32Exception__ctor_m94A043EE26097BBFE0ED22FD4EBEA357F142EFE6 ();
+// 0x000001AF System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void Win32Exception__ctor_mC7ADDE9D2FEE4E17432F63C24EF1D872380094DB ();
+// 0x000001B0 System.Void System.ComponentModel.Win32Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void Win32Exception_GetObjectData_m7CD0D7A0806E4A9D8E78ADCBC616700379AB79E8 ();
+// 0x000001B1 System.String System.ComponentModel.Win32Exception::GetErrorMessage(System.Int32)
+extern void Win32Exception_GetErrorMessage_m6085687D868718B45289CB6AF6EDCB7F89D7350D ();
+// 0x000001B2 System.Void System.ComponentModel.Win32Exception::InitializeErrorMessages()
+extern void Win32Exception_InitializeErrorMessages_m4FE6F56C1C2CCB3F6468F0F9F5AD6E1B08673438 ();
+// 0x000001B3 System.Void System.ComponentModel.Win32Exception::.cctor()
+extern void Win32Exception__cctor_m800CD9D0B3E3253B79A19B6646A7D28B29C3FC52 ();
+// 0x000001B4 System.Void System.ComponentModel.BaseNumberConverter::.ctor()
+extern void BaseNumberConverter__ctor_mD78E1C7E1F8A977BC7AD33DB0C1E5E32C60E8E83 ();
+// 0x000001B5 System.Void System.Security.Authentication.AuthenticationException::.ctor()
+extern void AuthenticationException__ctor_m28782FCB7D9F3773F20A9F422CB2843FB70D723A ();
+// 0x000001B6 System.Void System.Security.Authentication.AuthenticationException::.ctor(System.String,System.Exception)
+extern void AuthenticationException__ctor_m431AB34EFB028337941758B192DF4D045BA93005 ();
+// 0x000001B7 System.Void System.Security.Authentication.AuthenticationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void AuthenticationException__ctor_m547DE1104C83024255A4F61AAAE6C6049383C7E6 ();
+// 0x000001B8 System.Void System.Security.Cryptography.Oid::.ctor(System.String)
+extern void Oid__ctor_m45F49EB1ABFD4F3EB0FC9729C76FF83995752743 ();
+// 0x000001B9 System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.Security.Cryptography.OidGroup,System.Boolean)
+extern void Oid__ctor_m67437A59D4E75ABF6E40D503F57F81199546E5EC ();
+// 0x000001BA System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.String)
+extern void Oid__ctor_m0656E1FC1A7E7BBF694A568DDDF8BE4AFA544985 ();
+// 0x000001BB System.Void System.Security.Cryptography.Oid::.ctor(System.Security.Cryptography.Oid)
+extern void Oid__ctor_mA7AFE14DF30B47447BFFC9E41B37B8DB46C9D079 ();
+// 0x000001BC System.String System.Security.Cryptography.Oid::get_Value()
+extern void Oid_get_Value_mFE18BDFF095DD5A6643F4FEC3E57846716F37F05 ();
+// 0x000001BD System.Void System.Security.Cryptography.Oid::set_Value(System.String)
+extern void Oid_set_Value_m304CEF248379566701402100FA015EAC640C033F ();
+// 0x000001BE System.Void System.Security.Cryptography.OidCollection::.ctor()
+extern void OidCollection__ctor_m99B93BB5B35BF7A395CFB7F8B155DFA8DD734800 ();
+// 0x000001BF System.Int32 System.Security.Cryptography.OidCollection::Add(System.Security.Cryptography.Oid)
+extern void OidCollection_Add_m1FF686421A22A86F8296259D99DA38E02B8BBF5C ();
+// 0x000001C0 System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.Int32)
+extern void OidCollection_get_Item_mB37F923F4714BFE0DF44E8EE4A1A5EA1F3EBB1D9 ();
+// 0x000001C1 System.Int32 System.Security.Cryptography.OidCollection::get_Count()
+extern void OidCollection_get_Count_m6AC0709CDD68451F4CAC942CE94A5A97F3C294B2 ();
+// 0x000001C2 System.Collections.IEnumerator System.Security.Cryptography.OidCollection::System.Collections.IEnumerable.GetEnumerator()
+extern void OidCollection_System_Collections_IEnumerable_GetEnumerator_m3FD3A96DFF93BD88A3B28E35A4DEF57AF25ECB30 ();
+// 0x000001C3 System.Void System.Security.Cryptography.OidCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern void OidCollection_System_Collections_ICollection_CopyTo_mE508CB1FD9E56CCFE5A4BDD5251D815BF78AC5A9 ();
+// 0x000001C4 System.Void System.Security.Cryptography.OidEnumerator::.ctor(System.Security.Cryptography.OidCollection)
+extern void OidEnumerator__ctor_mCA4FBC8408E2B04FD0A524E256E284E8A44E0797 ();
+// 0x000001C5 System.Object System.Security.Cryptography.OidEnumerator::System.Collections.IEnumerator.get_Current()
+extern void OidEnumerator_System_Collections_IEnumerator_get_Current_mF11B1F886842EA79EDB215BD5106D0C4C65EBE53 ();
+// 0x000001C6 System.Boolean System.Security.Cryptography.OidEnumerator::MoveNext()
+extern void OidEnumerator_MoveNext_m073D94D5D3254D53DF53429ACAD0AA9BD682221D ();
+// 0x000001C7 System.Void System.Security.Cryptography.OidEnumerator::Reset()
+extern void OidEnumerator_Reset_m5006C3B1283711E2BDDEA6C25FDF93BBB900195E ();
+// 0x000001C8 System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoNameFromKey(System.String,System.Security.Cryptography.OidGroup)
+extern void CAPI_CryptFindOIDInfoNameFromKey_mA2FD2F391E133E586BC8B827DD916613B590E698 ();
+// 0x000001C9 System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoKeyFromName(System.String,System.Security.Cryptography.OidGroup)
+extern void CAPI_CryptFindOIDInfoKeyFromName_m7809CD491D913D58FA1B996B835A0A91C413E9DB ();
+// 0x000001CA System.Void System.Security.Cryptography.AsnEncodedData::.ctor()
+extern void AsnEncodedData__ctor_mED24E9D1F11942741819652302C0531D18C39BE6 ();
+// 0x000001CB System.Void System.Security.Cryptography.AsnEncodedData::set_Oid(System.Security.Cryptography.Oid)
+extern void AsnEncodedData_set_Oid_m91E38503AAFD8E6FD98970D94FD43E7A738242A6 ();
+// 0x000001CC System.Byte[] System.Security.Cryptography.AsnEncodedData::get_RawData()
+extern void AsnEncodedData_get_RawData_mB9F8281A96011161C67EB3A9208E26C423B187EC ();
+// 0x000001CD System.Void System.Security.Cryptography.AsnEncodedData::set_RawData(System.Byte[])
+extern void AsnEncodedData_set_RawData_mD7FE2383373A6AF578A4983999D677B58BD6B4EC ();
+// 0x000001CE System.Void System.Security.Cryptography.AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void AsnEncodedData_CopyFrom_m3937C7ACC425960B8E48B7D2EB50E9417A7CD4B7 ();
+// 0x000001CF System.String System.Security.Cryptography.AsnEncodedData::ToString(System.Boolean)
+extern void AsnEncodedData_ToString_m502785F2F8B4D1EBDF5CEE612FD8D0C2044390D7 ();
+// 0x000001D0 System.String System.Security.Cryptography.AsnEncodedData::Default(System.Boolean)
+extern void AsnEncodedData_Default_mEEA94BA253ED1B8A719466A8152A5333E0E3FF07 ();
+// 0x000001D1 System.String System.Security.Cryptography.AsnEncodedData::BasicConstraintsExtension(System.Boolean)
+extern void AsnEncodedData_BasicConstraintsExtension_m64D690A2456E16AF39F6F0784CE74BC9533BB182 ();
+// 0x000001D2 System.String System.Security.Cryptography.AsnEncodedData::EnhancedKeyUsageExtension(System.Boolean)
+extern void AsnEncodedData_EnhancedKeyUsageExtension_mE04DC17ACCBF3850AFBA454D9937EC4713CC5058 ();
+// 0x000001D3 System.String System.Security.Cryptography.AsnEncodedData::KeyUsageExtension(System.Boolean)
+extern void AsnEncodedData_KeyUsageExtension_m4EE74EA5C4A3C0B72C50DEB22A537812997AF590 ();
+// 0x000001D4 System.String System.Security.Cryptography.AsnEncodedData::SubjectKeyIdentifierExtension(System.Boolean)
+extern void AsnEncodedData_SubjectKeyIdentifierExtension_m261D32E7AE226499BA8AD3FBE24FC0E71C9DEB76 ();
+// 0x000001D5 System.String System.Security.Cryptography.AsnEncodedData::SubjectAltName(System.Boolean)
+extern void AsnEncodedData_SubjectAltName_m94FE55170A872B3174D5C495A27AD09F3BACAF49 ();
+// 0x000001D6 System.String System.Security.Cryptography.AsnEncodedData::NetscapeCertType(System.Boolean)
+extern void AsnEncodedData_NetscapeCertType_m9191830C380BEC39DBE09065B2A4134193EA92D4 ();
+// 0x000001D7 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfo(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
+extern void X509Utils_FindOidInfo_mE43E0522988511319B8B9F69AF7D0A10B4AE8FA2 ();
+// 0x000001D8 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfoWithFallback(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
+extern void X509Utils_FindOidInfoWithFallback_m98443176879ABC2054619D4AA491FE086D406950 ();
+// 0x000001D9 System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedKeyValue()
+extern void PublicKey_get_EncodedKeyValue_m4BD0975B491E89FFE2A75C1ACDEB1DCCAF586D4F ();
+// 0x000001DA System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedParameters()
+extern void PublicKey_get_EncodedParameters_m629FF8D7E4EEDED96BC455B7B953DC5A46D26F4F ();
+// 0x000001DB System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.PublicKey::get_Oid()
+extern void PublicKey_get_Oid_mB0AD65FDF84716726D5C7756E5B50CEAD1E4C2AE ();
+// 0x000001DC System.Void System.Security.Cryptography.X509Certificates.PublicKey::.cctor()
+extern void PublicKey__cctor_m9F739A93AE91AE86889835AAE256410F4DB808CC ();
+// 0x000001DD System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor()
+extern void X509BasicConstraintsExtension__ctor_m1D3F45762EB686500D2195886AD26FF84E5F4B3C ();
+// 0x000001DE System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+extern void X509BasicConstraintsExtension__ctor_mEED7AECEE911DF6CE692301F8F6F6B197DC05729 ();
+// 0x000001DF System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
+extern void X509BasicConstraintsExtension__ctor_mD08FE3682F4B2EA23450C6609360F45656495780 ();
+// 0x000001E0 System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_CertificateAuthority()
+extern void X509BasicConstraintsExtension_get_CertificateAuthority_m282E5D9E7640A06AF2CE06A0FA374571F25BAB6F ();
+// 0x000001E1 System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_HasPathLengthConstraint()
+extern void X509BasicConstraintsExtension_get_HasPathLengthConstraint_m463A8B4DF4BEB46A9353309AA5EF3EAA2F7A4D42 ();
+// 0x000001E2 System.Int32 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_PathLengthConstraint()
+extern void X509BasicConstraintsExtension_get_PathLengthConstraint_m93EF2B2BA6D6AD72DE59D98EB0E40DDD2AB3B49F ();
+// 0x000001E3 System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void X509BasicConstraintsExtension_CopyFrom_mE64F232FB7DF702DCDB6692537B8F1010AA316DC ();
+// 0x000001E4 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Decode(System.Byte[])
+extern void X509BasicConstraintsExtension_Decode_m40A688DD3A933B24A3E9EFE505299F70AFF32E81 ();
+// 0x000001E5 System.Byte[] System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Encode()
+extern void X509BasicConstraintsExtension_Encode_m04068558E7AF843C57A8BA9C39E251B7B37A1CDF ();
+// 0x000001E6 System.String System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::ToString(System.Boolean)
+extern void X509BasicConstraintsExtension_ToString_m75957B2B18A84645897676F0DAC473F022848336 ();
+// 0x000001E7 System.Void System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.cctor()
+extern void X509Certificate2Collection__cctor_m8F5A775DC6302B95D1CA30B5C576AD4907E94516 ();
+// 0x000001E8 System.Security.Cryptography.X509Certificates.X509CertificateImplCollection System.Security.Cryptography.X509Certificates.X509Certificate2Impl::get_IntermediateCertificates()
+// 0x000001E9 System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor()
+extern void X509CertificateCollection__ctor_m3CEEDA1CDA93234E6E78DFB6563738B050AFF6CA ();
+// 0x000001EA System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetEnumerator()
+extern void X509CertificateCollection_GetEnumerator_mD28E40E9104E833480FA012B1CE905AC08A7AD4F ();
+// 0x000001EB System.Int32 System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetHashCode()
+extern void X509CertificateCollection_GetHashCode_m383BD6816EEFE8FA5CA81CA4279B5334231EF84D ();
+// 0x000001EC System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::.ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
+extern void X509CertificateEnumerator__ctor_m81F0C80052FB25D722E5E66D5121D9F559A2EEB4 ();
+// 0x000001ED System.Security.Cryptography.X509Certificates.X509Certificate System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::get_Current()
+extern void X509CertificateEnumerator_get_Current_mDA87DA5B1CD027E452E22112ED43423F95573BE0 ();
+// 0x000001EE System.Object System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::System.Collections.IEnumerator.get_Current()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m92ACFD522418E3D722E6C723FA93FBFC7A1A3EBC ();
+// 0x000001EF System.Boolean System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::System.Collections.IEnumerator.MoveNext()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m99B025AB34B4F5CFAD7836A73D01FBE1AEA019F4 ();
+// 0x000001F0 System.Void System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::System.Collections.IEnumerator.Reset()
+extern void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m7EC63F5898E3A9881E73EB6205238C31ED4CC323 ();
+// 0x000001F1 System.Boolean System.Security.Cryptography.X509Certificates.X509CertificateCollection_X509CertificateEnumerator::MoveNext()
+extern void X509CertificateEnumerator_MoveNext_m472F420F968A52D970486D21BFFABCCE5329F714 ();
+// 0x000001F2 System.Int32 System.Security.Cryptography.X509Certificates.X509CertificateImplCollection::get_Count()
+extern void X509CertificateImplCollection_get_Count_m1503CBCEDE4650173097C408898F1806582CC77E ();
+// 0x000001F3 System.Security.Cryptography.X509Certificates.X509CertificateImpl System.Security.Cryptography.X509Certificates.X509CertificateImplCollection::get_Item(System.Int32)
+extern void X509CertificateImplCollection_get_Item_m24CA14D68946B6E0006B162BA284EB51F826F276 ();
+// 0x000001F4 System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Chain::get_Impl()
+extern void X509Chain_get_Impl_mC8D8FB1BED19A1E40D1DAA7561448ADFA094B740 ();
+// 0x000001F5 System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor()
+extern void X509Chain__ctor_mC6F6E3F01D21638D909E13D151923EB4BF592CAB ();
+// 0x000001F6 System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Boolean)
+extern void X509Chain__ctor_m8273B96D3DA26CDF61C71723A980E09214D1DF36 ();
+// 0x000001F7 System.Void System.Security.Cryptography.X509Certificates.X509Chain::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy)
+extern void X509Chain_set_ChainPolicy_mFFC95743026B78C7B6DA33B51CEBD81FA2215EDD ();
+// 0x000001F8 System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose()
+extern void X509Chain_Dispose_m4CC4E701CE9CA80CC1C3787E84D955D6B7632A2E ();
+// 0x000001F9 System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose(System.Boolean)
+extern void X509Chain_Dispose_m0233872244BD2AA33E6C4D2AE572FFB991909FE9 ();
+// 0x000001FA System.Void System.Security.Cryptography.X509Certificates.X509Chain::Finalize()
+extern void X509Chain_Finalize_mC31E8C29EA7A66E5B4D2D41C1CACF7AF5BB94AD3 ();
+// 0x000001FB System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::.ctor()
+extern void X509ChainElementCollection__ctor_m035B6BC8E21811A1536A60FFA9BAB9A4159323E3 ();
+// 0x000001FC System.Int32 System.Security.Cryptography.X509Certificates.X509ChainElementCollection::get_Count()
+extern void X509ChainElementCollection_get_Count_m93E1B437A465A5DC0D48F0184EF55370D0E29E2F ();
+// 0x000001FD System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern void X509ChainElementCollection_System_Collections_ICollection_CopyTo_mFB0649BFDEA056BF980F17B68DE6B66DF436E3D8 ();
+// 0x000001FE System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509ChainElementCollection::System.Collections.IEnumerable.GetEnumerator()
+extern void X509ChainElementCollection_System_Collections_IEnumerable_GetEnumerator_mA687F2811DD1F678D629FC166F4288DD340D02F9 ();
+// 0x000001FF System.Void System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::.ctor(System.Collections.IEnumerable)
+extern void X509ChainElementEnumerator__ctor_mC91FB54A5BD2C0B0E972FBCA193C5A453FC6957A ();
+// 0x00000200 System.Object System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::System.Collections.IEnumerator.get_Current()
+extern void X509ChainElementEnumerator_System_Collections_IEnumerator_get_Current_mC3EC8EDFD95897AD140B4F680905E65D8B04B49C ();
+// 0x00000201 System.Boolean System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::MoveNext()
+extern void X509ChainElementEnumerator_MoveNext_mF90FBF977D510F6FCF47D5B8CB34254C2822A775 ();
+// 0x00000202 System.Void System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::Reset()
+extern void X509ChainElementEnumerator_Reset_m1D149AB7FF36C6200FB205408D5E856FCE624CCA ();
+// 0x00000203 System.Boolean System.Security.Cryptography.X509Certificates.X509ChainImpl::get_IsValid()
+// 0x00000204 System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy)
+// 0x00000205 System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::Dispose()
+extern void X509ChainImpl_Dispose_m0018CE8D4317FCAEEA5465425BF5BB5A4A728CBA ();
+// 0x00000206 System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::Dispose(System.Boolean)
+extern void X509ChainImpl_Dispose_m0F4B69EE7F402C78C833599FB0F4BEC101CB328B ();
+// 0x00000207 System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::Finalize()
+extern void X509ChainImpl_Finalize_mD3777623D36204B695026890DAAC789BE8273724 ();
+// 0x00000208 System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::.ctor()
+extern void X509ChainImpl__ctor_m2DC75C34EFF93D4A1DEF14F168489613A557C962 ();
+// 0x00000209 System.Void System.Security.Cryptography.X509Certificates.X509ChainImplMono::.ctor(System.Boolean)
+extern void X509ChainImplMono__ctor_m9EEB55A0D2F4EC7D21C5D8FB470A8B9B9094A935 ();
+// 0x0000020A System.Boolean System.Security.Cryptography.X509Certificates.X509ChainImplMono::get_IsValid()
+extern void X509ChainImplMono_get_IsValid_m782E5277F3BEF121956B1C90D56FA275879BD706 ();
+// 0x0000020B System.Void System.Security.Cryptography.X509Certificates.X509ChainImplMono::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy)
+extern void X509ChainImplMono_set_ChainPolicy_m16F6430F9445BF75D7965A0ED22F8E17E8A4DDF2 ();
+// 0x0000020C System.Void System.Security.Cryptography.X509Certificates.X509ChainImplMono::.cctor()
+extern void X509ChainImplMono__cctor_m95136BE1101C06B64816562118FA9E3502406EB2 ();
+// 0x0000020D System.Void System.Security.Cryptography.X509Certificates.X509ChainPolicy::.ctor()
+extern void X509ChainPolicy__ctor_m68882C53D2D8D22007332CCA165F650078751ED4 ();
+// 0x0000020E System.Void System.Security.Cryptography.X509Certificates.X509ChainPolicy::.ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection)
+extern void X509ChainPolicy__ctor_m53AB51FBA21115B866EB0AB6AEE039B6167F6A4D ();
+// 0x0000020F System.Void System.Security.Cryptography.X509Certificates.X509ChainPolicy::Reset()
+extern void X509ChainPolicy_Reset_m651C65C1321FEFE9E3EDFC1BE2706AEFE2C612DA ();
+// 0x00000210 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+extern void X509EnhancedKeyUsageExtension__ctor_mC91E46E79086AAFCD611FB3A223797D20BA9C1C2 ();
+// 0x00000211 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void X509EnhancedKeyUsageExtension_CopyFrom_mC206A056C8C59401AA01F8C935DDE27D7E34D96A ();
+// 0x00000212 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::Decode(System.Byte[])
+extern void X509EnhancedKeyUsageExtension_Decode_m1865B86FE190237641C00804A058BF56F125183D ();
+// 0x00000213 System.String System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::ToString(System.Boolean)
+extern void X509EnhancedKeyUsageExtension_ToString_m99085514587961F4AB1CA3FB82E5223801475818 ();
+// 0x00000214 System.Void System.Security.Cryptography.X509Certificates.X509Extension::.ctor()
+extern void X509Extension__ctor_m75C6A788965E9C797F3D47DEFEC366EC2F69F384 ();
+// 0x00000215 System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::get_Critical()
+extern void X509Extension_get_Critical_m8F4D4C2F0ECBE5CB4C9998CE3E56D5040E2EEBE2 ();
+// 0x00000216 System.Void System.Security.Cryptography.X509Certificates.X509Extension::set_Critical(System.Boolean)
+extern void X509Extension_set_Critical_mA2B424FF17DE53E01E586015DD1C742773B060B4 ();
+// 0x00000217 System.Void System.Security.Cryptography.X509Certificates.X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void X509Extension_CopyFrom_m03B3EAD99E076090F01D26FF483E827397903A02 ();
+// 0x00000218 System.String System.Security.Cryptography.X509Certificates.X509Extension::FormatUnkownData(System.Byte[])
+extern void X509Extension_FormatUnkownData_mE5BAB7DB56CE215EB704A7E4E6866EBECA18F90A ();
+// 0x00000219 System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Helper2::CreateChainImpl(System.Boolean)
+extern void X509Helper2_CreateChainImpl_m5A5909ADD8809F95E64FC576BB29EF5B5F878D24 ();
+// 0x0000021A System.Boolean System.Security.Cryptography.X509Certificates.X509Helper2::IsValid(System.Security.Cryptography.X509Certificates.X509ChainImpl)
+extern void X509Helper2_IsValid_mE1C295645E14225C9013A23339E52201C05419F7 ();
+// 0x0000021B System.Void System.Security.Cryptography.X509Certificates.X509Helper2::ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509ChainImpl)
+extern void X509Helper2_ThrowIfContextInvalid_m2CE36D57CDF7DCD4EDD5586EF5D526386B009DB5 ();
+// 0x0000021C System.Exception System.Security.Cryptography.X509Certificates.X509Helper2::GetInvalidChainContextException()
+extern void X509Helper2_GetInvalidChainContextException_m6435C6B754A3A3E6A69DCF16C9F962E0205323AC ();
+// 0x0000021D System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor()
+extern void X509KeyUsageExtension__ctor_mCCDDE2A55EF78832C8117C680FB264CE91893A99 ();
+// 0x0000021E System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+extern void X509KeyUsageExtension__ctor_mA9DDAD17EA38ABB83CD6CC9A353A0667A9EAC018 ();
+// 0x0000021F System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean)
+extern void X509KeyUsageExtension__ctor_mBC544E9444992C7883638DB0B4607945F33E7426 ();
+// 0x00000220 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::get_KeyUsages()
+extern void X509KeyUsageExtension_get_KeyUsages_m9544DC0FAAD02C53D6C649E1831176CB54EFE505 ();
+// 0x00000221 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void X509KeyUsageExtension_CopyFrom_m8DA1FA691943CBD4B94E45096E83FC5EA9EEEA3F ();
+// 0x00000222 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags)
+extern void X509KeyUsageExtension_GetValidFlags_m7946BD756F14B17D707EE12E7D82878531D115EB ();
+// 0x00000223 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Decode(System.Byte[])
+extern void X509KeyUsageExtension_Decode_mDE97A425A199661D89FE252A75C8644D4280F1B2 ();
+// 0x00000224 System.Byte[] System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Encode()
+extern void X509KeyUsageExtension_Encode_mBBF95E13B1FE1A0507FD692F770D6E98A68E3360 ();
+// 0x00000225 System.String System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::ToString(System.Boolean)
+extern void X509KeyUsageExtension_ToString_m4455C1B31C62530B930CFADE55DC0E77C60C7EFC ();
+// 0x00000226 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor()
+extern void X509SubjectKeyIdentifierExtension__ctor_mD586705C293A9C27B5B57BF9CF1D8EAD84864B29 ();
+// 0x00000227 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+extern void X509SubjectKeyIdentifierExtension__ctor_m45218EE7D32231FA6C44A40FEC2E5052162012D6 ();
+// 0x00000228 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Byte[],System.Boolean)
+extern void X509SubjectKeyIdentifierExtension__ctor_m182458124147FFEE402584E6415C2EA407B59C5B ();
+// 0x00000229 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.String,System.Boolean)
+extern void X509SubjectKeyIdentifierExtension__ctor_m95DD08883D5E284C15820274737324063C4E4432 ();
+// 0x0000022A System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean)
+extern void X509SubjectKeyIdentifierExtension__ctor_m98571FC543622A4BD3EA7788BB132348D9E0A3E3 ();
+// 0x0000022B System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean)
+extern void X509SubjectKeyIdentifierExtension__ctor_mF692F46CE97CB60AF86C1A74E709E8276B7D9AB1 ();
+// 0x0000022C System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::get_SubjectKeyIdentifier()
+extern void X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_m3480A14D8377B6C2D220F99D37AB8B13BEFE76FF ();
+// 0x0000022D System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+extern void X509SubjectKeyIdentifierExtension_CopyFrom_m45E7EB4E976E4759046077C79FBC4A820C9A95EC ();
+// 0x0000022E System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChar(System.Char)
+extern void X509SubjectKeyIdentifierExtension_FromHexChar_m7BDBE176CD85DCA3193FECF78D6CF15E349121BC ();
+// 0x0000022F System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChars(System.Char,System.Char)
+extern void X509SubjectKeyIdentifierExtension_FromHexChars_mB2D3EBC7E627D44254A82E5628A2079C1DB24C38 ();
+// 0x00000230 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHex(System.String)
+extern void X509SubjectKeyIdentifierExtension_FromHex_m654E8BB1D2F9D8C878EF854D7933C6EA825F272B ();
+// 0x00000231 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Decode(System.Byte[])
+extern void X509SubjectKeyIdentifierExtension_Decode_m6EB136D7525F3DFB9FA93F8B3653D2F6FA3B72D1 ();
+// 0x00000232 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Encode()
+extern void X509SubjectKeyIdentifierExtension_Encode_m11C84A3DCE621526C1FC282E214001D70937D6BD ();
+// 0x00000233 System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::ToString(System.Boolean)
+extern void X509SubjectKeyIdentifierExtension_ToString_mB22086D5277B22093240BB9841D32D9008D26AFA ();
+// 0x00000234 System.Void System.Net.EndPoint::.ctor()
+extern void EndPoint__ctor_mFCD3A4BB994F59D40A3A94A6F1DEC4A731CC8776 ();
+// 0x00000235 System.Void System.Net.IPAddress::.ctor(System.Int64)
+extern void IPAddress__ctor_mFD0AF2F6A282D1158DF3C34EF2E63B73814E7748 ();
+// 0x00000236 System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
+extern void IPAddress__ctor_m373D3930BEEA00EC628E98C5A13AE9BE2B2CEC84 ();
+// 0x00000237 System.Void System.Net.IPAddress::.ctor(System.Int32)
+extern void IPAddress__ctor_mCC321EEDA0750DA97447EB60529BCBCB4EA0249D ();
+// 0x00000238 System.Int64 System.Net.IPAddress::get_ScopeId()
+extern void IPAddress_get_ScopeId_m941461DEBDECCD858F8D3165F3CA366A318064D9 ();
+// 0x00000239 System.String System.Net.IPAddress::ToString()
+extern void IPAddress_ToString_m0CAEDDAF2A42F23EB1BE3BB353ABE741486710BF ();
+// 0x0000023A System.Boolean System.Net.IPAddress::Equals(System.Object,System.Boolean)
+extern void IPAddress_Equals_mADA54686760DE75E2C31B8651224FFEB019316D6 ();
+// 0x0000023B System.Boolean System.Net.IPAddress::Equals(System.Object)
+extern void IPAddress_Equals_mB38BAC1A15885A3181507BC9FD4E8F5765FA6678 ();
+// 0x0000023C System.Int32 System.Net.IPAddress::GetHashCode()
+extern void IPAddress_GetHashCode_m36CE850AFAAD382A29B7D72844989A3105565D7C ();
+// 0x0000023D System.Void System.Net.IPAddress::.cctor()
+extern void IPAddress__cctor_m4DF372012DF900E7BB489931296D0BFE4EBD4AEA ();
+// 0x0000023E System.Void System.Net.IPv6AddressFormatter::.ctor(System.UInt16[],System.Int64)
+extern void IPv6AddressFormatter__ctor_m94725668992E78AA0D75E1C072E8A567E9C34497_AdjustorThunk ();
+// 0x0000023F System.UInt16 System.Net.IPv6AddressFormatter::SwapUShort(System.UInt16)
+extern void IPv6AddressFormatter_SwapUShort_m6B7BA905E96BB0889C580EE25F3614C7A4A9164C ();
+// 0x00000240 System.UInt32 System.Net.IPv6AddressFormatter::AsIPv4Int()
+extern void IPv6AddressFormatter_AsIPv4Int_m94B06C695C45C85A90F95CAAF4430772EFC16C4F_AdjustorThunk ();
+// 0x00000241 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Compatible()
+extern void IPv6AddressFormatter_IsIPv4Compatible_mDC05432DB57ED01219A35BD1B712E589A527A5FC_AdjustorThunk ();
+// 0x00000242 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Mapped()
+extern void IPv6AddressFormatter_IsIPv4Mapped_m0BEBB1DE4A773028D3091D8321106BE92519A127_AdjustorThunk ();
+// 0x00000243 System.String System.Net.IPv6AddressFormatter::ToString()
+extern void IPv6AddressFormatter_ToString_mBBBF9A3ABB56F52589BD211DD827015066076C8F_AdjustorThunk ();
+// 0x00000244 System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
+extern void SocketException_WSAGetLastError_internal_m18F05CF8D9CE2435225A4215ED757D8D98716FC3 ();
+// 0x00000245 System.Void System.Net.Sockets.SocketException::.ctor()
+extern void SocketException__ctor_mB16B95B2752EAD626C88A5230C1A8FEB7CF632CA ();
+// 0x00000246 System.Void System.Net.Sockets.SocketException::.ctor(System.Net.Sockets.SocketError)
+extern void SocketException__ctor_m2687C4EFA4D012280C5D19B89D8D01F97B6A2F1A ();
+// 0x00000247 System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void SocketException__ctor_m4C36461DF98089890FBF01908A4AAD301CABE071 ();
+// 0x00000248 System.String System.Net.Sockets.SocketException::get_Message()
+extern void SocketException_get_Message_m50B9DF4BB6F3B20F650E2F965B3DD654C8970378 ();
+// 0x00000249 System.Void System.Net.Security.AuthenticatedStream::.ctor(System.IO.Stream,System.Boolean)
+extern void AuthenticatedStream__ctor_mFCFA51BD3C5544DC6390CF5094E1C0DBA133C172 ();
+// 0x0000024A System.IO.Stream System.Net.Security.AuthenticatedStream::get_InnerStream()
+extern void AuthenticatedStream_get_InnerStream_mB7DF06B2F011B3F9F301D068438BBD01C24DCDDC ();
+// 0x0000024B System.Void System.Net.Security.AuthenticatedStream::Dispose(System.Boolean)
+extern void AuthenticatedStream_Dispose_m5610A806886C36698AC932D21F5FBDCAE9FA3E14 ();
+// 0x0000024C System.Boolean System.Net.Security.AuthenticatedStream::get_IsAuthenticated()
+// 0x0000024D Mono.Security.Interface.IMonoSslStream System.Net.Security.SslStream::get_Impl()
+extern void SslStream_get_Impl_m29F58D35745DFC013BFAEFCF3952391234D8BC9A ();
+// 0x0000024E System.Void System.Net.Security.SslStream::.ctor(System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsProvider,Mono.Security.Interface.MonoTlsSettings)
+extern void SslStream__ctor_mA434A097CD9B052AC8510C8B5BFF9E5E6B541DC9 ();
+// 0x0000024F Mono.Security.Interface.IMonoSslStream System.Net.Security.SslStream::CreateMonoSslStream(System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsProvider,Mono.Security.Interface.MonoTlsSettings)
+extern void SslStream_CreateMonoSslStream_m2DA6B0A589490351B37010F5BCF2DA3D734FF266 ();
+// 0x00000250 System.Boolean System.Net.Security.SslStream::get_IsAuthenticated()
+extern void SslStream_get_IsAuthenticated_m273C64C4DF6FFD4E9772EF714EFA982D4C0A9D83 ();
+// 0x00000251 System.Boolean System.Net.Security.SslStream::get_CanSeek()
+extern void SslStream_get_CanSeek_mD0CB66ABEA39EE6BEAB9BD53ADF03476FEA2E266 ();
+// 0x00000252 System.Boolean System.Net.Security.SslStream::get_CanRead()
+extern void SslStream_get_CanRead_m49799854D297DCF71A497F8858B64DDD1C10BF00 ();
+// 0x00000253 System.Boolean System.Net.Security.SslStream::get_CanWrite()
+extern void SslStream_get_CanWrite_m25569C1704B5F54A27234D1B9B69647D5018CCEF ();
+// 0x00000254 System.Int64 System.Net.Security.SslStream::get_Length()
+extern void SslStream_get_Length_m1A4DBA93F0D140FA33892E0193DDE8C6E4175763 ();
+// 0x00000255 System.Int64 System.Net.Security.SslStream::get_Position()
+extern void SslStream_get_Position_mDCFD4EFB697DAFF90BA366ED8519487027E21671 ();
+// 0x00000256 System.Void System.Net.Security.SslStream::set_Position(System.Int64)
+extern void SslStream_set_Position_m4D2093D31E1557590786FA41197CD585CAC79E3A ();
+// 0x00000257 System.Int64 System.Net.Security.SslStream::Seek(System.Int64,System.IO.SeekOrigin)
+extern void SslStream_Seek_m53AB94845DF9E4A126414BC25E024053D43627D1 ();
+// 0x00000258 System.Void System.Net.Security.SslStream::Flush()
+extern void SslStream_Flush_m409B5ED6ACB6B2496DAF6725C6CAAF5D51BEADE3 ();
+// 0x00000259 System.Void System.Net.Security.SslStream::CheckDisposed()
+extern void SslStream_CheckDisposed_mFCE61CD9DDFDF97DD850B2EAF0908EFE50008DE4 ();
+// 0x0000025A System.Void System.Net.Security.SslStream::Dispose(System.Boolean)
+extern void SslStream_Dispose_mFDB97E2E26CD194DBCBE47710EE5402B2298B919 ();
+// 0x0000025B System.Int32 System.Net.Security.SslStream::Read(System.Byte[],System.Int32,System.Int32)
+extern void SslStream_Read_m4FE23134855CE89200771C5A8851DDDDDF182FF3 ();
+// 0x0000025C System.Void System.Net.Security.SslStream::Write(System.Byte[],System.Int32,System.Int32)
+extern void SslStream_Write_m262369AF62D8AA0CCC4EAC5BF3274693AA27B1BC ();
+// 0x0000025D System.IAsyncResult System.Net.Security.SslStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+extern void SslStream_BeginRead_m4D96895D1B0C302EF4D52681FEDA82D1E53E7C3F ();
+// 0x0000025E System.Int32 System.Net.Security.SslStream::EndRead(System.IAsyncResult)
+extern void SslStream_EndRead_m918E3DCEB2DE563A21B042D7FF530E96EBA8EF51 ();
+// 0x0000025F System.IAsyncResult System.Net.Security.SslStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+extern void SslStream_BeginWrite_mB8CC50460AFEF640D3C36C68938EE921F3E11844 ();
+// 0x00000260 System.Void System.Net.Security.SslStream::EndWrite(System.IAsyncResult)
+extern void SslStream_EndWrite_m796ACEAE821536F59642EDC2748B2A5F232953AB ();
+// 0x00000261 System.Void System.Collections.Generic.Stack`1::.ctor()
+// 0x00000262 System.Int32 System.Collections.Generic.Stack`1::get_Count()
+// 0x00000263 System.Void System.Collections.Generic.Stack`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000264 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000265 System.Collections.IEnumerator System.Collections.Generic.Stack`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000266 T System.Collections.Generic.Stack`1::Peek()
+// 0x00000267 T System.Collections.Generic.Stack`1::Pop()
+// 0x00000268 System.Void System.Collections.Generic.Stack`1::Push(T)
+// 0x00000269 T[] System.Collections.Generic.Stack`1::ToArray()
+// 0x0000026A System.Void System.Collections.Generic.Stack`1::ThrowForEmptyStack()
+// 0x0000026B System.Void System.Collections.Generic.Stack`1_Enumerator::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x0000026C System.Void System.Collections.Generic.Stack`1_Enumerator::Dispose()
+// 0x0000026D System.Boolean System.Collections.Generic.Stack`1_Enumerator::MoveNext()
+// 0x0000026E T System.Collections.Generic.Stack`1_Enumerator::get_Current()
+// 0x0000026F System.Void System.Collections.Generic.Stack`1_Enumerator::ThrowEnumerationNotStartedOrEnded()
+// 0x00000270 System.Object System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000271 System.Void System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.Reset()
+// 0x00000272 System.Void System.Collections.Generic.StackDebugView`1::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x00000273 T[] System.Collections.Generic.StackDebugView`1::get_Items()
+// 0x00000274 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874 ();
+// 0x00000275 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
+extern void BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A ();
+// 0x00000276 System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
+extern void ConnectionManagementElementCollection__ctor_mA29AB3A62411F032C5EF86B16E7633A386000C7B ();
+// 0x00000277 System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
+extern void ConnectionManagementSection__ctor_m1112C1BE1A9466BBCDD5C2ED20E80CDE03B46CA4 ();
+// 0x00000278 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
+extern void ConnectionManagementSection_get_Properties_m1737189D2D78E81728CFF1CCCEB99E1FFFEA3F19 ();
+// 0x00000279 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
+extern void DefaultProxySection__ctor_m41EADE87065B61EDF32F67D2E62F04946886DAF6 ();
+// 0x0000027A System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
+extern void DefaultProxySection_get_Properties_m6F70EC02D977EB16F86354188A72DC87A8959555 ();
+// 0x0000027B System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
+extern void DefaultProxySection_Reset_m54AC9323047B1FB38795C9F466C1C01192F75276 ();
+// 0x0000027C System.Void System.Net.Configuration.ProxyElement::.ctor()
+extern void ProxyElement__ctor_mAFD852231DF0231726E41911409CB2725BE990AC ();
+// 0x0000027D System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
+extern void ProxyElement_get_Properties_m8A3EE4A3EEF2571DE4768730CEF4107331490377 ();
+// 0x0000027E System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
+extern void HttpWebRequestElement__ctor_mE3A4CA43FCC72E10B6C7B4920F429C028765E233 ();
+// 0x0000027F System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
+extern void HttpWebRequestElement_get_Properties_m531EDF2F56823100C47A9EEE1575143E5EB5463C ();
+// 0x00000280 System.Void System.Net.Configuration.Ipv6Element::.ctor()
+extern void Ipv6Element__ctor_m3F7DF39E6E51517E1429BAE43FA782BF3AF17965 ();
+// 0x00000281 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
+extern void Ipv6Element_get_Properties_m156008D7E5279C50DE4CEDB6D4D3CEDAF2ACF8DC ();
+// 0x00000282 System.Void System.Net.Configuration.NetSectionGroup::.ctor()
+extern void NetSectionGroup__ctor_m566D7C9466957BCE3B8FE2D0EA2582CC2F95F269 ();
+// 0x00000283 System.Void System.Net.Configuration.SettingsSection::.ctor()
+extern void SettingsSection__ctor_mC5F3D29EDC94D87B0B0542DE3702795441AC3005 ();
+// 0x00000284 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
+extern void SettingsSection_get_Properties_m1ABB76DEC7441CFEDD4E7EDF99B8F5C258101254 ();
+// 0x00000285 System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
+extern void PerformanceCountersElement__ctor_m5A090222699B48BEB5FCC743198613FA8D081083 ();
+// 0x00000286 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
+extern void PerformanceCountersElement_get_Properties_m3C7B73AC6E5F5E92426D7DC091A2ECE5CFCD9FD0 ();
+// 0x00000287 System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
+extern void ServicePointManagerElement__ctor_m61B031714F8498D467B5A0958EE62F73E0C58EB7 ();
+// 0x00000288 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
+extern void ServicePointManagerElement_get_Properties_mC1C586246B4FE10AC90622A0CC6A5936D501B677 ();
+// 0x00000289 System.Void System.Net.Configuration.SocketElement::.ctor()
+extern void SocketElement__ctor_m428B7094399223FFB9A5B62BF9D8CEA18A00A4C3 ();
+// 0x0000028A System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
+extern void SocketElement_get_Properties_m9CF8E9B1A9B41B7EC24A4F91CE2E8ECBF317426A ();
+// 0x0000028B System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
+extern void WebProxyScriptElement__ctor_mC8AF875E80D96B18AA387148009AE1C630D83591 ();
+// 0x0000028C System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
+extern void WebProxyScriptElement_get_Properties_m8AD25399F804B2D22BC8312102EBC28A0CAE6E26 ();
+// 0x0000028D System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
+extern void WebRequestModulesSection__ctor_m0CAB6F207E3B29D65AEA38A6AC191873E3000F02 ();
+// 0x0000028E System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
+extern void WebRequestModulesSection_get_Properties_m909A3E4C4A61BFCC9D09F397D9314E5F74F3FE44 ();
+// 0x0000028F System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
+extern void WebRequestModuleElementCollection__ctor_m8B880B0EAE7CEF1CB79CD264A9B6D62AB6A22961 ();
+// 0x00000290 System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
+extern void DiagnosticsConfigurationHandler__ctor_m185BC74B0225A3E16EEB4164923931B79AAA0CF0 ();
+// 0x00000291 System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
+extern void DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96 ();
+// 0x00000292 System.Void Unity.ThrowStub::ThrowNotSupportedException()
+extern void ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD ();
+static Il2CppMethodPointer s_methodPointers[658] = 
+{
+	SR_GetString_m9548BD6DD52DFDB46372F211078AE57FA2401E39,
+	SR_GetString_m9D671CBA422B18D15B8FF59B22DCCEB32E3D16E2,
+	SR_GetString_m3FC710B15474A9B651DA02B303241B6D8B87E2A7,
+	CertHelper_AddCertificatesToNativeChain_m1D22A9A50CA05E1F931B8B309E047092DDE01CFF,
+	CertHelper_AddCertificateToNativeChain_m223E545813937EC29B6EF428DAE3F45551728166,
+	UnityTls_GetUnityTlsInterface_mB672D3C985554FC0EDFAB68EB4A77BCB74FEE719,
+	UnityTls_get_NativeInterface_mB7B44E93A89C271D6C65B44DE2EE9C4A5786E88E,
+	unitytls_x509verify_callback__ctor_m9D04862B333145C9F179B31F08C390E0DEA4D1B0,
+	unitytls_x509verify_callback_Invoke_m4DDE358F87398FA2F51CDD551E6F1D4CB5B48159,
+	unitytls_x509verify_callback_BeginInvoke_m34DFF04B0DD733860B3BAE73885A90C6A936E26F,
+	unitytls_x509verify_callback_EndInvoke_m17AC8D1886D2624D4E3E041E6931DC942C117FAB,
+	unitytls_tlsctx_write_callback__ctor_mC7F821EB4597E74CFC9DE7A1EA50F86CFAC2F411,
+	unitytls_tlsctx_write_callback_Invoke_m9E758A0D65A39C61209306CDAB781357D956F36E,
+	unitytls_tlsctx_write_callback_BeginInvoke_m9FA442F88C3483A74C56938DD30BF36505666EDD,
+	unitytls_tlsctx_write_callback_EndInvoke_m4615F5985BBDB75F9DBDE0398A854CE2315DF925,
+	unitytls_tlsctx_read_callback__ctor_m52F2060B467B61401384C7E3693C6C8CDC3E46B7,
+	unitytls_tlsctx_read_callback_Invoke_m9C045DAC27E3496B2FA429755CFF48E11A751D29,
+	unitytls_tlsctx_read_callback_BeginInvoke_mFDE9382397C181E07D075AA3FDE12B10ABC2C602,
+	unitytls_tlsctx_read_callback_EndInvoke_m2D814DC4681EFC9E4B0D495E8E5BBB0DCD3B62D1,
+	unitytls_tlsctx_trace_callback__ctor_m4C0C53E1C112C8A363A1C1AC15B5F6B7E4CD2443,
+	unitytls_tlsctx_trace_callback_Invoke_mC657E7F4F1C6F530662F48BE16D2621029846344,
+	unitytls_tlsctx_trace_callback_BeginInvoke_mE23C8513E935C278BCC120731072893E86729CAA,
+	unitytls_tlsctx_trace_callback_EndInvoke_m33865B83D223342F078061A59F8DF41311D20C94,
+	unitytls_tlsctx_certificate_callback__ctor_m14C613364636EF10ECCD413A6F49E975A4F4A6A2,
+	unitytls_tlsctx_certificate_callback_Invoke_mA90DE4AD701A89C12AECBE415FBAB506DCF66C12,
+	unitytls_tlsctx_certificate_callback_BeginInvoke_m1D0AF1A60BC715B76CD3866BF3D555E5A6BFDD3E,
+	unitytls_tlsctx_certificate_callback_EndInvoke_m0485EC4825ED1374DA2C0925A2F48D7F7567E21B,
+	unitytls_tlsctx_x509verify_callback__ctor_m50C4160D42681A80BEAD13F18294437BD96C3D0B,
+	unitytls_tlsctx_x509verify_callback_Invoke_m63FDAF56E6D0F50E1E21DB4E3515967596071CE6,
+	unitytls_tlsctx_x509verify_callback_BeginInvoke_m84DAB124121532AF9AECBA6E706A0914C4EA22F4,
+	unitytls_tlsctx_x509verify_callback_EndInvoke_mD0321EDEC2FCF98ACB6497F796021DC65DA0DEEC,
+	unitytls_interface_struct__ctor_m91CA935D822B8FA1057010680A22A0AC9D70E381,
+	unitytls_errorstate_create_t__ctor_mDB5F7A125825A4EADEFE51E41161ECF671659474,
+	unitytls_errorstate_create_t_Invoke_m2A913757D4713362254BE457E8792AD299677D42,
+	unitytls_errorstate_create_t_BeginInvoke_m21B464EA6F62C9C4916A69F411D0261B058E3E06,
+	unitytls_errorstate_create_t_EndInvoke_m8DC3659FB8AACD5CD163A95D55D72E4337AC8F37,
+	unitytls_errorstate_raise_error_t__ctor_m5F148689FFD962A73C93824087B04547B3AEE99B,
+	unitytls_errorstate_raise_error_t_Invoke_m319B51663970217C195467C18E5928B5C2B68441,
+	unitytls_errorstate_raise_error_t_BeginInvoke_m430EC23CE6C0A221B234161D965EF48FDE1FE3D8,
+	unitytls_errorstate_raise_error_t_EndInvoke_m713725CCC70FA48D9A9BFE1770EB0406853DF1E7,
+	unitytls_key_get_ref_t__ctor_m8B6688D0222A54335156F76C42D335A999C620ED,
+	unitytls_key_get_ref_t_Invoke_mA8C5F2D239F4B74885F37C9671012F1136BF0BE2,
+	unitytls_key_get_ref_t_BeginInvoke_m93BE7A42624E9987FC901D883E06683C90046D89,
+	unitytls_key_get_ref_t_EndInvoke_m3158742DC98834DFC0519765F4E88A8C581B54F2,
+	unitytls_key_parse_der_t__ctor_m702A41D29AFA524EFDF148673041B507C9538C4F,
+	unitytls_key_parse_der_t_Invoke_m8CF4A1CFD7B385B3091215030E7EC2CB5B6823ED,
+	unitytls_key_parse_der_t_BeginInvoke_mDD3872296FB3905F2F22D5859F4521DF44C9F19B,
+	unitytls_key_parse_der_t_EndInvoke_m6ED100AAACFF6462B42B0D9804BBA5E34487808A,
+	unitytls_key_parse_pem_t__ctor_mE18922EC14AD6EDA780D819DB1469A99242F5C82,
+	unitytls_key_parse_pem_t_Invoke_m38F6D75BFC2A80778454B43E5C76B4704EFF75F1,
+	unitytls_key_parse_pem_t_BeginInvoke_mE7922F635446EF1A040AEE37DD9CEA8694A7F771,
+	unitytls_key_parse_pem_t_EndInvoke_mA547C0BB7666F5F1953F14BC46AAE90537850C77,
+	unitytls_key_free_t__ctor_m6FB9CB25BA5BE0723AE199CE1F502A955DD356E3,
+	unitytls_key_free_t_Invoke_m80E23E79440054744237B5BAA88AAAAB0D4E2F4B,
+	unitytls_key_free_t_BeginInvoke_m9187223C9B5085D282144EC1175FA24D76AEBEE3,
+	unitytls_key_free_t_EndInvoke_m152FC113C7C311F262DC6B29F0E44ED27D4A4FBB,
+	unitytls_x509_export_der_t__ctor_m2FA861176B1706988B234296EC1E5C2C2385C5A5,
+	unitytls_x509_export_der_t_Invoke_m90FDB333B2076F06444B096E1E1D1A42C8EEF8A0,
+	unitytls_x509_export_der_t_BeginInvoke_m33E6F88E2448002C8B74EC67E172034CCD11E4D5,
+	unitytls_x509_export_der_t_EndInvoke_m18AAF57D64EC364FF2312620E964F4D615E594CD,
+	unitytls_x509list_get_ref_t__ctor_m2E1FC1BBC79EB53428998A9DC5299F1DCDF6BBE8,
+	unitytls_x509list_get_ref_t_Invoke_mDCA9357333DA8B614E6C0F68922B3E5306A6534C,
+	unitytls_x509list_get_ref_t_BeginInvoke_mCF97569A8246EA8445ADA1DE245B36DFAFB91446,
+	unitytls_x509list_get_ref_t_EndInvoke_m3E4E37BCCAE29768A633C69FA2CE74EC67945A98,
+	unitytls_x509list_get_x509_t__ctor_m8AF5F946C60F4AD11DCF53EB103FAB5556828421,
+	unitytls_x509list_get_x509_t_Invoke_m25FDF33A713C330AF882B49E05C79B77B5CF7A22,
+	unitytls_x509list_get_x509_t_BeginInvoke_m5F1D80B8C015B87B91AE11A27A01ED586E9BFFEF,
+	unitytls_x509list_get_x509_t_EndInvoke_m32FF88756C519F7C7F53E36198C352B2DE96FECF,
+	unitytls_x509list_create_t__ctor_m35027CAFF58C468A07D199EA8E760FA83ECC1497,
+	unitytls_x509list_create_t_Invoke_m45B75F9286D2C1DC14AECFA258F419C3A1989A79,
+	unitytls_x509list_create_t_BeginInvoke_mE85F1C402447D1CC543B2609C2BFD081F2954DC5,
+	unitytls_x509list_create_t_EndInvoke_m2D64E81EA9962E8269292F49D86CBA9A45D8021F,
+	unitytls_x509list_append_t__ctor_m5389B48F2C2EFE1E6FDAE6FEE1FF176F28F0D02C,
+	unitytls_x509list_append_t_Invoke_m172237A64036BDE6C197DA0AE6A5A08010D4F361,
+	unitytls_x509list_append_t_BeginInvoke_mD3FEDD5F023253232CC8C48EF5CF2120ABD7147B,
+	unitytls_x509list_append_t_EndInvoke_m2DE3744B3B3919E5ABED5661FC2FA2445B933EF3,
+	unitytls_x509list_append_der_t__ctor_m841BFC2DC8D5C6BA893192D3318C89CB1CBA5093,
+	unitytls_x509list_append_der_t_Invoke_m1606FADA7E902086F7AEE6D8F304867C7E0A434F,
+	unitytls_x509list_append_der_t_BeginInvoke_m68B8C0940627CA1AA436E080A70BE1F622A820E7,
+	unitytls_x509list_append_der_t_EndInvoke_m96AFB602A6FB94D99E6AB65CE1D3C8B0B636CC6C,
+	unitytls_x509list_free_t__ctor_mE08ED3D0B7810758779C72A6882354D36E51F126,
+	unitytls_x509list_free_t_Invoke_m733759A5A94705388D233DB23FDFECAE2ADACDF0,
+	unitytls_x509list_free_t_BeginInvoke_m1A31DC10E7A495BCB31B46F413FCB7431E408CD7,
+	unitytls_x509list_free_t_EndInvoke_m4BD735662CB6AC985D4AC833288191948ABD9182,
+	unitytls_x509verify_default_ca_t__ctor_m9030DF501A2B0AE32F059AF6838EAF2A5897C8E0,
+	unitytls_x509verify_default_ca_t_Invoke_mE5D523AFD08CCE9A427389F17611D56C6D905B98,
+	unitytls_x509verify_default_ca_t_BeginInvoke_m732CB4DFD706DEA2D1AFDD66A25C7A0A4F59641C,
+	unitytls_x509verify_default_ca_t_EndInvoke_m65702493A38FA3F2598DD0D5F41A2849C4EE532D,
+	unitytls_x509verify_explicit_ca_t__ctor_m4008497F04CFD72DB70FC203A50B023CD8F17864,
+	unitytls_x509verify_explicit_ca_t_Invoke_mCC06B1AF3BCD90C24E3CA05A785528588C7CCEB5,
+	unitytls_x509verify_explicit_ca_t_BeginInvoke_m5A0BBE08CCACF01F690B9919087359A9FF7CF468,
+	unitytls_x509verify_explicit_ca_t_EndInvoke_m8EE4AE05BF8B13E7CD9A5818E3BA682F951584A4,
+	unitytls_tlsctx_create_server_t__ctor_m5CDD5F7909C922C45FDFFD8E94DDFFB1279C7368,
+	unitytls_tlsctx_create_server_t_Invoke_m6C7288544450304884E239BA3ACED930AAC040DF,
+	unitytls_tlsctx_create_server_t_BeginInvoke_m7E60A8576D5C6BE7D9A61EBB5800D7FD402BF60D,
+	unitytls_tlsctx_create_server_t_EndInvoke_mFC81040ECF1EF8D630C93F04FC8086A0F0288F6F,
+	unitytls_tlsctx_create_client_t__ctor_m1E56411D4E929CCB07D6050690CA2284FCB8647D,
+	unitytls_tlsctx_create_client_t_Invoke_m1DF5F05CEC35949278BEA867FA923CA399855D20,
+	unitytls_tlsctx_create_client_t_BeginInvoke_m7D9286CDD8953A99DC3DAF42531E08EC2921DF9D,
+	unitytls_tlsctx_create_client_t_EndInvoke_mD4C6A3C3AEB5444A52D5096080347CC4119CE729,
+	unitytls_tlsctx_server_require_client_authentication_t__ctor_m9AFB7DDE9F07B0C20E932B26CF5F7CC5A34EF2EE,
+	unitytls_tlsctx_server_require_client_authentication_t_Invoke_mAD3C2DC8E2407F47BCCDB9CCD03FAEF5C3C61FB4,
+	unitytls_tlsctx_server_require_client_authentication_t_BeginInvoke_m34DF29BAAD16625619D9BACCAE0916CCB1EE3814,
+	unitytls_tlsctx_server_require_client_authentication_t_EndInvoke_mD90E6FDE627752E1398D872EF076990B46A0D0C4,
+	unitytls_tlsctx_set_certificate_callback_t__ctor_mEE1D60229825001CFA228CAB36712F5911CA94F1,
+	unitytls_tlsctx_set_certificate_callback_t_Invoke_mD72A24F7BEB100ECBFE6A02447D07EB392F8416B,
+	unitytls_tlsctx_set_certificate_callback_t_BeginInvoke_mC558DC3F79919F6336501ED0EE6E258D40ABF0E6,
+	unitytls_tlsctx_set_certificate_callback_t_EndInvoke_m4A733262D24FD2ADD4A0807F5B70ACC4833E71DF,
+	unitytls_tlsctx_set_trace_callback_t__ctor_m698EE0E5FA09113DDBBE2BFD5EB4FE1A4E0F97A1,
+	unitytls_tlsctx_set_trace_callback_t_Invoke_m3563168D645C5A9128E07DBDFC7B5512764B2E11,
+	unitytls_tlsctx_set_trace_callback_t_BeginInvoke_m32846D6C60BEC0829F3478DB7AAB125D13B7F547,
+	unitytls_tlsctx_set_trace_callback_t_EndInvoke_mEAF3A5C422616242581287326BDAD6C5515F5DC1,
+	unitytls_tlsctx_set_x509verify_callback_t__ctor_m1900B77A4679CBF3A7F107114F9444A193F9B3B2,
+	unitytls_tlsctx_set_x509verify_callback_t_Invoke_mB4B699E9A75AD84590634AA66243AE8BE8DE9F09,
+	unitytls_tlsctx_set_x509verify_callback_t_BeginInvoke_mF1D785074322CB5DD7BB67E54C6C2140C5BCE73C,
+	unitytls_tlsctx_set_x509verify_callback_t_EndInvoke_mA320598F201D2E1ECAA3595355C93B3BDD13B031,
+	unitytls_tlsctx_set_supported_ciphersuites_t__ctor_mF8B2A46DCE03527B87EE1EB40F18EEB186591A58,
+	unitytls_tlsctx_set_supported_ciphersuites_t_Invoke_m9091B6D204D7611E2741CC2B3166616F8C19E594,
+	unitytls_tlsctx_set_supported_ciphersuites_t_BeginInvoke_mAD583F841F317705AA1F100D5188AEBC4B997C1D,
+	unitytls_tlsctx_set_supported_ciphersuites_t_EndInvoke_mFFC257704501E21B54877E6A937BEDAB526184E8,
+	unitytls_tlsctx_get_ciphersuite_t__ctor_mD59D1727FCCD2F1485FC87677C593BAA0D19FD69,
+	unitytls_tlsctx_get_ciphersuite_t_Invoke_m28D027E6306B1F2188E64245FBA01268CC329442,
+	unitytls_tlsctx_get_ciphersuite_t_BeginInvoke_m8BA17B437B22A3109CD7AA513F11B99A6010B215,
+	unitytls_tlsctx_get_ciphersuite_t_EndInvoke_m37132AD00EA6C15F18185B76F883D690BC9330EF,
+	unitytls_tlsctx_get_protocol_t__ctor_m57AA61C6CC144AC851EF8A1BCDE1FE8A6A7CE4E3,
+	unitytls_tlsctx_get_protocol_t_Invoke_m533A624ECEB2AC0E43052CE6A234D04E4E9C70AB,
+	unitytls_tlsctx_get_protocol_t_BeginInvoke_m633A813CF097D32A46D0AF9B4BA62675D446E476,
+	unitytls_tlsctx_get_protocol_t_EndInvoke_m31A4CD4E5918466D87B8EFED896BF0DF487FF061,
+	unitytls_tlsctx_process_handshake_t__ctor_m3C5790369EFE12F841C4EDA676DABCC833BF23DE,
+	unitytls_tlsctx_process_handshake_t_Invoke_mE17E62D2159809BC847BEB1D6B40C23C017ED3E8,
+	unitytls_tlsctx_process_handshake_t_BeginInvoke_mDE4541085A795D1286E90FE82D1802A4A2C861BF,
+	unitytls_tlsctx_process_handshake_t_EndInvoke_mDE68FC780902D4DDC02B55D01C3F5B1F2D5165CD,
+	unitytls_tlsctx_read_t__ctor_m3A54D3DC95D93F41585AAC5E0CBB09E7E21C6A88,
+	unitytls_tlsctx_read_t_Invoke_mAFFB3FA39F79B2BE4FFA182239DE94ED5570D803,
+	unitytls_tlsctx_read_t_BeginInvoke_mC8AA0588732E45F9402F7EC9319099ECFC5AFF8C,
+	unitytls_tlsctx_read_t_EndInvoke_m94A70CCFA5F55842BBB3DEC7B89D19BCBA37937A,
+	unitytls_tlsctx_write_t__ctor_m99DA58D77CC21DEAA77D8332FB1F4226BCBC3317,
+	unitytls_tlsctx_write_t_Invoke_mF9413F9C6DD887B3B0DA87CE25824CED940EEFC1,
+	unitytls_tlsctx_write_t_BeginInvoke_mC17344DDFE83AF7AA95CE8EC00A0FD27ADBF1A9F,
+	unitytls_tlsctx_write_t_EndInvoke_m6D59052A9AACE1E87DEBB2B6800B47FDAE09A524,
+	unitytls_tlsctx_notify_close_t__ctor_mD372DA8B81430D8E41B7372722D5D327CF438951,
+	unitytls_tlsctx_notify_close_t_Invoke_mC3B57340B3CA22EA7EB0EBFA5C941C487DE6B015,
+	unitytls_tlsctx_notify_close_t_BeginInvoke_mDB587D9039A414DC2127613B9E477379FF119E14,
+	unitytls_tlsctx_notify_close_t_EndInvoke_m5D323428785A814E43CA41E4244ECAF0F96EE668,
+	unitytls_tlsctx_free_t__ctor_m0445C80DC50302FB1F416ED7AA8B1E2DD66529EA,
+	unitytls_tlsctx_free_t_Invoke_m34DFBB044037052F67FEA5A579A5AC004E01AEC8,
+	unitytls_tlsctx_free_t_BeginInvoke_m7887C3F9C1F87DCD3807A2797D7525F108CBA926,
+	unitytls_tlsctx_free_t_EndInvoke_mED032427E108FD9D858A2B752544CC76CCCF647D,
+	unitytls_random_generate_bytes_t__ctor_m651B0D872AA98DCBDF99B8CBB48616F9877D28C5,
+	unitytls_random_generate_bytes_t_Invoke_mDF4C16458D2779B58E4C66ACB9A197DD3C61085F,
+	unitytls_random_generate_bytes_t_BeginInvoke_m15487ED3C5CACFB6E0D760F7307847F531F1C3A4,
+	unitytls_random_generate_bytes_t_EndInvoke_m3C6F54483F3AF797648AC5E311AB1976FFAFF61B,
+	UnityTlsConversions_VerifyResultToPolicyErrror_m0F695E9B6732F71E1719D642E28A569B39A56BB7,
+	UnityTlsProvider_get_Name_mD97B0783E337EF392796C2B54B2893132AE3CE6E,
+	UnityTlsProvider_get_ID_m69F15693799E92CF740F1632C811ABBDD9501CE3,
+	UnityTlsProvider_get_SupportsSslStream_m75C37BCDD5970564FF33FC734CE1E53066C310F5,
+	UnityTlsProvider_get_SupportsMonoExtensions_m937D906F958817CF7AF4BF3C0F6CB7FCFB271C34,
+	UnityTlsProvider_get_SupportsConnectionInfo_m2F1C9B6C649675ACE3F96A80EBAC9FF44655D004,
+	UnityTlsProvider_get_SupportsCleanShutdown_m0C0EDA9937BDF53475680A2892B937316D450B5C,
+	UnityTlsProvider_get_SupportedProtocols_mB92C5F264ADEADACCE52A31D1DA9937777C5BC04,
+	UnityTlsProvider_CreateSslStream_m7395FB4BBD905D89772F5157FDD254E5CF1F83DC,
+	UnityTlsProvider_CreateSslStreamInternal_mA8AD037F184BD564ACD9945D6EA3961971030F7E,
+	UnityTlsProvider_ValidateCertificate_mB131CB7451246C50BC4F3612C768E09C1DF59AAF,
+	UnityTlsProvider__ctor_m84BDC7485DA3C2B3A2153CA4B0AC695FD65AF493,
+	UnityTlsStream__ctor_mCFCFF6B6CCEB2BEBB904E26AB3BF22E888C75C3F,
+	BufferOffsetSize_get_EndOffset_m3D0A21592979F5088101892843183FCFB8C9BF2A,
+	BufferOffsetSize_get_Remaining_mBD3EA6B0F643284A54FDCA2860FE0F65C5CAF054,
+	BufferOffsetSize__ctor_m3DE692137428B2E6AB46008825FC5C1B63FDAF4F,
+	BufferOffsetSize_ToString_mEEB6528B305FE796622A87E8692C7132423D4655,
+	BufferOffsetSize2__ctor_m68156625CD993C66D5EA9C5194263DD9A4F59F3F,
+	BufferOffsetSize2_Reset_m4426212B4ECDC2D1487AE5B825918B747D947AB7,
+	AsyncProtocolResult_get_UserResult_mCCD14DC517D32C83AA61320D6D1D2E7F1430A3C8,
+	AsyncProtocolResult_get_Error_m90252805C3FCD7277CD1CB01CB765183889E6E29,
+	AsyncProtocolResult__ctor_m9F01278D600A337B6A0CF5F6C9EFF7760BD758D8,
+	AsyncProtocolResult__ctor_mD63EC8610596D4B15DB1325C58FF32A41DAD48CF,
+	AsyncProtocolRequest_get_Parent_m1F7659D1FAFC679076165336ED380C4BD123B452,
+	AsyncProtocolRequest_get_RunSynchronously_m66A26ED05543D9AF1ED86287DCE8389BC1CB319A,
+	AsyncProtocolRequest_get_Name_m1999BAB96B06DCB4DC11BF5F3B0BF4C6E2A26FF6,
+	AsyncProtocolRequest_get_UserResult_m53CEBBACE5031D4CE92308ABBAEA38AEF74DDBD3,
+	AsyncProtocolRequest_set_UserResult_mBF62363240DC9BE894231E56047F594EF452CD19,
+	AsyncProtocolRequest__ctor_mFE18CBE3FAA084FF6DF2AD8BECC2CA6DF4C6E769,
+	AsyncProtocolRequest_StartOperation_mA13EA6B8ED143BC043F506815D05EB3F49F22682,
+	AsyncProtocolRequest_ProcessOperation_m6DD0D7800F73C41BE9A5313737357801B22ED71D,
+	AsyncProtocolRequest_InnerRead_m902FA39460933B383900CB60BDF8CCFC96BF3499,
+	NULL,
+	AsyncProtocolRequest_ToString_m2D8062B5811D7B7A071CC451D2FD03E5BF61B529,
+	U3CStartOperationU3Ed__23_MoveNext_m8BB4BB3D517CE898003C10FE5B80D375FA4D30A2_AdjustorThunk,
+	U3CStartOperationU3Ed__23_SetStateMachine_m0D9AFFD785F28428CCC846BD6A8FCFD38F9B0F9A_AdjustorThunk,
+	U3CProcessOperationU3Ed__24_MoveNext_m8B20266FC4831A26E691F83D54C6903CF264999D_AdjustorThunk,
+	U3CProcessOperationU3Ed__24_SetStateMachine_m9710FA92383D6497F1A16F90563A9056800A59F3_AdjustorThunk,
+	U3CInnerReadU3Ed__25_MoveNext_m4AD149EC4A2E6FDA803D63FB72A354300DBD3D0D_AdjustorThunk,
+	U3CInnerReadU3Ed__25_SetStateMachine_mEBFC49E17D2A224B493E390CDDD4D211EC701EC3_AdjustorThunk,
+	AsyncReadOrWriteRequest_get_UserBuffer_m628B7BB1EB536BA73CFE467242E0E749A7B0AE6A,
+	AsyncReadOrWriteRequest_get_CurrentSize_m5AE6CC50F25E8504438DF2C9C2E2A44000621142,
+	AsyncReadOrWriteRequest_set_CurrentSize_mAB6067CAD6F9DB5B3D274FC09E70BFA8DCBA288B,
+	AsyncReadOrWriteRequest__ctor_m880E292B39EF76B9EDF3A5AB0A9A333A38A5575F,
+	AsyncReadOrWriteRequest_ToString_mDF6B2FA7AFA4E8B6571656E60CEF9BCFDCF05EDD,
+	AsyncReadRequest__ctor_mAF75247AFFC230BA5433424D27D13ACF53B3A239,
+	AsyncReadRequest_Run_mC9FDEBDFB3C4519C11A47FF358D4B7AB62514E11,
+	AsyncWriteRequest__ctor_mF3534E810074917ABDE7E4CE7EE61715694F9EB8,
+	AsyncWriteRequest_Run_mA3FF2D74BD568114BF3EA7FF6B0BE568D25D81BC,
+	MobileAuthenticatedStream__ctor_mF6BF50D6BFDEF283FF8036F5170281D29FDD7628,
+	MobileAuthenticatedStream_CheckThrow_m2AAEC9435176D4AA10890A896C5909330B23683E,
+	MobileAuthenticatedStream_GetSSPIException_m574F0E57FDDC71287516A9908D7E57FC61A8ED27,
+	MobileAuthenticatedStream_GetIOException_mE435E11E49448A2035BCABF04AA5F72F44DC26D4,
+	MobileAuthenticatedStream_SetException_mAFD628C4C8A54C4FE24BFB30C0F5863FDDFC8A7F,
+	MobileAuthenticatedStream_BeginRead_m678B1BECC958CD3B67D66134E56AD3CAEB07019C,
+	MobileAuthenticatedStream_EndRead_m347ACCE77CCCE6738781A2B182949CBA72CF9143,
+	MobileAuthenticatedStream_BeginWrite_m01F98CCE1A968C5654028F266F3C648CF858864B,
+	MobileAuthenticatedStream_EndWrite_m0CA1FD8354542D4F2BCA50BB4B0B852472D775C1,
+	MobileAuthenticatedStream_Read_mB273DD14EDCED08E88F57CB340B97A206BA7DDE1,
+	MobileAuthenticatedStream_Write_m0264ACE9D90AFB72A1A27B6130DD1B2876334DDF,
+	MobileAuthenticatedStream_ReadAsync_mA54D1973D54A2F0DB84CE3FB41EAE1974988BB32,
+	MobileAuthenticatedStream_WriteAsync_m2521D8A56CEC0EA00B99F2DD570FCCEDEBFF1807,
+	MobileAuthenticatedStream_StartOperation_mB3763CD0086F3FB7D75AF3E10A9E1532FAD5BDB7,
+	MobileAuthenticatedStream_InnerRead_m0EDB58159985F661C68EBA26247546ED06999D0F,
+	MobileAuthenticatedStream_InnerWrite_m36FEDC8E842C497B62D566D6392287270FD698AC,
+	MobileAuthenticatedStream_ProcessRead_mB005268451AB3F73B29AD1F787B576D5F3279371,
+	MobileAuthenticatedStream_ProcessWrite_m30427A9308C97FAD0964F81A6A9F436FB2507F0F,
+	MobileAuthenticatedStream_get_IsAuthenticated_m8D978D4684246BB2629CB1E2D207D2D76C132E3A,
+	MobileAuthenticatedStream_Dispose_mB7DAA195CE82F2FA15AB576C961A7CE5D58C3106,
+	MobileAuthenticatedStream_Flush_m20FAE0A0A6C311E1925367C03ECA23BBFB74BE8D,
+	MobileAuthenticatedStream_Seek_m2D799812EC327A4E25AA165B9966514B2B1475A6,
+	MobileAuthenticatedStream_get_CanRead_mE230E0D6A7CA3324925CD6311465B7BD41A144CE,
+	MobileAuthenticatedStream_get_CanWrite_mAF3696EAD7809A7D9EB50A091BDAE02586E0DF54,
+	MobileAuthenticatedStream_get_CanSeek_mFD9C9EF3A622E65965F14997361F9F611B2314A2,
+	MobileAuthenticatedStream_get_Length_mD76215A3195543708BCB40C787678535541CE71E,
+	MobileAuthenticatedStream_get_Position_mD05763AB69A4C7F98E6276F32645AEDFD8888731,
+	MobileAuthenticatedStream_set_Position_m5A309FE43C490AA7C1D9AE181D269CCA12B26260,
+	MobileAuthenticatedStream__cctor_mCC74CDBC64394AA7D5FE8CA0EE03EC0F11D7FEB6,
+	MobileAuthenticatedStream_U3CInnerWriteU3Eb__67_0_mA67CDCE05B68516E41F5A6A8BF836B0AAE18D3B9,
+	U3CStartOperationU3Ed__58_MoveNext_m8484CAD90FCBB0E2C0D16FFA928EF43362834466_AdjustorThunk,
+	U3CStartOperationU3Ed__58_SetStateMachine_m2DAE3399BC870A25A88A99F04B5C36A1FECC47BC_AdjustorThunk,
+	U3CU3Ec__DisplayClass66_0__ctor_m4ADA8611B27CC1C1BE9AFD1D22978A6621F720BE,
+	U3CU3Ec__DisplayClass66_0_U3CInnerReadU3Eb__0_mF1C5674011A7F38D3AE4A911BE1E8E36E5CE0348,
+	U3CInnerReadU3Ed__66_MoveNext_mDF4D1A1689C7CC5B3E42580E12BA513E31959F96_AdjustorThunk,
+	U3CInnerReadU3Ed__66_SetStateMachine_m27E2C20E7DC4AC988ADDF81E73A957C100424381_AdjustorThunk,
+	U3CInnerWriteU3Ed__67_MoveNext_mD7A964B6974275AD771AB15475A775E3393EE542_AdjustorThunk,
+	U3CInnerWriteU3Ed__67_SetStateMachine_mDEA51EA28DEE2587F5E63C6D535E4EDA8943C11A_AdjustorThunk,
+	NULL,
+	NULL,
+	NULL,
+	MobileTlsContext_Dispose_m28EF01B1A0096B9A7820BAA0A77DB59C96A619DD,
+	MobileTlsContext_Dispose_mA5A0EBCF3B159E9C83F76C00BA50FC67C360A7D1,
+	MonoTlsProviderFactory__cctor_mF95517B2A6920440ACFBE55DEA0EE9C1211BF26A,
+	SystemCertificateValidator__cctor_mBF04D8E389B7377FC07044B9CF044A966C572193,
+	SystemCertificateValidator_CreateX509Chain_mB9965896005703ADC050BC1E6415D30FBDC42091,
+	IriHelper_CheckIriUnicodeRange_mA9BAAD6D244ADEE8986FDC0DFB3DFDA90C093A6C,
+	IriHelper_CheckIriUnicodeRange_m5ED29083C22062AEAB8B5787C9A27CFEEC397AD9,
+	IriHelper_CheckIsReserved_m5C0A35BF0890852A3FC564618DB0836BBB6C0F1C,
+	IriHelper_EscapeUnescapeIri_m6DE347247CE35DB4CE3129BEC2179F0095D69239,
+	Uri_get_IsImplicitFile_m048350CB1E9AB92599F1557680A5D3B5FDE7C35D,
+	Uri_get_IsUncOrDosPath_mE372CA996BE5B29DD531D7C6DD1809E17441005E,
+	Uri_get_IsDosPath_m89CA4E32381C529502E91872BC89BD18F5419D08,
+	Uri_get_HostType_mBB4EE8652EA19E2FB8C696302D5EBE82F358EC90,
+	Uri_get_Syntax_m3DB6A5D9E6FC3E0D0A63EA8A4527AF4106F9BD78,
+	Uri_get_IsNotAbsoluteUri_mF9706123EB027C6E9AB263B98CE58CF319A22919,
+	Uri_IriParsingStatic_m39FC9677B4B9EFBADF814F2EEA58280F35A1D3E5,
+	Uri_get_AllowIdn_mF1833CB700E04D746D75428948BEBC70536E1941,
+	Uri_AllowIdnStatic_mFABD19611F334DF87EC3FF2B9A1FA061CAE3A5C5,
+	Uri_IsIntranet_mE98CA41B60FE0D4970737C8B7C81E5C63BFC07E1,
+	Uri_get_UserDrivenParsing_mFF27964894B5C0432C37E425F319D6C915BCDC39,
+	Uri_SetUserDrivenParsing_m0368CB47B9E9C35CB49B3F02DBE8DFED8756226B,
+	Uri_get_SecuredPathIndex_mC59A2366D6F3667017F677351C4350C9541905AA,
+	Uri_NotAny_mC5DC04B72B13D2997B055B9E41FCFEEC1CE5263D,
+	Uri_InFact_m4CE890C86FA34154A044516D2F3C9463389220D7,
+	Uri_StaticNotAny_mC07A1201FBE032238FCFA96E9FB5D60AEDACCC5A,
+	Uri_StaticInFact_m77BB2AE094534AFD7B9F68683C2A4356A75E39B8,
+	Uri_EnsureUriInfo_m4B46DF8611FA6D20D497D12D00544CFB466DCFA7,
+	Uri_EnsureParseRemaining_m33815B5767FAFADB762F7E39364E6432340F210B,
+	Uri_EnsureHostString_m4BD63AA5A88CA09572A8A7CF3B2EDDE17EF9C720,
+	Uri__ctor_mBA69907A1D799CD12ED44B611985B25FE4C626A2,
+	Uri_GetException_m2E833A8358C84BCF0397341160FADB1164290164,
+	Uri__ctor_m020E8051B3C0C9E60D8A868CBA0774B3FFB7C3FF,
+	Uri_System_Runtime_Serialization_ISerializable_GetObjectData_mD4773E59427820077E86F2B298DA1386028DAC9C,
+	Uri_GetObjectData_mC8CCD55C21CB624E369258E27A89F363F8271E68,
+	Uri_StaticIsFile_mD270A5F6C8B59AAF6256B4565ABE5917ABA545E3,
+	Uri_get_InitializeLock_m45D6A11D14958E716715351E52207DCA808F00EE,
+	Uri_InitializeUriConfig_m1B2F98DF0BB1A48FEB328E9D8BF3C23B32196FE2,
+	Uri_get_Port_m4E64AB9B50CCC50E7B1F139D7AF1403FAF97147C,
+	Uri_get_OriginalStringSwitched_m79E1C9F1C4E0ACCC85BB68841C167DDEA15CC72D,
+	Uri_get_OriginalString_m56099E46276F0A52524347F1F46A2F88E948504F,
+	Uri_get_IsAbsoluteUri_m8C189085F1C675DBC3148AA70C38074EC075D722,
+	Uri_IsGenDelim_m376CCA5D00D019A69FD746C57D236A54EB9D3CF3,
+	Uri_IsHexDigit_m3B2881FA99F0B2197F8017E70C3AE6EBF9849836,
+	Uri_FromHex_m9EAC76A5DBFED86532FF7E1BBD809176337A227B,
+	Uri_GetHashCode_m06066B9059649A690C5B4DE58D32DF227933F515,
+	Uri_ToString_mB76863E11134B9635149E8E5F59AB75A74A760E2,
+	Uri_op_Inequality_m07015206F59460E87CDE2A8D303D5712E30A7F6B,
+	Uri_Equals_m432A30F5E72A0F2B729AC051892BF9E1F4D26629,
+	Uri_ParseScheme_m61CAE16F1EC76725E5E0B23B09577F91BB223884,
+	Uri_ParseMinimal_m35FCFE52F12315DA60733B807E7C0AB408C0A9CF,
+	Uri_PrivateParseMinimal_mE1DA461DDA053787906BBEC2BC2B3046B1B329F0,
+	Uri_PrivateParseMinimalIri_m29F0CA367080586448C648332F59BED0096AB2D0,
+	Uri_CreateUriInfo_mC112D6E7002CA014AB6BEA878A66ECC46340FAAF,
+	Uri_CreateHostString_m6FEC48641D3786D73B50D5DC792804C9A4D70C54,
+	Uri_CreateHostStringHelper_m6C5EEA8BD2CDBCDD8A63FB74D3B801329EDE7BDD,
+	Uri_GetHostViaCustomSyntax_mD591A4A615803E70A03D7C75E7C114E4E460AED3,
+	Uri_GetParts_mF5840DC010E6D420EB5A0722320EDAAEA2D0269F,
+	Uri_GetEscapedParts_m745615124808CB89A18D499988F4425F678938C4,
+	Uri_GetUnescapedParts_m051A75B5D2DDAE55F107457CA468EE9A2563FED3,
+	Uri_ReCreateParts_mF50263ABC7D750E939B57BF61FA48A8762144FD7,
+	Uri_GetUriPartsFromUserString_m95A7794F28625B6AFD514C08765C27CAAE4BD1B6,
+	Uri_ParseRemaining_mBAE0F9850CD84965B3793B17444C677D77D58774,
+	Uri_ParseSchemeCheckImplicitFile_m92A658AE6C04E038058AD8E9581A41B06B6D6243,
+	Uri_CheckKnownSchemes_mCA95AE251E7C9208570543B446385BCF2C727E8D,
+	Uri_CheckSchemeSyntax_m1181D9BEA35D9D22852FD2FE815CABB267BA5A8F,
+	Uri_CheckAuthorityHelper_m5046CE781115A54CAE3ACD2C03987F526A761387,
+	Uri_CheckAuthorityHelperHandleDnsIri_m366E36029D4C9A00C0F216055B15F5E4805AED28,
+	Uri_CheckAuthorityHelperHandleAnyHostIri_m76FEA31E3FEDF3D1614987C6484ECF15022AE9D8,
+	Uri_FindEndOfComponent_mF276ABD008291C1FDC4B433A2F274058D06D8A6B,
+	Uri_FindEndOfComponent_mDCDF860C405E9F31F7CFE9AFFE7C096812697AEF,
+	Uri_CheckCanonical_mED3910E55213D1DFEAA5B33079E3A89D369B10B6,
+	Uri_GetCanonicalPath_mDE02BFA56EDD09479DDB2A5A50F6DF5210CA73F2,
+	Uri_UnescapeOnly_mB8F87981CDD4CFBFCD97EE668FF281CE26453F21,
+	Uri_Compress_m02224082A9665F07D35AB6EB6E3198642F9E7BCF,
+	Uri_CalculateCaseInsensitiveHashCode_m634FFDF8FCD81DECCB87161B153D1093C0A6FCE4,
+	Uri_IsLWS_m7A9F3B969CCEE56B9F98E40F1903C737DA7DF0D6,
+	Uri_IsAsciiLetter_m93435A20DF4DEE153B87B26D07B9963F1BF4F373,
+	Uri_IsAsciiLetterOrDigit_mEBA81E735141504B5804F0B3C94EC39B24AF8661,
+	Uri_IsBidiControlCharacter_mB14EA5816A434B7CE382EB9ACBD1432916EC341D,
+	Uri_StripBidiControlCharacter_m49D782826401F99D943C1AD76A75125879FF332F,
+	Uri_CreateThis_mCB3DC849A426498E9CCD249850CBC69C9D67D864,
+	Uri_InitializeUri_m5D99BD8533F3FAAD479B1193505B5B19B8C2F2DE,
+	Uri_CheckForConfigLoad_m13002EFBBFD437183ED0A7FCBE5681C510996B0F,
+	Uri_CheckForUnicode_m78E4938E82EE352BD5D8493AE0314224BC2543CD,
+	Uri_CheckForEscapedUnreserved_mFE708A44EC74C7E773B96B82CD9A5DF25EF97D4A,
+	Uri_TryCreate_mEEB6736FEDAF52AAE36ACC1EA1EC8CEBB7C52DAB,
+	Uri_GetComponents_m0346CA8037531DE1FC630775E0BD1F5D1E7920B6,
+	Uri_UnescapeDataString_mE1F40FC5CA3FF03DEE9EB01E3D8BD502D36A284D,
+	Uri_EscapeUnescapeIri_mDE5E4BAE74E2C2373AD186732FEE7AD6E0EA7180,
+	Uri__ctor_m4605489523A7A973459720C1BBE4039FD10557CD,
+	Uri_CreateHelper_m024137C47351CA9959E4AC66F9443AEEE87D89C0,
+	Uri_GetRelativeSerializationString_m5D0CD02E255BB96532F056BB382CF7D74D62BE58,
+	Uri_GetComponentsHelper_m28B0D80FD94A40685C0F70652AB26755C457B2D3,
+	Uri__cctor_m2B8179039C09C64936CF8262E3EF4A7E7C2F90F2,
+	UriInfo__ctor_m24EFE7B4E03C9FFB8B797770D626680947C87D98,
+	MoreInfo__ctor_mFE29F028646C12EDCAF7F0F78F9A85D52C10B83C,
+	UriFormatException__ctor_mBA5F8C423C09F600B1AF895521C892EA356CA424,
+	UriFormatException__ctor_mE1D46962CC168EB07B59D1265F5734A8F587567D,
+	UriFormatException__ctor_mE7F5B073E9F9DB5F22536C54959BEB0D1E7DA1D5,
+	UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_mED4C06AC35B7F94955ECC0D8F00383888C1127DC,
+	UriHelper_EscapeString_mF0077A016F05127923308DF7E7E99BD7B9837E8B,
+	UriHelper_EnsureDestinationSize_m64F4907D0411AAAD1C05E0AD0D2EB120DCBA9217,
+	UriHelper_UnescapeString_mC172F713349E3D22985A92BC4F5B51D0BCEE61AF,
+	UriHelper_UnescapeString_mD4815AEAF34E25D31AA4BB4A76B88055F0A49E89,
+	UriHelper_MatchUTF8Sequence_m4835D9BB77C2701643B14D6FFD3D7057F8C9007F,
+	UriHelper_EscapeAsciiChar_mFD7DE796BD53CBD2B1E73080FE0346D37F358902,
+	UriHelper_EscapedAscii_m06D556717795E649EBBB30E4CBCF3D221C1FEB78,
+	UriHelper_IsNotSafeForUnescape_m1D0461E7C5A3CFBD7A2A7F7322B66BC68CCE741D,
+	UriHelper_IsReservedUnreservedOrHash_m3D7256DABA7F540F8D379FC1D1C54F1C63E46059,
+	UriHelper_IsUnreserved_mAADC7DCEEA864AFB49311696ABBDD76811FAAE48,
+	UriHelper_Is3986Unreserved_m3799F2ADA8C63DDB4995F82B974C8EC1DEEBA76A,
+	UriHelper__cctor_m9537B8AAAA1D6EF77D29A179EC79F5511C662F27,
+	UriParser_get_SchemeName_mFC9EFD71512A64E640866792CCB7DAC5187DE9F1,
+	UriParser_get_DefaultPort_m050510870CCD4DD08DF7E98E2AF3D616446AD99D,
+	UriParser_OnNewUri_m7D55337A7A9B6B67FB0AD7CA96F472751EF5A897,
+	UriParser_InitializeAndValidate_m3E31D86FEE445E313BB7141F760626301767A0E0,
+	UriParser_GetComponents_m8A226F43638FA7CD135A651CDE3D4E475E8FC181,
+	UriParser_get_ShouldUseLegacyV2Quirks_mD4C8DF67677ACCCC3B5E026099ECC0BDA24D96DD,
+	UriParser__cctor_m00C2855D5C8C07790C5627BBB90AC84A7E8B6BC2,
+	UriParser_get_Flags_mBCF4C3E94892F00B6E8856BFED1B650FB6A0C039,
+	UriParser_NotAny_mC998A35DC290F35FFAFFB6A8B66C7B881F2559D3,
+	UriParser_InFact_mDD42FA932B6830D99AA04C2AE7875BA5067C86F3,
+	UriParser_IsAllSet_m74BEC412DC8AF3B1A33E11964EBB3164D9D8C77E,
+	UriParser_IsFullMatch_m7B5F47A62FA721E550C5439FAA4C6AFAC34EB23E,
+	UriParser__ctor_mAF168F2B88BC5301B722C1BAAD45E381FBA22E3D,
+	UriParser_FindOrFetchAsUnknownV1Syntax_m3A57CA15FE27DC7982F186E8321B810B56EBD9AD,
+	UriParser_get_IsSimple_mDDB03A5F6EEE6E92926A386655E5BBD553719B9C,
+	UriParser_InternalOnNewUri_m7D55F5CD59A3B9BF57BC68F715A27CC1A44566CA,
+	UriParser_InternalValidate_mF2FEB0E76E48B621EB2058FBE7DCC6A42A1681E2,
+	UriParser_InternalGetComponents_mFD4B211C71E0506AE4E4E99D92ECAF1780CE4674,
+	BuiltInUriParser__ctor_m66250DC53CE01410149D46279D0B413FC1C5CA1C,
+	DomainNameHelper_ParseCanonicalName_mFE738FD1237E2D9D9A1B27BA73F58B1689D451E4,
+	DomainNameHelper_IsValid_mE9672A824F71E32116358C5FA029789855A4B461,
+	DomainNameHelper_IsValidByIri_m13E2A6D9EBD42326C096F2423DBB0014763D47BF,
+	DomainNameHelper_IdnEquivalent_m439593BAF7C6C801F577E7C27B0C4FBB1772E49F,
+	DomainNameHelper_IdnEquivalent_m459BFF3040F8E6BFE1CE1C6432A1343A2ECF2F57,
+	DomainNameHelper_IsIdnAce_m2231C778C4CCE141ACDC412737642CC365307445,
+	DomainNameHelper_IsIdnAce_m9193B7D824FC6965820FCE980FEE3E0B40EA94B8,
+	DomainNameHelper_UnicodeEquivalent_mA80E5FF3AD6AFBB9FC257ED1C4F0D31C8F0EFEC3,
+	DomainNameHelper_UnicodeEquivalent_mD5A7A659B82F1FBF7ABF30009117CFBF8BC4D55F,
+	DomainNameHelper_IsASCIILetterOrDigit_mD3B0B9BD4573FADEF6AC7330A5EC58C220455F01,
+	DomainNameHelper_IsValidDomainLabelCharacter_mF6DEB20D9D03A8728B1C58006C40D6603B7D61D1,
+	IPv4AddressHelper_ParseCanonicalName_m2A8C35045CE02D6FC2C4251F239D1C0074E0E813,
+	IPv4AddressHelper_ParseHostNumber_m798FB6828971F70775D1125565A1D1025C897F14,
+	IPv4AddressHelper_IsValid_mD96D91E0F3830414F4601A4521E71DE832A45843,
+	IPv4AddressHelper_IsValidCanonical_mC27E31F1F043D68BC52719892D34EDDC7851B120,
+	IPv4AddressHelper_ParseNonCanonical_mDCD1CD7FB85C4FFBF3070B1435A0D632C1A7B97E,
+	IPv4AddressHelper_Parse_m08110623FAC14806376148D7C16AB95A428EA6CF,
+	IPv4AddressHelper_ParseCanonical_m9D4552558C934E373D188DDA0BC1D1DEF5A62C33,
+	IPv6AddressHelper_ParseCanonicalName_m3944530A7B686031653F97824EF712424E0BEE14,
+	IPv6AddressHelper_CreateCanonicalName_m0B1C201DFADBEB58869E0BE8BFA967EEE64B096A,
+	IPv6AddressHelper_FindCompressionRange_mE70B131DDA05D3059325246A5AB7F6029B6EF6BD,
+	IPv6AddressHelper_ShouldHaveIpv4Embedded_m262634E9099141536C00213C1CFC123665A641DE,
+	IPv6AddressHelper_InternalIsValid_m3BD7E7524455146D4464037DA3B65530E547AB7A,
+	IPv6AddressHelper_IsValid_m2383F1A867665B04A4F2B8D82FF2B62BE51C2289,
+	IPv6AddressHelper_Parse_m36CE2F56465C4F9F7791E80E954C7C0ECBD16DFB,
+	UncNameHelper_ParseCanonicalName_mCBE64015FD1B6B4829CEAA89625C1D44E280E37E,
+	UncNameHelper_IsValid_m4055361D79684EE7B098C055B2E9068EE06F1EF6,
+	IOAsyncCallback__ctor_m1010BF5234B0ECC2FEB54105BA15B313633C1985,
+	IOAsyncCallback_Invoke_mB95F7E7F0E8326CE5364A30F42FC1073B0AB2D8B,
+	IOAsyncCallback_BeginInvoke_mB8CACF8990B91DF4A695E597CEBE4BA09354C32C,
+	IOAsyncCallback_EndInvoke_m397237D5497A9029CC3FACE692D11BDC1558A727,
+	UriTypeConverter__ctor_m1CAEEF1C615B28212B83C76D892938E0A77D3A64,
+	ArrayConverter__ctor_m831D145364A55A155BC896935367961A476D53B7,
+	BooleanConverter__ctor_m8293C29BCB7B90516FFE978C6295C0378C1BFEE4,
+	CollectionConverter__ctor_m86DBE477F4462418329C5CFB45C86A9420F852E7,
+	DecimalConverter__ctor_mB015B3871CF834D0C5D8290C9FD15509249921E7,
+	DoubleConverter__ctor_m419F1E782FFBC765D22792D76E56D54FC94E6AEB,
+	EditorBrowsableAttribute__ctor_mACDE45DF0DCAA6E923120D6AEC45422AEF958C2E,
+	EditorBrowsableAttribute_Equals_m6F5EF9CC298CBDC862CBCA5187379A79635726FA,
+	EditorBrowsableAttribute_GetHashCode_m74229847CE44E771F282E2E73FFC4DE55771A1B6,
+	EnumConverter__ctor_mBA8B2E210D061A3CF86950F6D797E911A2E3C774,
+	Int16Converter__ctor_mD4D022096E6FB9FFDB84D879E31177A892DD072D,
+	Int32Converter__ctor_m1CD79AE5880FDE2EC91F1D67E567AAA3618D19B9,
+	Int64Converter__ctor_mE4DC71A97EF110B854F22A48AB0F0D3792B53A74,
+	SingleConverter__ctor_m8EA7D412C3EE9A9522E7592774DD46EBC6118AA8,
+	StringConverter__ctor_m2718AC00691AF4A3AF8A8D64896BE3B5D58658B2,
+	TimeSpanConverter__ctor_m28E7294174F979EF86FEF9511474B0AB9431217B,
+	TypeConverter__ctor_m7F8A006E775CCB83A8ACB042B296E48B0AE501CD,
+	TypeConverterAttribute__ctor_mD0795A29B6FD59978CAAC6DAF3AC7EC564C519A5,
+	TypeConverterAttribute__ctor_m52D4E66A914F1A04F2F10A7131A701670225D41C,
+	TypeConverterAttribute_get_ConverterTypeName_m883941C77E14FC5B4A3E32DD8F59F11739D5D6D8,
+	TypeConverterAttribute_Equals_mDA74DFC28CC7ABC315407EDD1AAC14531C5F6AC4,
+	TypeConverterAttribute_GetHashCode_m35874D49724DA3F72C6C2575FD595A711A659DAA,
+	TypeConverterAttribute__cctor_mB1A775F56A5933A17CF349BD466B0CCE66B1078A,
+	Win32Exception__ctor_mC03E215A1695ED64DDC50F4BE9F59966974DF759,
+	Win32Exception__ctor_m2BEA755F6AA536ADDDF07D83BD8297F02584F714,
+	Win32Exception__ctor_m94A043EE26097BBFE0ED22FD4EBEA357F142EFE6,
+	Win32Exception__ctor_mC7ADDE9D2FEE4E17432F63C24EF1D872380094DB,
+	Win32Exception_GetObjectData_m7CD0D7A0806E4A9D8E78ADCBC616700379AB79E8,
+	Win32Exception_GetErrorMessage_m6085687D868718B45289CB6AF6EDCB7F89D7350D,
+	Win32Exception_InitializeErrorMessages_m4FE6F56C1C2CCB3F6468F0F9F5AD6E1B08673438,
+	Win32Exception__cctor_m800CD9D0B3E3253B79A19B6646A7D28B29C3FC52,
+	BaseNumberConverter__ctor_mD78E1C7E1F8A977BC7AD33DB0C1E5E32C60E8E83,
+	AuthenticationException__ctor_m28782FCB7D9F3773F20A9F422CB2843FB70D723A,
+	AuthenticationException__ctor_m431AB34EFB028337941758B192DF4D045BA93005,
+	AuthenticationException__ctor_m547DE1104C83024255A4F61AAAE6C6049383C7E6,
+	Oid__ctor_m45F49EB1ABFD4F3EB0FC9729C76FF83995752743,
+	Oid__ctor_m67437A59D4E75ABF6E40D503F57F81199546E5EC,
+	Oid__ctor_m0656E1FC1A7E7BBF694A568DDDF8BE4AFA544985,
+	Oid__ctor_mA7AFE14DF30B47447BFFC9E41B37B8DB46C9D079,
+	Oid_get_Value_mFE18BDFF095DD5A6643F4FEC3E57846716F37F05,
+	Oid_set_Value_m304CEF248379566701402100FA015EAC640C033F,
+	OidCollection__ctor_m99B93BB5B35BF7A395CFB7F8B155DFA8DD734800,
+	OidCollection_Add_m1FF686421A22A86F8296259D99DA38E02B8BBF5C,
+	OidCollection_get_Item_mB37F923F4714BFE0DF44E8EE4A1A5EA1F3EBB1D9,
+	OidCollection_get_Count_m6AC0709CDD68451F4CAC942CE94A5A97F3C294B2,
+	OidCollection_System_Collections_IEnumerable_GetEnumerator_m3FD3A96DFF93BD88A3B28E35A4DEF57AF25ECB30,
+	OidCollection_System_Collections_ICollection_CopyTo_mE508CB1FD9E56CCFE5A4BDD5251D815BF78AC5A9,
+	OidEnumerator__ctor_mCA4FBC8408E2B04FD0A524E256E284E8A44E0797,
+	OidEnumerator_System_Collections_IEnumerator_get_Current_mF11B1F886842EA79EDB215BD5106D0C4C65EBE53,
+	OidEnumerator_MoveNext_m073D94D5D3254D53DF53429ACAD0AA9BD682221D,
+	OidEnumerator_Reset_m5006C3B1283711E2BDDEA6C25FDF93BBB900195E,
+	CAPI_CryptFindOIDInfoNameFromKey_mA2FD2F391E133E586BC8B827DD916613B590E698,
+	CAPI_CryptFindOIDInfoKeyFromName_m7809CD491D913D58FA1B996B835A0A91C413E9DB,
+	AsnEncodedData__ctor_mED24E9D1F11942741819652302C0531D18C39BE6,
+	AsnEncodedData_set_Oid_m91E38503AAFD8E6FD98970D94FD43E7A738242A6,
+	AsnEncodedData_get_RawData_mB9F8281A96011161C67EB3A9208E26C423B187EC,
+	AsnEncodedData_set_RawData_mD7FE2383373A6AF578A4983999D677B58BD6B4EC,
+	AsnEncodedData_CopyFrom_m3937C7ACC425960B8E48B7D2EB50E9417A7CD4B7,
+	AsnEncodedData_ToString_m502785F2F8B4D1EBDF5CEE612FD8D0C2044390D7,
+	AsnEncodedData_Default_mEEA94BA253ED1B8A719466A8152A5333E0E3FF07,
+	AsnEncodedData_BasicConstraintsExtension_m64D690A2456E16AF39F6F0784CE74BC9533BB182,
+	AsnEncodedData_EnhancedKeyUsageExtension_mE04DC17ACCBF3850AFBA454D9937EC4713CC5058,
+	AsnEncodedData_KeyUsageExtension_m4EE74EA5C4A3C0B72C50DEB22A537812997AF590,
+	AsnEncodedData_SubjectKeyIdentifierExtension_m261D32E7AE226499BA8AD3FBE24FC0E71C9DEB76,
+	AsnEncodedData_SubjectAltName_m94FE55170A872B3174D5C495A27AD09F3BACAF49,
+	AsnEncodedData_NetscapeCertType_m9191830C380BEC39DBE09065B2A4134193EA92D4,
+	X509Utils_FindOidInfo_mE43E0522988511319B8B9F69AF7D0A10B4AE8FA2,
+	X509Utils_FindOidInfoWithFallback_m98443176879ABC2054619D4AA491FE086D406950,
+	PublicKey_get_EncodedKeyValue_m4BD0975B491E89FFE2A75C1ACDEB1DCCAF586D4F,
+	PublicKey_get_EncodedParameters_m629FF8D7E4EEDED96BC455B7B953DC5A46D26F4F,
+	PublicKey_get_Oid_mB0AD65FDF84716726D5C7756E5B50CEAD1E4C2AE,
+	PublicKey__cctor_m9F739A93AE91AE86889835AAE256410F4DB808CC,
+	X509BasicConstraintsExtension__ctor_m1D3F45762EB686500D2195886AD26FF84E5F4B3C,
+	X509BasicConstraintsExtension__ctor_mEED7AECEE911DF6CE692301F8F6F6B197DC05729,
+	X509BasicConstraintsExtension__ctor_mD08FE3682F4B2EA23450C6609360F45656495780,
+	X509BasicConstraintsExtension_get_CertificateAuthority_m282E5D9E7640A06AF2CE06A0FA374571F25BAB6F,
+	X509BasicConstraintsExtension_get_HasPathLengthConstraint_m463A8B4DF4BEB46A9353309AA5EF3EAA2F7A4D42,
+	X509BasicConstraintsExtension_get_PathLengthConstraint_m93EF2B2BA6D6AD72DE59D98EB0E40DDD2AB3B49F,
+	X509BasicConstraintsExtension_CopyFrom_mE64F232FB7DF702DCDB6692537B8F1010AA316DC,
+	X509BasicConstraintsExtension_Decode_m40A688DD3A933B24A3E9EFE505299F70AFF32E81,
+	X509BasicConstraintsExtension_Encode_m04068558E7AF843C57A8BA9C39E251B7B37A1CDF,
+	X509BasicConstraintsExtension_ToString_m75957B2B18A84645897676F0DAC473F022848336,
+	X509Certificate2Collection__cctor_m8F5A775DC6302B95D1CA30B5C576AD4907E94516,
+	NULL,
+	X509CertificateCollection__ctor_m3CEEDA1CDA93234E6E78DFB6563738B050AFF6CA,
+	X509CertificateCollection_GetEnumerator_mD28E40E9104E833480FA012B1CE905AC08A7AD4F,
+	X509CertificateCollection_GetHashCode_m383BD6816EEFE8FA5CA81CA4279B5334231EF84D,
+	X509CertificateEnumerator__ctor_m81F0C80052FB25D722E5E66D5121D9F559A2EEB4,
+	X509CertificateEnumerator_get_Current_mDA87DA5B1CD027E452E22112ED43423F95573BE0,
+	X509CertificateEnumerator_System_Collections_IEnumerator_get_Current_m92ACFD522418E3D722E6C723FA93FBFC7A1A3EBC,
+	X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m99B025AB34B4F5CFAD7836A73D01FBE1AEA019F4,
+	X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m7EC63F5898E3A9881E73EB6205238C31ED4CC323,
+	X509CertificateEnumerator_MoveNext_m472F420F968A52D970486D21BFFABCCE5329F714,
+	X509CertificateImplCollection_get_Count_m1503CBCEDE4650173097C408898F1806582CC77E,
+	X509CertificateImplCollection_get_Item_m24CA14D68946B6E0006B162BA284EB51F826F276,
+	X509Chain_get_Impl_mC8D8FB1BED19A1E40D1DAA7561448ADFA094B740,
+	X509Chain__ctor_mC6F6E3F01D21638D909E13D151923EB4BF592CAB,
+	X509Chain__ctor_m8273B96D3DA26CDF61C71723A980E09214D1DF36,
+	X509Chain_set_ChainPolicy_mFFC95743026B78C7B6DA33B51CEBD81FA2215EDD,
+	X509Chain_Dispose_m4CC4E701CE9CA80CC1C3787E84D955D6B7632A2E,
+	X509Chain_Dispose_m0233872244BD2AA33E6C4D2AE572FFB991909FE9,
+	X509Chain_Finalize_mC31E8C29EA7A66E5B4D2D41C1CACF7AF5BB94AD3,
+	X509ChainElementCollection__ctor_m035B6BC8E21811A1536A60FFA9BAB9A4159323E3,
+	X509ChainElementCollection_get_Count_m93E1B437A465A5DC0D48F0184EF55370D0E29E2F,
+	X509ChainElementCollection_System_Collections_ICollection_CopyTo_mFB0649BFDEA056BF980F17B68DE6B66DF436E3D8,
+	X509ChainElementCollection_System_Collections_IEnumerable_GetEnumerator_mA687F2811DD1F678D629FC166F4288DD340D02F9,
+	X509ChainElementEnumerator__ctor_mC91FB54A5BD2C0B0E972FBCA193C5A453FC6957A,
+	X509ChainElementEnumerator_System_Collections_IEnumerator_get_Current_mC3EC8EDFD95897AD140B4F680905E65D8B04B49C,
+	X509ChainElementEnumerator_MoveNext_mF90FBF977D510F6FCF47D5B8CB34254C2822A775,
+	X509ChainElementEnumerator_Reset_m1D149AB7FF36C6200FB205408D5E856FCE624CCA,
+	NULL,
+	NULL,
+	X509ChainImpl_Dispose_m0018CE8D4317FCAEEA5465425BF5BB5A4A728CBA,
+	X509ChainImpl_Dispose_m0F4B69EE7F402C78C833599FB0F4BEC101CB328B,
+	X509ChainImpl_Finalize_mD3777623D36204B695026890DAAC789BE8273724,
+	X509ChainImpl__ctor_m2DC75C34EFF93D4A1DEF14F168489613A557C962,
+	X509ChainImplMono__ctor_m9EEB55A0D2F4EC7D21C5D8FB470A8B9B9094A935,
+	X509ChainImplMono_get_IsValid_m782E5277F3BEF121956B1C90D56FA275879BD706,
+	X509ChainImplMono_set_ChainPolicy_m16F6430F9445BF75D7965A0ED22F8E17E8A4DDF2,
+	X509ChainImplMono__cctor_m95136BE1101C06B64816562118FA9E3502406EB2,
+	X509ChainPolicy__ctor_m68882C53D2D8D22007332CCA165F650078751ED4,
+	X509ChainPolicy__ctor_m53AB51FBA21115B866EB0AB6AEE039B6167F6A4D,
+	X509ChainPolicy_Reset_m651C65C1321FEFE9E3EDFC1BE2706AEFE2C612DA,
+	X509EnhancedKeyUsageExtension__ctor_mC91E46E79086AAFCD611FB3A223797D20BA9C1C2,
+	X509EnhancedKeyUsageExtension_CopyFrom_mC206A056C8C59401AA01F8C935DDE27D7E34D96A,
+	X509EnhancedKeyUsageExtension_Decode_m1865B86FE190237641C00804A058BF56F125183D,
+	X509EnhancedKeyUsageExtension_ToString_m99085514587961F4AB1CA3FB82E5223801475818,
+	X509Extension__ctor_m75C6A788965E9C797F3D47DEFEC366EC2F69F384,
+	X509Extension_get_Critical_m8F4D4C2F0ECBE5CB4C9998CE3E56D5040E2EEBE2,
+	X509Extension_set_Critical_mA2B424FF17DE53E01E586015DD1C742773B060B4,
+	X509Extension_CopyFrom_m03B3EAD99E076090F01D26FF483E827397903A02,
+	X509Extension_FormatUnkownData_mE5BAB7DB56CE215EB704A7E4E6866EBECA18F90A,
+	X509Helper2_CreateChainImpl_m5A5909ADD8809F95E64FC576BB29EF5B5F878D24,
+	X509Helper2_IsValid_mE1C295645E14225C9013A23339E52201C05419F7,
+	X509Helper2_ThrowIfContextInvalid_m2CE36D57CDF7DCD4EDD5586EF5D526386B009DB5,
+	X509Helper2_GetInvalidChainContextException_m6435C6B754A3A3E6A69DCF16C9F962E0205323AC,
+	X509KeyUsageExtension__ctor_mCCDDE2A55EF78832C8117C680FB264CE91893A99,
+	X509KeyUsageExtension__ctor_mA9DDAD17EA38ABB83CD6CC9A353A0667A9EAC018,
+	X509KeyUsageExtension__ctor_mBC544E9444992C7883638DB0B4607945F33E7426,
+	X509KeyUsageExtension_get_KeyUsages_m9544DC0FAAD02C53D6C649E1831176CB54EFE505,
+	X509KeyUsageExtension_CopyFrom_m8DA1FA691943CBD4B94E45096E83FC5EA9EEEA3F,
+	X509KeyUsageExtension_GetValidFlags_m7946BD756F14B17D707EE12E7D82878531D115EB,
+	X509KeyUsageExtension_Decode_mDE97A425A199661D89FE252A75C8644D4280F1B2,
+	X509KeyUsageExtension_Encode_mBBF95E13B1FE1A0507FD692F770D6E98A68E3360,
+	X509KeyUsageExtension_ToString_m4455C1B31C62530B930CFADE55DC0E77C60C7EFC,
+	X509SubjectKeyIdentifierExtension__ctor_mD586705C293A9C27B5B57BF9CF1D8EAD84864B29,
+	X509SubjectKeyIdentifierExtension__ctor_m45218EE7D32231FA6C44A40FEC2E5052162012D6,
+	X509SubjectKeyIdentifierExtension__ctor_m182458124147FFEE402584E6415C2EA407B59C5B,
+	X509SubjectKeyIdentifierExtension__ctor_m95DD08883D5E284C15820274737324063C4E4432,
+	X509SubjectKeyIdentifierExtension__ctor_m98571FC543622A4BD3EA7788BB132348D9E0A3E3,
+	X509SubjectKeyIdentifierExtension__ctor_mF692F46CE97CB60AF86C1A74E709E8276B7D9AB1,
+	X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_m3480A14D8377B6C2D220F99D37AB8B13BEFE76FF,
+	X509SubjectKeyIdentifierExtension_CopyFrom_m45E7EB4E976E4759046077C79FBC4A820C9A95EC,
+	X509SubjectKeyIdentifierExtension_FromHexChar_m7BDBE176CD85DCA3193FECF78D6CF15E349121BC,
+	X509SubjectKeyIdentifierExtension_FromHexChars_mB2D3EBC7E627D44254A82E5628A2079C1DB24C38,
+	X509SubjectKeyIdentifierExtension_FromHex_m654E8BB1D2F9D8C878EF854D7933C6EA825F272B,
+	X509SubjectKeyIdentifierExtension_Decode_m6EB136D7525F3DFB9FA93F8B3653D2F6FA3B72D1,
+	X509SubjectKeyIdentifierExtension_Encode_m11C84A3DCE621526C1FC282E214001D70937D6BD,
+	X509SubjectKeyIdentifierExtension_ToString_mB22086D5277B22093240BB9841D32D9008D26AFA,
+	EndPoint__ctor_mFCD3A4BB994F59D40A3A94A6F1DEC4A731CC8776,
+	IPAddress__ctor_mFD0AF2F6A282D1158DF3C34EF2E63B73814E7748,
+	IPAddress__ctor_m373D3930BEEA00EC628E98C5A13AE9BE2B2CEC84,
+	IPAddress__ctor_mCC321EEDA0750DA97447EB60529BCBCB4EA0249D,
+	IPAddress_get_ScopeId_m941461DEBDECCD858F8D3165F3CA366A318064D9,
+	IPAddress_ToString_m0CAEDDAF2A42F23EB1BE3BB353ABE741486710BF,
+	IPAddress_Equals_mADA54686760DE75E2C31B8651224FFEB019316D6,
+	IPAddress_Equals_mB38BAC1A15885A3181507BC9FD4E8F5765FA6678,
+	IPAddress_GetHashCode_m36CE850AFAAD382A29B7D72844989A3105565D7C,
+	IPAddress__cctor_m4DF372012DF900E7BB489931296D0BFE4EBD4AEA,
+	IPv6AddressFormatter__ctor_m94725668992E78AA0D75E1C072E8A567E9C34497_AdjustorThunk,
+	IPv6AddressFormatter_SwapUShort_m6B7BA905E96BB0889C580EE25F3614C7A4A9164C,
+	IPv6AddressFormatter_AsIPv4Int_m94B06C695C45C85A90F95CAAF4430772EFC16C4F_AdjustorThunk,
+	IPv6AddressFormatter_IsIPv4Compatible_mDC05432DB57ED01219A35BD1B712E589A527A5FC_AdjustorThunk,
+	IPv6AddressFormatter_IsIPv4Mapped_m0BEBB1DE4A773028D3091D8321106BE92519A127_AdjustorThunk,
+	IPv6AddressFormatter_ToString_mBBBF9A3ABB56F52589BD211DD827015066076C8F_AdjustorThunk,
+	SocketException_WSAGetLastError_internal_m18F05CF8D9CE2435225A4215ED757D8D98716FC3,
+	SocketException__ctor_mB16B95B2752EAD626C88A5230C1A8FEB7CF632CA,
+	SocketException__ctor_m2687C4EFA4D012280C5D19B89D8D01F97B6A2F1A,
+	SocketException__ctor_m4C36461DF98089890FBF01908A4AAD301CABE071,
+	SocketException_get_Message_m50B9DF4BB6F3B20F650E2F965B3DD654C8970378,
+	AuthenticatedStream__ctor_mFCFA51BD3C5544DC6390CF5094E1C0DBA133C172,
+	AuthenticatedStream_get_InnerStream_mB7DF06B2F011B3F9F301D068438BBD01C24DCDDC,
+	AuthenticatedStream_Dispose_m5610A806886C36698AC932D21F5FBDCAE9FA3E14,
+	NULL,
+	SslStream_get_Impl_m29F58D35745DFC013BFAEFCF3952391234D8BC9A,
+	SslStream__ctor_mA434A097CD9B052AC8510C8B5BFF9E5E6B541DC9,
+	SslStream_CreateMonoSslStream_m2DA6B0A589490351B37010F5BCF2DA3D734FF266,
+	SslStream_get_IsAuthenticated_m273C64C4DF6FFD4E9772EF714EFA982D4C0A9D83,
+	SslStream_get_CanSeek_mD0CB66ABEA39EE6BEAB9BD53ADF03476FEA2E266,
+	SslStream_get_CanRead_m49799854D297DCF71A497F8858B64DDD1C10BF00,
+	SslStream_get_CanWrite_m25569C1704B5F54A27234D1B9B69647D5018CCEF,
+	SslStream_get_Length_m1A4DBA93F0D140FA33892E0193DDE8C6E4175763,
+	SslStream_get_Position_mDCFD4EFB697DAFF90BA366ED8519487027E21671,
+	SslStream_set_Position_m4D2093D31E1557590786FA41197CD585CAC79E3A,
+	SslStream_Seek_m53AB94845DF9E4A126414BC25E024053D43627D1,
+	SslStream_Flush_m409B5ED6ACB6B2496DAF6725C6CAAF5D51BEADE3,
+	SslStream_CheckDisposed_mFCE61CD9DDFDF97DD850B2EAF0908EFE50008DE4,
+	SslStream_Dispose_mFDB97E2E26CD194DBCBE47710EE5402B2298B919,
+	SslStream_Read_m4FE23134855CE89200771C5A8851DDDDDF182FF3,
+	SslStream_Write_m262369AF62D8AA0CCC4EAC5BF3274693AA27B1BC,
+	SslStream_BeginRead_m4D96895D1B0C302EF4D52681FEDA82D1E53E7C3F,
+	SslStream_EndRead_m918E3DCEB2DE563A21B042D7FF530E96EBA8EF51,
+	SslStream_BeginWrite_mB8CC50460AFEF640D3C36C68938EE921F3E11844,
+	SslStream_EndWrite_m796ACEAE821536F59642EDC2748B2A5F232953AB,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874,
+	BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A,
+	ConnectionManagementElementCollection__ctor_mA29AB3A62411F032C5EF86B16E7633A386000C7B,
+	ConnectionManagementSection__ctor_m1112C1BE1A9466BBCDD5C2ED20E80CDE03B46CA4,
+	ConnectionManagementSection_get_Properties_m1737189D2D78E81728CFF1CCCEB99E1FFFEA3F19,
+	DefaultProxySection__ctor_m41EADE87065B61EDF32F67D2E62F04946886DAF6,
+	DefaultProxySection_get_Properties_m6F70EC02D977EB16F86354188A72DC87A8959555,
+	DefaultProxySection_Reset_m54AC9323047B1FB38795C9F466C1C01192F75276,
+	ProxyElement__ctor_mAFD852231DF0231726E41911409CB2725BE990AC,
+	ProxyElement_get_Properties_m8A3EE4A3EEF2571DE4768730CEF4107331490377,
+	HttpWebRequestElement__ctor_mE3A4CA43FCC72E10B6C7B4920F429C028765E233,
+	HttpWebRequestElement_get_Properties_m531EDF2F56823100C47A9EEE1575143E5EB5463C,
+	Ipv6Element__ctor_m3F7DF39E6E51517E1429BAE43FA782BF3AF17965,
+	Ipv6Element_get_Properties_m156008D7E5279C50DE4CEDB6D4D3CEDAF2ACF8DC,
+	NetSectionGroup__ctor_m566D7C9466957BCE3B8FE2D0EA2582CC2F95F269,
+	SettingsSection__ctor_mC5F3D29EDC94D87B0B0542DE3702795441AC3005,
+	SettingsSection_get_Properties_m1ABB76DEC7441CFEDD4E7EDF99B8F5C258101254,
+	PerformanceCountersElement__ctor_m5A090222699B48BEB5FCC743198613FA8D081083,
+	PerformanceCountersElement_get_Properties_m3C7B73AC6E5F5E92426D7DC091A2ECE5CFCD9FD0,
+	ServicePointManagerElement__ctor_m61B031714F8498D467B5A0958EE62F73E0C58EB7,
+	ServicePointManagerElement_get_Properties_mC1C586246B4FE10AC90622A0CC6A5936D501B677,
+	SocketElement__ctor_m428B7094399223FFB9A5B62BF9D8CEA18A00A4C3,
+	SocketElement_get_Properties_m9CF8E9B1A9B41B7EC24A4F91CE2E8ECBF317426A,
+	WebProxyScriptElement__ctor_mC8AF875E80D96B18AA387148009AE1C630D83591,
+	WebProxyScriptElement_get_Properties_m8AD25399F804B2D22BC8312102EBC28A0CAE6E26,
+	WebRequestModulesSection__ctor_m0CAB6F207E3B29D65AEA38A6AC191873E3000F02,
+	WebRequestModulesSection_get_Properties_m909A3E4C4A61BFCC9D09F397D9314E5F74F3FE44,
+	WebRequestModuleElementCollection__ctor_m8B880B0EAE7CEF1CB79CD264A9B6D62AB6A22961,
+	DiagnosticsConfigurationHandler__ctor_m185BC74B0225A3E16EEB4164923931B79AAA0CF0,
+	DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96,
+	ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD,
+};
+static const int32_t s_InvokerIndices[658] = 
+{
+	1,
+	2,
+	0,
+	946,
+	946,
+	713,
+	19,
+	144,
+	947,
+	948,
+	22,
+	144,
+	949,
+	950,
+	7,
+	144,
+	949,
+	950,
+	7,
+	144,
+	951,
+	952,
+	4,
+	144,
+	953,
+	954,
+	4,
+	144,
+	955,
+	956,
+	22,
+	13,
+	144,
+	957,
+	16,
+	958,
+	144,
+	91,
+	959,
+	4,
+	144,
+	960,
+	961,
+	962,
+	144,
+	963,
+	964,
+	965,
+	144,
+	963,
+	964,
+	965,
+	144,
+	46,
+	966,
+	4,
+	144,
+	967,
+	968,
+	7,
+	144,
+	969,
+	961,
+	970,
+	144,
+	971,
+	972,
+	973,
+	144,
+	974,
+	966,
+	965,
+	144,
+	975,
+	976,
+	4,
+	144,
+	977,
+	950,
+	4,
+	144,
+	46,
+	966,
+	4,
+	144,
+	978,
+	979,
+	22,
+	144,
+	980,
+	981,
+	22,
+	144,
+	982,
+	983,
+	965,
+	144,
+	984,
+	985,
+	965,
+	144,
+	986,
+	956,
+	4,
+	144,
+	987,
+	988,
+	4,
+	144,
+	987,
+	988,
+	4,
+	144,
+	987,
+	988,
+	4,
+	144,
+	977,
+	950,
+	4,
+	144,
+	989,
+	961,
+	22,
+	144,
+	989,
+	961,
+	22,
+	144,
+	989,
+	961,
+	22,
+	144,
+	949,
+	950,
+	7,
+	144,
+	949,
+	950,
+	7,
+	144,
+	533,
+	961,
+	4,
+	144,
+	46,
+	966,
+	4,
+	144,
+	990,
+	991,
+	4,
+	41,
+	14,
+	668,
+	17,
+	17,
+	17,
+	17,
+	18,
+	992,
+	993,
+	994,
+	13,
+	995,
+	18,
+	18,
+	64,
+	14,
+	9,
+	13,
+	18,
+	14,
+	9,
+	4,
+	14,
+	17,
+	14,
+	18,
+	9,
+	419,
+	996,
+	996,
+	996,
+	66,
+	14,
+	13,
+	4,
+	13,
+	4,
+	13,
+	4,
+	14,
+	18,
+	9,
+	997,
+	14,
+	997,
+	66,
+	997,
+	66,
+	995,
+	71,
+	0,
+	1,
+	6,
+	686,
+	22,
+	686,
+	4,
+	468,
+	64,
+	684,
+	684,
+	998,
+	999,
+	1000,
+	1001,
+	1001,
+	17,
+	44,
+	13,
+	685,
+	17,
+	17,
+	17,
+	170,
+	170,
+	197,
+	8,
+	13,
+	13,
+	4,
+	13,
+	18,
+	13,
+	4,
+	13,
+	4,
+	17,
+	1002,
+	1002,
+	13,
+	44,
+	8,
+	8,
+	0,
+	1003,
+	1004,
+	1005,
+	1006,
+	17,
+	17,
+	17,
+	170,
+	14,
+	17,
+	28,
+	17,
+	1007,
+	32,
+	17,
+	13,
+	234,
+	400,
+	400,
+	1008,
+	1008,
+	14,
+	13,
+	44,
+	4,
+	20,
+	133,
+	133,
+	133,
+	28,
+	19,
+	8,
+	18,
+	17,
+	14,
+	17,
+	76,
+	76,
+	226,
+	18,
+	14,
+	12,
+	32,
+	1009,
+	14,
+	18,
+	870,
+	197,
+	13,
+	1010,
+	13,
+	188,
+	63,
+	188,
+	1011,
+	63,
+	13,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	119,
+	76,
+	76,
+	76,
+	76,
+	1024,
+	1025,
+	772,
+	32,
+	32,
+	32,
+	387,
+	188,
+	0,
+	86,
+	874,
+	1026,
+	63,
+	188,
+	8,
+	13,
+	13,
+	13,
+	4,
+	133,
+	133,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031,
+	1032,
+	1033,
+	76,
+	76,
+	76,
+	76,
+	8,
+	14,
+	18,
+	14,
+	593,
+	82,
+	77,
+	8,
+	18,
+	61,
+	61,
+	61,
+	80,
+	9,
+	0,
+	17,
+	14,
+	593,
+	82,
+	64,
+	1034,
+	1035,
+	1035,
+	1036,
+	1036,
+	154,
+	359,
+	1037,
+	1036,
+	1038,
+	1038,
+	1034,
+	544,
+	1039,
+	1040,
+	1041,
+	1042,
+	1042,
+	1043,
+	121,
+	1044,
+	349,
+	1045,
+	353,
+	1046,
+	1034,
+	1047,
+	144,
+	4,
+	202,
+	4,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	9,
+	32,
+	18,
+	4,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	4,
+	14,
+	32,
+	18,
+	8,
+	13,
+	9,
+	89,
+	133,
+	133,
+	20,
+	8,
+	8,
+	13,
+	13,
+	23,
+	133,
+	4,
+	327,
+	23,
+	4,
+	14,
+	4,
+	13,
+	22,
+	63,
+	18,
+	14,
+	150,
+	4,
+	14,
+	17,
+	13,
+	139,
+	139,
+	13,
+	4,
+	14,
+	4,
+	4,
+	143,
+	143,
+	143,
+	143,
+	143,
+	143,
+	143,
+	143,
+	1048,
+	1048,
+	14,
+	14,
+	14,
+	8,
+	13,
+	419,
+	1049,
+	17,
+	17,
+	18,
+	4,
+	22,
+	14,
+	143,
+	8,
+	14,
+	13,
+	14,
+	18,
+	4,
+	14,
+	14,
+	17,
+	13,
+	17,
+	18,
+	63,
+	14,
+	13,
+	44,
+	4,
+	13,
+	44,
+	13,
+	13,
+	18,
+	150,
+	14,
+	4,
+	14,
+	17,
+	13,
+	17,
+	4,
+	13,
+	44,
+	13,
+	13,
+	44,
+	17,
+	4,
+	8,
+	13,
+	4,
+	13,
+	419,
+	4,
+	22,
+	143,
+	13,
+	17,
+	44,
+	4,
+	6,
+	761,
+	28,
+	30,
+	19,
+	13,
+	419,
+	153,
+	18,
+	4,
+	66,
+	22,
+	14,
+	143,
+	13,
+	419,
+	419,
+	419,
+	419,
+	327,
+	14,
+	4,
+	76,
+	232,
+	0,
+	22,
+	14,
+	143,
+	13,
+	197,
+	169,
+	9,
+	170,
+	14,
+	441,
+	32,
+	18,
+	8,
+	169,
+	231,
+	18,
+	17,
+	17,
+	14,
+	130,
+	13,
+	9,
+	133,
+	14,
+	419,
+	14,
+	44,
+	17,
+	14,
+	853,
+	1050,
+	17,
+	17,
+	17,
+	17,
+	170,
+	170,
+	197,
+	685,
+	13,
+	13,
+	44,
+	468,
+	64,
+	686,
+	22,
+	686,
+	4,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	119,
+	13,
+	13,
+	13,
+	14,
+	13,
+	14,
+	4,
+	13,
+	14,
+	13,
+	14,
+	13,
+	14,
+	13,
+	13,
+	14,
+	13,
+	14,
+	13,
+	14,
+	13,
+	14,
+	13,
+	14,
+	13,
+	14,
+	13,
+	13,
+	202,
+	8,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[3] = 
+{
+	{ 0x020000AA, { 0, 7 } },
+	{ 0x020000AB, { 7, 3 } },
+	{ 0x020000AC, { 10, 1 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[11] = 
+{
+	{ (Il2CppRGCTXDataType)3, 5803 },
+	{ (Il2CppRGCTXDataType)2, 11953 },
+	{ (Il2CppRGCTXDataType)3, 5804 },
+	{ (Il2CppRGCTXDataType)3, 5805 },
+	{ (Il2CppRGCTXDataType)3, 5806 },
+	{ (Il2CppRGCTXDataType)3, 5807 },
+	{ (Il2CppRGCTXDataType)2, 9455 },
+	{ (Il2CppRGCTXDataType)3, 5808 },
+	{ (Il2CppRGCTXDataType)3, 5809 },
+	{ (Il2CppRGCTXDataType)2, 9460 },
+	{ (Il2CppRGCTXDataType)3, 5810 },
+};
+extern const Il2CppCodeGenModule g_SystemCodeGenModule;
+const Il2CppCodeGenModule g_SystemCodeGenModule = 
+{
+	"System.dll",
+	658,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	3,
+	s_rgctxIndices,
+	11,
+	s_rgctxValues,
+	NULL,
+};
