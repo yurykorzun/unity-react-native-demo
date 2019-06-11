@@ -2,10 +2,9 @@
 #import <React/RCTBridge.h>
 #import <React/RCTRootView.h>
 #import <React/RCTEventEmitter.h>
-#import <Foundation/Foundation.h>
-#import "ReactNativeViewController.h"
 #include <UnityFramework/UnityFramework.h>
 #include <UnityFramework/NativeCallProxy.h>
+#import "ReactNativeViewController.h"
 
 UnityFramework* UnityFrameworkLoad()
 {
@@ -149,9 +148,6 @@ NSDictionary* appLaunchOpts;
 
 - (void)sendMsgToUnity
 {
-    double delayInSeconds = 0.1;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         NSURL* jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
         
         RCTBridge *bridge = [[RCTBridge alloc] initWithBundleURL:jsCodeLocation
@@ -173,8 +169,8 @@ NSDictionary* appLaunchOpts;
         
         [self.window addSubview:reactRootView];
         [self.window bringSubviewToFront:reactRootView];
+    
         [self.window makeKeyAndVisible];
-    });
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -220,7 +216,7 @@ NSDictionary* appLaunchOpts;
     [self.showUnityOffButton addTarget: self action: @selector(showHostMainWindow) forControlEvents: UIControlEventPrimaryActionTriggered];
     
     self.btnSendMsg = [UIButton buttonWithType: UIButtonTypeSystem];
-    [self.btnSendMsg setTitle: @"Send Msg" forState: UIControlStateNormal];
+    [self.btnSendMsg setTitle: @"show react" forState: UIControlStateNormal];
     self.btnSendMsg.frame = CGRectMake(0, 0, 100, 44);
     self.btnSendMsg.center = CGPointMake(150, 300);
     self.btnSendMsg.backgroundColor = [UIColor yellowColor];
